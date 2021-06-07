@@ -1,0 +1,23 @@
+package responses;
+
+import java.util.List;
+
+import OLR.classes.database.entities.Game;
+
+
+public class  AuthedGameListResponse {
+	public AuthorisationResponse authorisation_response;
+	public List<Game> games;
+
+	
+	public  AuthedGameListResponse(AuthorisationResponse authorisation_response, List<Game> games) {
+		super();
+		this.authorisation_response = authorisation_response;
+		this.games = games;
+	}
+
+
+
+
+}
+

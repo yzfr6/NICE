@@ -1,0 +1,17 @@
+package submissions;
+
+public class TokenLeagueSubmission {
+
+	public String token;
+	public int league_id;
+
+	public TokenLeagueSubmission() {
+		super();
+	}
+
+	public TokenLeagueSubmission(String token, int league_id) {
+		super();
+		this.token = token;
+		this.league_id = league_id;
+	}
+}

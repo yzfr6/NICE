@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;NICE-BNF-PP&apos; to &apos;NICE-PP&apos;" description="Rename resource &apos;NICE-BNF-PP&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/NICE-BNF-PP" name="NICE-PP" stamp="1621423118677" updateReferences="true"/>
+</session>

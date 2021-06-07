@@ -1,0 +1,15 @@
+package submissions;
+
+public class TokenSubmission {
+
+	public String token;
+
+	public TokenSubmission() {
+		super();
+	}
+
+	public TokenSubmission(String token) {
+		super();
+		this.token = token;
+	}
+}

@@ -1,0 +1,38 @@
+package submissions;
+
+public class LeagueSubmission {
+
+	public String token;
+	public String name;
+	public String code;
+	public String description;
+	public String facebook_url;
+	public String youtube_url;
+	public String instagram_url;
+	public String twitch_url;
+	public String twitter_url;
+	public String discord_url;
+	public String slack_url;
+
+	public LeagueSubmission() {
+		super();
+	}
+
+	public LeagueSubmission(String token, String name, String code, String description, String facebook_url,
+			String youtube_url, String instagram_url, String twitch_url, String twitter_url, String discord_url,
+			String slack_url) {
+		super();
+		this.token = token;
+		this.name = name.trim();
+		this.code = code.trim();
+		this.description = description.trim();
+		this.facebook_url = facebook_url.trim();
+		this.youtube_url = youtube_url.trim();
+		this.instagram_url = instagram_url.trim();
+		this.twitch_url = twitch_url.trim();
+		this.twitter_url = twitter_url.trim();
+		this.discord_url = discord_url.trim();
+		this.slack_url = slack_url.trim();
+	}
+
+}

@@ -1,0 +1,20 @@
+package responses;
+
+public class AuthedResponse {
+	public boolean success;
+	public String message;
+	public int code;
+	public AuthorisationResponse authorisation_response;
+
+	public AuthedResponse(AuthorisationResponse authorisation_response, boolean success, String message, int code) {
+		super();
+		this.authorisation_response = authorisation_response;
+		this.success = success;
+		this.message = message;
+		this.code = code;
+	}
+
+
+
+
+}

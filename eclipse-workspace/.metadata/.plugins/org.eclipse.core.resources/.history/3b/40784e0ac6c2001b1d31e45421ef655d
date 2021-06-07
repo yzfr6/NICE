@@ -1,0 +1,22 @@
+package algorithm.objects;
+
+public class ClinicianDecision1 extends Entity {
+
+	public String description;
+	public int local_id;
+	
+	public ClinicianDecision1(int id, String description, int local_id) {
+		super(id);
+		this.description = description;
+		this.local_id = local_id;
+	}
+	
+	
+	public ClinicianDecision1(int id) {
+		super(id);
+	}
+	
+	
+	
+	
+}

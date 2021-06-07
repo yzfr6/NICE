@@ -1,0 +1,19 @@
+package algorithm.objects;
+
+public class Edge {
+
+	public int db_id;
+	public String code;
+	public String text;
+	public String type;
+	public Edge(int db_id, String code, String text, String type) {
+		super();
+		this.db_id = db_id;
+		this.code = code;
+		this.text = text;
+		this.type = type;
+	}
+	
+	
+	
+}

@@ -1,0 +1,58 @@
+package algorithm.objects;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import org.hl7.fhir.r4.model.Medication;
+
+import FHIRResourceHelper.ResourceCreator;
+
+public class MedicationContraindicationDecision1 extends Entity {
+
+	public Medication medication;
+	public int id;
+	
+	public MedicationContraindicationDecision1(int id, Medication medication) {
+		super();
+		this.medication = medication;
+		this.id = id;
+	}
+	
+	public MedicationContraindicationDecision1(Connection c, int entity_id) throws SQLException {
+		super();
+		PreparedStatement ps1 = c.prepareStatement("select * from algorithm_medication_contraindication_decision_1 acm1 inner join drug d on d.id = acm1.drug_id where acm1.algorithm_entity_id = ?");
+		ps1.setInt(1, entity_id);
+		
+		ResultSet rs1 = ps1.executeQuery();
+		
+		rs1.next();
+		
+		this.id = rs1.getInt("acm1.id");
+		
+		Medication medication = new Medication();
+		medication.setCode(ResourceCreator.getCodeableConcept(rs1.getString("d.bnf_name"), ResourceCreator.SNOMED_SYSTEM, rs1.getString("m.snomed_code")));
+		medication.setId(rs1.getInt("m.id")+"");
+		this.medication = medication;
+		
+	}
+	
+	public MedicationContraindicationDecision1(int id,Connection c) throws SQLException {
+		super();
+		PreparedStatement ps1 = c.prepareStatement("select * from algorithm_medication_contraindication_decision_1 acm1 inner join drug d on d.id = ac1.drug_id where acm1.id = ?");
+		ps1.setInt(1, id);
+		
+		ResultSet rs1 = ps1.executeQuery();
+		
+		rs1.next();
+		
+		this.id = rs1.getInt("acm1.id");
+		Medication medication = new Medication();
+		medication.setCode(ResourceCreator.getCodeableConcept(rs1.getString("d.bnf_name"), ResourceCreator.SNOMED_SYSTEM, rs1.getString("m.snomed_code")));
+		medication.setId(rs1.getInt("m.id")+"");
+		this.medication = medication;
+		
+	}
+	
+}

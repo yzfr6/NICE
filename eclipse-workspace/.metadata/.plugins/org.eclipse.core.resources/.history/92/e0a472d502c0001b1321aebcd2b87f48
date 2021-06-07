@@ -1,0 +1,12 @@
+package JSON;
+
+public class JSONGetter {
+
+	
+	public static JSONObject loadJSON(File f) {
+		
+		
+		
+	}
+	
+}

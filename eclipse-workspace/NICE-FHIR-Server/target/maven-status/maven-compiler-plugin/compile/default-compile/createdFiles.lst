@@ -1,0 +1,6 @@
+server/NICERestfulServlet.class
+resource_providers/MedicinalProductContraindication_ResourceProvider.class
+resource_providers/MedicinalProductUndesirableEffect_ResourceProvider.class
+database/BNFConnector.class
+resource_providers/Medication_ResourceProvider.class
+resource_creators/ResourceCreator.class

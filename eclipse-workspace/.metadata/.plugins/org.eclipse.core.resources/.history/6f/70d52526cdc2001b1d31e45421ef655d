@@ -1,0 +1,23 @@
+package responses;
+
+import java.util.List;
+
+import OLR.classes.database.entities.Console;
+
+
+public class  AtuhedConsoleListResponse {
+	public AuthorisationResponse authorisation_response;
+	public List<Console> consoles;
+
+	
+	public  AtuhedConsoleListResponse(AuthorisationResponse authorisation_response,List<Console> consoles) {
+		super();
+		this.authorisation_response = authorisation_response;
+		this.consoles = consoles;
+	}
+
+
+
+
+}
+

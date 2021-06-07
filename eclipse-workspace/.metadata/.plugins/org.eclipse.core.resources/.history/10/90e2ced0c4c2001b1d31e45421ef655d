@@ -1,0 +1,18 @@
+package algorithm.objects;
+
+import org.hl7.fhir.r4.model.Medication;
+
+public class MedicationContraindicationDecision extends Entity {
+
+	public Medication medication;
+	public int local_id;
+	
+	public MedicationContraindicationDecision(int id, Medication medication, int local_id) {
+		super(id);
+		this.medication = medication;
+		this.local_id = local_id;
+	}
+	
+	
+	
+}

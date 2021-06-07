@@ -1,0 +1,18 @@
+package algorithm.objects;
+
+import org.hl7.fhir.r4.model.Observation;
+
+public class ObservationDecision1 extends Entity {
+
+	public Observation observation;
+	
+	public int db_id;
+	
+	public ObservationDecision1(int id, Observation observation, int db_id) {
+		super(id);
+		this.observation = observation;
+		this.local_id = db_id;
+	}
+	
+	
+}

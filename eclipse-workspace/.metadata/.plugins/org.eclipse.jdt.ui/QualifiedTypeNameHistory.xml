@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.hl7.fhir.r4.model.Medication"/>
+    <fullyQualifiedTypeName name="resource_creators.ResourceCreator"/>
+    <fullyQualifiedTypeName name="resource_providers.MedicinalProductUndesirableEffect_ResourceProvider"/>
+    <fullyQualifiedTypeName name="resource_providers.MedicinalProductContraindication_ResourceProvider"/>
+    <fullyQualifiedTypeName name="Runners.BNF2MYSQL"/>
+    <fullyQualifiedTypeName name="org.hl7.fhir.r4.model.Condition"/>
+    <fullyQualifiedTypeName name="algorithm.objects.Comparator"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+    <fullyQualifiedTypeName name="algorithm.objects.Node"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="algorithm.objects.MedicationChoice"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="org.hl7.fhir.r4.model.Quantity"/>
+    <fullyQualifiedTypeName name="org.hl7.fhir.r4.model.codesystems.QuantityComparatorEnumFactory"/>
+    <fullyQualifiedTypeName name="org.hl7.fhir.r4.model.Quantity.QuantityComparator"/>
+    <fullyQualifiedTypeName name="org.hl7.fhir.r4.model.Resource"/>
+    <fullyQualifiedTypeName name="ca.uhn.fhir.parser.IParser"/>
+    <fullyQualifiedTypeName name="FHIRResourceHelper.ResourceCreator"/>
+    <fullyQualifiedTypeName name="algorithm.objects.Algorithm"/>
+    <fullyQualifiedTypeName name="algorithm.objects.Entity"/>
+    <fullyQualifiedTypeName name="algorithm.objects.ClinicianDecision1"/>
+    <fullyQualifiedTypeName name="algorithm.objects.ConditionDecision1"/>
+    <fullyQualifiedTypeName name="algorithm.objects.ConsiderMedication1"/>
+    <fullyQualifiedTypeName name="algorithm.objects.ConsiderMedication2"/>
+    <fullyQualifiedTypeName name="algorithm.objects.MedicationChoice1"/>
+    <fullyQualifiedTypeName name="algorithm.objects.MedicationContraindicationDecision1"/>
+    <fullyQualifiedTypeName name="algorithm.objects.MedicationNotToleratedDecision1"/>
+    <fullyQualifiedTypeName name="algorithm.objects.MedicationNotToleratedDecision2"/>
+    <fullyQualifiedTypeName name="algorithm.objects.ObservationDecision1"/>
+    <fullyQualifiedTypeName name="algorithm.objects.OfferMedication1"/>
+    <fullyQualifiedTypeName name="algorithm.objects.SetAlert1"/>
+    <fullyQualifiedTypeName name="algorithm.objects.SetAlert2"/>
+    <fullyQualifiedTypeName name="algorithm.objects.SetGoal1"/>
+    <fullyQualifiedTypeName name="algorithm.objects.StopMedication1"/>
+    <fullyQualifiedTypeName name="org.hl7.fhir.r4.model.codesystems.ObservationStatus"/>
+    <fullyQualifiedTypeName name="org.hl7.fhir.r4.model.Observation.ObservationStatus"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="algorithm.objects.MedicationContraindicationDecision2"/>
+    <fullyQualifiedTypeName name="org.hl7.fhir.r4.model.MedicinalProductContraindication"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,528 @@
+{
+	"@context": {
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"dct": "http://purl.org/dc/terms/",
+		"owl": "http://www.w3.org/2002/07/owl#",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"@vocab": "http://ld.nice.org.uk/ns/bnf#",
+		"bnf": "http://ld.nice.org.uk/ns/bnf/",
+		"nicebnf": "http://ld.nice.org.uk/ns/bnf#",
+		"route": "http://ld.nice.org.uk/ns/bnf/Route#",
+		"patientGroup": "http://ld.nice.org.uk/ns/bnf/PatientGroup#",
+		"indication": "http://ld.nice.org.uk/ns/bnf/Indication#",
+		"sideEffect": "http://ld.nice.org.uk/ns/bnf/SideEffect#",
+		"classification": "http://ld.nice.org.uk/ns/bnf/Classification#",
+		"isLinkedFrom": {
+			"@container": "@set"
+		},
+		"hasConstituentDrug": {
+			"@container": "@set"
+		},
+		"hasPrimaryClassification": {
+			"@container": "@set"
+		},
+		"hasSecondaryClassification": {
+			"@container": "@set"
+		},
+		"hasTertiaryClassification": {
+			"@container": "@set"
+		},
+		"inheritsFromClass": {
+			"@container": "@set"
+		},
+		"hasPrescribingInformationSection": {
+			"@container": "@set"
+		},
+		"hasSubject": {
+			"@container": "@set"
+		},
+		"hasSideEffectsGroup": {
+			"@container": "@set"
+		},
+		"hasCautionsGroup": {
+			"@container": "@set"
+		},
+		"hasContraindicationsGroup": {
+			"@container": "@set"
+		},
+		"hasFundingDecision": {
+			"@container": "@set"
+		},
+		"hasIndicationsAndDose": {
+			"@container": "@set"
+		},
+		"hasInteractionList": {
+			"@container": "@set"
+		},
+		"hasSecondaryDomainOfEffect": {
+			"@container": "@set"
+		},
+		"hasMedicinalForm": {
+			"@container": "@set"
+		},
+		"hasClinicalMedicinalProductInformation": {
+			"@container": "@set"
+		},
+		"hasSideEffect": {
+			"@container": "@set"
+		},
+		"hasCaution": {
+			"@container": "@set"
+		},
+		"hasContraindication": {
+			"@container": "@set"
+		},
+		"hasIndication": {
+			"@container": "@set"
+		},
+		"hasDosage": {
+			"@container": "@set"
+		}
+	},
+	"@graph": [{
+		"@id": "http://bnf.nice.org.uk/drug/glibenclamide",
+		"@type": "Drug",
+		"hasContraindicationsGroup": [{
+			"@id": "http://bnf.nice.org.uk/drug/glibenclamide#4G1GewCOLEuyRkbJ9TK06Q",
+			"@type": [
+				"ContraindicationsGroup",
+				"GeneralContraindications"
+			],
+			"hasContraindication": [{
+				"@id": "bnf:Contraindication#avoidWherePossibleInAcutePorphyrias",
+				"rdfs:label": "avoid where possible in acute porphyrias"
+			}],
+			"hasDitaContent": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<p>\n                <ph outputclass=\"contraindication\">Avoid where possible in <xref format=\"dita\" href=\"treatment-summary/acute-porphyrias.xml\" type=\"bookmark\" rel=\"treatmentsummary\" bnfid=\"PHP92524\">Acute porphyrias</xref></ph>\n              </p>"
+			},
+			"hasSubject": [{
+				"@id": "http://bnf.nice.org.uk/drug/glibenclamide#PHP67114",
+				"@type": "ContraIndications"
+			}]
+		}],
+		"hasIndicationsAndDose": [{
+			"@id": "http://bnf.nice.org.uk/drug/glibenclamide#ROCeqwqZ2kO39PNG8_ryFA",
+			"hasDosage": [{
+					"@id": "_:b1",
+					"hasDitaContent": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<p>Initially 5â€¯mg daily, adjusted according to response, dose to be taken with or immediately after breakfast; maximum 15â€¯mg per day.</p>"
+					},
+					"hasOrder": "1",
+					"hasPatientGroup": {
+						"@id": "patientGroup:adult",
+						"hasTitle": {
+							"@type": "rdf:XMLLiteral",
+							"@value": "<p>Adult</p>"
+						},
+						"rdfs:label": "adult"
+					},
+					"hasSpecificity": {
+						"@id": "bnf:Specificity#byMouthUsingTablets",
+						"hasTitle": {
+							"@type": "rdf:XMLLiteral",
+							"@value": "<p outputclass=\"routesOfAdministration\">By mouth using tablets</p>"
+						},
+						"rdfs:label": "by mouth using tablets"
+					},
+					"rdfs:label": "initially 5â€¯mg daily, adjusted according to response, dose to be taken with or immediately after breakfast; maximum 15â€¯mg per day."
+				},
+				{
+					"@id": "_:b2",
+					"hasDitaContent": {
+						"@type": "rdf:XMLLiteral",
+						"@value": "<p>2.5â€¯mg daily, adjusted according to response, dose to be taken with or immediately after breakfast; maximum 15â€¯mg per day.</p>"
+					},
+					"hasOrder": "2",
+					"hasPatientGroup": {
+						"@id": "patientGroup:elderly",
+						"hasTitle": {
+							"@type": "rdf:XMLLiteral",
+							"@value": "<p>Elderly</p>"
+						},
+						"rdfs:label": "elderly"
+					},
+					"hasSpecificity": {
+						"@id": "bnf:Specificity#byMouthUsingTablets",
+						"hasTitle": {
+							"@type": "rdf:XMLLiteral",
+							"@value": "<p outputclass=\"routesOfAdministration\">By mouth using tablets</p>"
+						},
+						"rdfs:label": "by mouth using tablets"
+					},
+					"rdfs:label": "2.5â€¯mg daily, adjusted according to response, dose to be taken with or immediately after breakfast; maximum 15â€¯mg per day."
+				}
+			],
+			"hasIndication": [{
+				"@id": "indication:type2DiabetesMellitus",
+				"hasDitaContent": {
+					"@type": "rdf:XMLLiteral",
+					"@value": "<p outputclass=\"indication\">Type 2 diabetes mellitus</p>"
+				},
+				"hasTextContent": "Type 2 diabetes mellitus \n\n",
+				"rdfs:label": "type 2 diabetes mellitus"
+			}],
+			"hasSubject": [{
+				"@id": "http://bnf.nice.org.uk/drug/glibenclamide#PHP67000",
+				"@type": "IndicationAndDosageInformation"
+			}]
+		}],
+		"hasInteractionList": [{
+			"@id": "http://bnf.nice.org.uk/interaction/glibenclamide-2",
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title> Glibenclamide </title>"
+			},
+			"rdfs:label": "glibenclamide"
+		}],
+		"hasMedicinalForm": [{
+			"@id": "_:b0",
+			"hasOrder": "1"
+		}],
+		"hasPrescribingInformationSection": [{
+				"@id": "http://bnf.nice.org.uk/drug/glibenclamide#9aiBnA_X-UylggOPe-8pqw",
+				"@type": "GeneralInformation",
+				"hasDitaContent": {
+					"@type": "rdf:XMLLiteral",
+					"@value": "<sectiondiv>\n                <p>Glibenclamide can be used during breast-feeding in women with pre-existing diabetes.</p>\n              </sectiondiv>"
+				},
+				"hasOrder": "3",
+				"hasSubject": [{
+					"@id": "http://bnf.nice.org.uk/drug/glibenclamide#PHP67181",
+					"@type": "BreastFeeding"
+				}]
+			},
+			{
+				"@id": "http://bnf.nice.org.uk/drug/glibenclamide#PM9TPeUJmUaex8FdtM0CLg",
+				"@type": "UnlicencedUse",
+				"hasDitaContent": {
+					"@type": "rdf:XMLLiteral",
+					"@value": "<sectiondiv>\n                <p>Not licensed for use in breast feeding women with pre-existing diabetes.</p>\n                <p>Not licensed for use in gestational diabetes.</p>\n              </sectiondiv>"
+				},
+				"hasOrder": "1",
+				"hasSubject": [{
+					"@id": "http://bnf.nice.org.uk/drug/glibenclamide#PHP66795",
+					"@type": "UnlicencedUsageInformation"
+				}]
+			},
+			{
+				"@id": "http://bnf.nice.org.uk/drug/glibenclamide#u5v5HysDh0etxKzf8gaOEA",
+				"@type": "LicensingVariationStatement",
+				"hasDitaContent": {
+					"@type": "rdf:XMLLiteral",
+					"@value": "<p>Forms available from special-order manufacturers include: oral suspension</p>"
+				},
+				"hasOrder": "4",
+				"hasSubject": [{
+					"@id": "http://bnf.nice.org.uk/drug/glibenclamide#PHP4140-medicinalForms",
+					"@type": "MedicinalFormInformation"
+				}]
+			},
+			{
+				"@id": "http://bnf.nice.org.uk/drug/glibenclamide#zIV-48vxKkqRHMkYl6Me3Q",
+				"@type": "GeneralInformation",
+				"hasDitaContent": {
+					"@type": "rdf:XMLLiteral",
+					"@value": "<sectiondiv>\n                <p>The use of sulfonylureas in pregnancy should generally be avoided because of the risk of neonatal hypoglycaemia; however, glibenclamide can be used during the second and third trimesters of pregnancy in women with gestational diabetes.</p>\n              </sectiondiv>"
+				},
+				"hasOrder": "2",
+				"hasSubject": [{
+					"@id": "http://bnf.nice.org.uk/drug/glibenclamide#PHP66910",
+					"@type": "Pregnancy"
+				}]
+			}
+		],
+		"hasPrimaryClassification": [{
+			"@id": "classification:_606020038",
+			"rdfs:label": "sulfonylureas"
+		}],
+		"hasPrimaryDomainOfEffect": {
+			"@id": "bnf:DomainOfEffect#endocrineSystem",
+			"rdfs:label": "endocrine system"
+		},
+		"hasSideEffectsGroup": [{
+			"@id": "http://bnf.nice.org.uk/drug/glibenclamide#sJw5DPNb0kuTT-Pbi7MAog",
+			"@type": [
+				"SideEffectsGroup",
+				"GeneralSideEffects",
+				"SideEffectGroup"
+			],
+			"hasDitaContent": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<p outputclass=\"sideEffects\">\n  <ph outputclass=\"sideEffect\">Appetite abnormal</ph>; <ph outputclass=\"sideEffect\">bone marrow disorders</ph>; <ph outputclass=\"sideEffect\">epigastric discomfort</ph>; <ph outputclass=\"sideEffect\">erythema nodosum</ph>; <ph outputclass=\"sideEffect\">fever</ph>; <ph outputclass=\"sideEffect\">gastrointestinal disorder</ph>; <ph outputclass=\"sideEffect\">hypereosinophilia</ph>; <ph outputclass=\"sideEffect\">SIADH</ph>; <ph outputclass=\"sideEffect\">Stevens-Johnson syndrome</ph>; <ph outputclass=\"sideEffect\">taste metallic</ph>; <ph outputclass=\"sideEffect\">vision disorders</ph>; <ph outputclass=\"sideEffect\">weight increased</ph></p>"
+			},
+			"hasFrequency": {
+				"@id": "bnf:Frequency#notKnown",
+				"rdfs:label": "frequency not known"
+			},
+			"hasSideEffect": [{
+					"@id": "sideEffect:fever",
+					"rdfs:label": "fever"
+				},
+				{
+					"@id": "sideEffect:boneMarrowDisorders",
+					"rdfs:label": "bone marrow disorders"
+				},
+				{
+					"@id": "sideEffect:weightIncreased",
+					"rdfs:label": "weight increased"
+				},
+				{
+					"@id": "sideEffect:stevensJohnsonSyndrome",
+					"rdfs:label": "stevens-johnson syndrome"
+				},
+				{
+					"@id": "sideEffect:visionDisorders",
+					"rdfs:label": "vision disorders"
+				},
+				{
+					"@id": "sideEffect:gastrointestinalDisorder",
+					"rdfs:label": "gastrointestinal disorder"
+				},
+				{
+					"@id": "sideEffect:appetiteAbnormal",
+					"rdfs:label": "appetite abnormal"
+				},
+				{
+					"@id": "sideEffect:siadh",
+					"rdfs:label": "siadh"
+				},
+				{
+					"@id": "sideEffect:tasteMetallic",
+					"rdfs:label": "taste metallic"
+				},
+				{
+					"@id": "sideEffect:epigastricDiscomfort",
+					"rdfs:label": "epigastric discomfort"
+				},
+				{
+					"@id": "sideEffect:erythemaNodosum",
+					"rdfs:label": "erythema nodosum"
+				},
+				{
+					"@id": "sideEffect:hypereosinophilia",
+					"rdfs:label": "hypereosinophilia"
+				}
+			],
+			"hasSideEffectOrder": [{
+					"@id": "_:b3",
+					"hasOrder": "1",
+					"hasSideEffect": [
+						"http://ld.nice.org.uk/ns/bnf/SideEffect#appetiteAbnormal"
+					]
+				},
+				{
+					"@id": "_:b4",
+					"hasOrder": "2",
+					"hasSideEffect": [
+						"http://ld.nice.org.uk/ns/bnf/SideEffect#boneMarrowDisorders"
+					]
+				},
+				{
+					"@id": "_:b5",
+					"hasOrder": "3",
+					"hasSideEffect": [
+						"http://ld.nice.org.uk/ns/bnf/SideEffect#epigastricDiscomfort"
+					]
+				},
+				{
+					"@id": "_:b6",
+					"hasOrder": "4",
+					"hasSideEffect": [
+						"http://ld.nice.org.uk/ns/bnf/SideEffect#erythemaNodosum"
+					]
+				},
+				{
+					"@id": "_:b7",
+					"hasOrder": "5",
+					"hasSideEffect": [
+						"http://ld.nice.org.uk/ns/bnf/SideEffect#fever"
+					]
+				},
+				{
+					"@id": "_:b8",
+					"hasOrder": "6",
+					"hasSideEffect": [
+						"http://ld.nice.org.uk/ns/bnf/SideEffect#gastrointestinalDisorder"
+					]
+				},
+				{
+					"@id": "_:b9",
+					"hasOrder": "7",
+					"hasSideEffect": [
+						"http://ld.nice.org.uk/ns/bnf/SideEffect#hypereosinophilia"
+					]
+				},
+				{
+					"@id": "_:b10",
+					"hasOrder": "8",
+					"hasSideEffect": [
+						"http://ld.nice.org.uk/ns/bnf/SideEffect#siadh"
+					]
+				},
+				{
+					"@id": "_:b11",
+					"hasOrder": "9",
+					"hasSideEffect": [
+						"http://ld.nice.org.uk/ns/bnf/SideEffect#stevensJohnsonSyndrome"
+					]
+				},
+				{
+					"@id": "_:b12",
+					"hasOrder": "10",
+					"hasSideEffect": [
+						"http://ld.nice.org.uk/ns/bnf/SideEffect#tasteMetallic"
+					]
+				},
+				{
+					"@id": "_:b13",
+					"hasOrder": "11",
+					"hasSideEffect": [
+						"http://ld.nice.org.uk/ns/bnf/SideEffect#visionDisorders"
+					]
+				},
+				{
+					"@id": "_:b14",
+					"hasOrder": "12",
+					"hasSideEffect": [
+						"http://ld.nice.org.uk/ns/bnf/SideEffect#weightIncreased"
+					]
+				}
+			],
+			"hasSubject": [{
+				"@id": "http://bnf.nice.org.uk/drug/glibenclamide#PHP4140_sideeffects",
+				"@type": "SideEffects"
+			}]
+		}],
+		"hasTitle": {
+			"@type": "rdf:XMLLiteral",
+			"@value": "<title>GLIBENCLAMIDE</title>"
+		},
+		"hasVtmid": "80870001",
+		"inheritsFromClass": [{
+			"@id": "http://bnf.nice.org.uk/drug-class/sulfonylureas",
+			"hasCautionsGroup": [{
+				"@id": "http://bnf.nice.org.uk/drug-class/sulfonylureas#ukGTvk3YuEqpx4NyO39lUA",
+				"hasSubject": [{
+					"@id": "http://bnf.nice.org.uk/drug-class/sulfonylureas#PHP53416",
+					"@type": "Cautions"
+				}]
+			}],
+			"hasContraindicationsGroup": [{
+				"@id": "http://bnf.nice.org.uk/drug-class/sulfonylureas#v8xhl2bSDEqReQg2yWelmw",
+				"hasSubject": [{
+					"@id": "http://bnf.nice.org.uk/drug-class/sulfonylureas#PHP53402",
+					"@type": "ContraIndications"
+				}]
+			}],
+			"hasPrescribingInformationSection": [{
+					"@id": "http://bnf.nice.org.uk/drug-class/sulfonylureas#8ghmsSX-aUq0R3GSYdHB6A",
+					"hasSubject": [{
+						"@id": "http://bnf.nice.org.uk/drug-class/sulfonylureas#PHP53416",
+						"@type": "Cautions"
+					}]
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/drug-class/sulfonylureas#Hn6r4OECW0aqhT1UfK7fbQ",
+					"hasSubject": [{
+						"@id": "http://bnf.nice.org.uk/drug-class/sulfonylureas#PHP53395",
+						"@type": "DrugActions"
+					}]
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/drug-class/sulfonylureas#LP83RJEmuEeZU9beNN1BBA",
+					"hasSubject": [{
+						"@id": "http://bnf.nice.org.uk/drug-class/sulfonylureas#PHP53341",
+						"@type": "RenalImpairment"
+					}]
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/drug-class/sulfonylureas#X_g9NoNzbEqwSMYJ-7iVbQ",
+					"hasSubject": [{
+						"@id": "http://bnf.nice.org.uk/drug-class/sulfonylureas#PHP53348",
+						"@type": "PatientAndCarerAdvice"
+					}]
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/drug-class/sulfonylureas#_pVwbTPuSEu8FmQUVonbHQ",
+					"hasSubject": [{
+						"@id": "http://bnf.nice.org.uk/drug-class/sulfonylureas#PHP53382",
+						"@type": "HepaticImpairment"
+					}]
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/drug-class/sulfonylureas#rXe_XnVLkUWyvclpdWcxsw",
+					"hasSubject": [{
+						"@id": "http://bnf.nice.org.uk/drug-class/sulfonylureas#PHP53348",
+						"@type": "PatientAndCarerAdvice"
+					}]
+				}
+			],
+			"hasSideEffectsGroup": [{
+					"@id": "http://bnf.nice.org.uk/drug-class/sulfonylureas#1A6lh0daqkGPjIb-Eivp-w",
+					"hasSubject": [{
+						"@id": "http://bnf.nice.org.uk/drug-class/sulfonylureas#PHP34524_sideeffects",
+						"@type": "SideEffects"
+					}]
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/drug-class/sulfonylureas#L96leeJiZ0SiMnYt6GhGjw",
+					"hasSubject": [{
+						"@id": "http://bnf.nice.org.uk/drug-class/sulfonylureas#PHP34524_sideeffects",
+						"@type": "SideEffects"
+					}]
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/drug-class/sulfonylureas#r7rEtdGZfkCHgTAtinFssA",
+					"hasSubject": [{
+						"@id": "http://bnf.nice.org.uk/drug-class/sulfonylureas#PHP34524_sideeffects",
+						"@type": "SideEffects"
+					}]
+				},
+				{
+					"@id": "http://bnf.nice.org.uk/drug-class/sulfonylureas#ukumrGs4kU6MuFXvMxWHfw",
+					"hasSubject": [{
+						"@id": "http://bnf.nice.org.uk/drug-class/sulfonylureas#PHP34524_sideeffects",
+						"@type": "SideEffects"
+					}]
+				}
+			],
+			"hasTitle": {
+				"@type": "rdf:XMLLiteral",
+				"@value": "<title>SULFONYLUREAS</title>"
+			},
+			"rdfs:label": "sulfonylureas"
+		}],
+		"isLinkedFrom": [{
+				"@id": "http://bnf.nice.org.uk/guidance/prescribing-in-the-elderly",
+				"@type": "Guidance",
+				"hasTitle": {
+					"@type": "rdf:XMLLiteral",
+					"@value": "<title>Prescribing in the elderly</title>"
+				},
+				"rdfs:label": "prescribing in the elderly"
+			},
+			{
+				"@id": "http://bnf.nice.org.uk/treatment-summary/diabetes-pregnancy-and-breast-feeding",
+				"@type": "TreatmentSummary",
+				"hasTitle": {
+					"@type": "rdf:XMLLiteral",
+					"@value": "<title>Diabetes, pregnancy and breast-feeding</title>"
+				},
+				"rdfs:label": "diabetes, pregnancy and breast-feeding"
+			},
+			{
+				"@id": "http://bnf.nice.org.uk/treatment-summary/type-2-diabetes",
+				"@type": "TreatmentSummary",
+				"hasTitle": {
+					"@type": "rdf:XMLLiteral",
+					"@value": "<title>Type 2 diabetes</title>"
+				},
+				"rdfs:label": "type 2 diabetes"
+			}
+		],
+		"rdfs:label": "glibenclamide"
+	}]
+}

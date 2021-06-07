@@ -1,0 +1,5 @@
+0:0:0:0:0:0:0:1 - - [04/Jun/2021:18:32:58 +0100] "GET /NICEPPRESTfulService/algorithms HTTP/1.1" 200 145931
+0:0:0:0:0:0:0:1 - - [04/Jun/2021:18:34:25 +0100] "GET /NICEPPRESTfulService/algorithms HTTP/1.1" 200 145931
+0:0:0:0:0:0:0:1 - - [04/Jun/2021:18:35:44 +0100] "GET /NICEPPRESTfulService/algorithms HTTP/1.1" 200 145931
+0:0:0:0:0:0:0:1 - - [04/Jun/2021:18:39:50 +0100] "GET /NICEPPRESTfulService/algorithms HTTP/1.1" 200 145931
+0:0:0:0:0:0:0:1 - - [04/Jun/2021:18:40:57 +0100] "GET /NICEPPRESTfulService/algorithms HTTP/1.1" 200 145931

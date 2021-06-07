@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+/Users/nice/Developer/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+264478684.index
+479480437.index
+3759642041.index
+3497005285.index
+1182135585.index
+2478674574.index
+1667313771.index

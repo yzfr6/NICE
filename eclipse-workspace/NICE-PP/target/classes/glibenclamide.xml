@@ -1,0 +1,154 @@
+<topic rev="1.26" outputclass="drug" id="PHP4140">
+	<title>GLIBENCLAMIDE</title>
+	<prolog>
+		<critdates>
+			<revised modified="2019-12-16" golive="2021-04-01" />
+		</critdates>
+		<resourceid id="10.18578/BNF.111526249" appname="doi" />
+	</prolog>
+	<body>
+		<p outputclass="interactionsLinks">
+			List of individual interactants:
+			<xref href="#bnf_int_1473" format="dita">glibenclamide</xref>
+		</p>
+		<data name="adultSpecificContent">true</data>
+		<data name="vtmid">80870001</data>
+		<data type="primary" name="classifications">
+			<data name="classification">
+				<data name="drugClassification">_663283150</data>
+				<data name="classification">
+					<data name="drugClassification">_606020038</data>
+					<data name="inheritsFromClass">PHP34524</data>
+				</data>
+			</data>
+		</data>
+		<data name="primaryDomainOfEffect">
+			<data name="domainOfEffect"> endocrine system </data>
+		</data>
+	</body>
+	<topic rev="1.92" outputclass="indicationsAndDose" id="PHP67000">
+		<title>Indications and dose</title>
+		<body>
+			<section outputclass="indicationAndDoseGroup">
+				<sectiondiv outputclass="therapeuticIndications">
+					<sectiondiv outputclass="therapeuticIndication">
+						<p outputclass="indication">Type 2 diabetes mellitus</p>
+					</sectiondiv>
+				</sectiondiv>
+				<p outputclass="routesOfAdministration">By mouth using tablets</p>
+				<ul outputclass="patientGroups">
+					<li outputclass="patientGroup adult">
+						<p>Adult</p>
+						<p>Initially 5 mg daily, adjusted according to response, dose to
+							be taken with or immediately after breakfast; maximum 15 mg per
+							day.</p>
+					</li>
+					<li outputclass="patientGroup adult">
+						<p>Elderly</p>
+						<p>2.5 mg daily, adjusted according to response, dose to be taken
+							with or immediately after breakfast; maximum 15 mg per day.</p>
+					</li>
+				</ul>
+			</section>
+		</body>
+	</topic>
+	<topic rev="1.23" outputclass="unlicensedUse" id="PHP66795">
+		<title>Unlicensed use</title>
+		<body>
+			<section>
+				<sectiondiv>
+					<p>Not licensed for use in breast feeding women with pre-existing
+						diabetes.</p>
+					<p>Not licensed for use in gestational diabetes.</p>
+				</sectiondiv>
+			</section>
+		</body>
+	</topic>
+	<topic rev="1.36" outputclass="contraindications" id="PHP67114">
+		<title>Contra-indications</title>
+		<body>
+			<section outputclass="contraindications">
+				<p>
+					<ph outputclass="contraindication">
+						Avoid where possible in
+						<xref type="bookmark" href="#PHP92524" format="dita">Acute
+							porphyrias</xref>
+					</ph>
+				</p>
+			</section>
+		</body>
+	</topic>
+	<topic rev="2.1047" outputclass="sideEffects"
+		id="PHP4140_sideeffects">
+		<title>Side-effects</title>
+		<body>
+			<section outputclass="generalSideEffects">
+				<sectiondiv outputclass="frequencies">
+					<sectiondiv outputclass="notKnown">
+						<p outputclass="title">Frequency not known</p>
+						<p outputclass="sideEffects">
+							<ph outputclass="sideEffect">Appetite abnormal</ph>
+							;
+							<ph outputclass="sideEffect">bone marrow disorders</ph>
+							;
+							<ph outputclass="sideEffect">epigastric discomfort</ph>
+							;
+							<ph outputclass="sideEffect">erythema nodosum</ph>
+							;
+							<ph outputclass="sideEffect">fever</ph>
+							;
+							<ph outputclass="sideEffect">gastrointestinal disorder</ph>
+							;
+							<ph outputclass="sideEffect">hypereosinophilia</ph>
+							;
+							<ph outputclass="sideEffect">SIADH</ph>
+							;
+							<ph outputclass="sideEffect">Stevens-Johnson syndrome</ph>
+							;
+							<ph outputclass="sideEffect">taste metallic</ph>
+							;
+							<ph outputclass="sideEffect">vision disorders</ph>
+							;
+							<ph outputclass="sideEffect">weight increased</ph>
+						</p>
+					</sectiondiv>
+				</sectiondiv>
+			</section>
+		</body>
+	</topic>
+	<topic outputclass="pregnancy" id="PHP66910">
+		<title>Pregnancy</title>
+		<body>
+			<section outputclass="generalInformation">
+				<sectiondiv>
+					<p>The use of sulfonylureas in pregnancy should generally be
+						avoided because of the risk of neonatal hypoglycaemia; however,
+						glibenclamide can be used during the second and third trimesters
+						of pregnancy in women with gestational diabetes.</p>
+				</sectiondiv>
+			</section>
+		</body>
+	</topic>
+	<topic outputclass="breastFeeding" id="PHP67181">
+		<title>Breast feeding</title>
+		<body>
+			<section outputclass="generalInformation">
+				<sectiondiv>
+					<p>Glibenclamide can be used during breast-feeding in women with
+						pre-existing diabetes.</p>
+				</sectiondiv>
+			</section>
+		</body>
+	</topic>
+	<topic outputclass="medicinalForms" id="PHP4140-medicinalForms">
+		<title>Medicinal forms</title>
+		<body>
+			<section outputclass="licensingVariationStatement">
+				<p>There can be variation in the licensing of different medicines
+					containing the same drug.</p>
+			</section>
+			<p>Forms available from special-order manufacturers include: oral
+				suspension</p>
+		</body>
+	</topic>
+</topic>

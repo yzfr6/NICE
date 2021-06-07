@@ -1,0 +1,15 @@
+package algorithm.objects;
+
+public class SetAlert2 extends Entity {
+
+	public ObservationDecision1 observationDecision1;
+	public StopMedication1 stopMedication1;
+	public int local_id;
+	public SetAlert2(int id, ObservationDecision1 observationDecision1, StopMedication1 stopMedication1, int local_id) {
+		super(id);
+		this.observationDecision1 = observationDecision1;
+		this.stopMedication1 = stopMedication1;
+		this.local_id = local_id;
+	}
+	
+}

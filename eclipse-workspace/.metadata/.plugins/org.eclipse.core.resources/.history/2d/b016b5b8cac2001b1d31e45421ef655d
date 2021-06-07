@@ -1,0 +1,21 @@
+package algorithm.objects;
+
+public class Edge {
+
+	public int db_id;
+	public int source_db_id;
+	public int target_db_id;
+	public int type
+	public Edge(int db_id, int source_db_id, int target_db_id, int type) {
+		super();
+		this.db_id = db_id;
+		this.source_db_id = source_db_id;
+		this.target_db_id = target_db_id;
+		this.type = type;
+	};
+	
+	
+	
+	
+	
+}

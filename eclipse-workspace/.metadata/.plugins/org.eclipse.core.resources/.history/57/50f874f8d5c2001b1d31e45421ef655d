@@ -1,0 +1,26 @@
+package algorithm.objects;
+
+import java.sql.Connection;
+
+public abstract class Entity {
+
+	public int id;
+	public EntityType type;
+	public Entity(int id, EntityType type) {
+		super();
+		this.id = id;
+		this.type = type;
+	}
+	
+	public Entity(int id) {
+		super();
+		this.id = id;
+	}
+	
+	public static Entity create(int entity_id, Connection c) {
+		
+		
+		
+	}
+	
+}

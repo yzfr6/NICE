@@ -1,0 +1,12 @@
+package algorithm.objects;
+
+public class ConsiderMedication2 extends Entity {
+
+	public String medication_code;
+	public int local_id;
+	public int count;
+	
+	
+	
+	
+}

@@ -1,0 +1,22 @@
+package submissions;
+
+public class RegisterSubmission {
+
+	public String password;
+	public String email;
+	public String username;
+	public String flag;
+
+	public RegisterSubmission() {
+		super();
+	}
+
+	public RegisterSubmission(String email, String password, String username, String flag) {
+		super();
+		this.email = email;
+		this.password = password;
+		this.username = username;
+		this.flag = flag;
+	}
+	
+}

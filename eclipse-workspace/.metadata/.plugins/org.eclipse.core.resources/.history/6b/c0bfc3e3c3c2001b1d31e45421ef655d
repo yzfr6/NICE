@@ -1,0 +1,21 @@
+package algorithm.objects;
+
+import org.hl7.fhir.r4.model.Medication;
+
+public class ConsiderMedication2 extends Entity {
+
+	public Medication medication;
+	public int local_id;
+	
+	public ConsiderMedication2(int id, Medication medication, int local_id) {
+		super(id);
+		this.medication = medication;
+		this.local_id = local_id;
+	}
+	
+	public ConsiderMedication2(int id) {
+		super(id);
+	}
+	
+	
+}

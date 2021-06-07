@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Alamofire",
+        "repositoryURL": "https://github.com/Alamofire/Alamofire",
+        "state": {
+          "branch": null,
+          "revision": "f96b619bcb2383b43d898402283924b80e2c4bae",
+          "version": "5.4.3"
+        }
+      },
+      {
+        "package": "AppTools",
+        "repositoryURL": "https://github.com/yzfr6/AppTools.git",
+        "state": {
+          "branch": null,
+          "revision": "b2ac07f7390d7f44d24643cf8d1473da57dae8ee",
+          "version": "1.0.25"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

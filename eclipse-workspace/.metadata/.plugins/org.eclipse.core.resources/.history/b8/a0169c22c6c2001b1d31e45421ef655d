@@ -1,0 +1,15 @@
+package algorithm.objects;
+
+public class MedicationChoice extends Entity {
+
+	public String medication_code;
+	public int local_id;
+	public MedicationChoice(int id, String medication_code, int local_id) {
+		super(id);
+		this.medication_code = medication_code;
+		this.local_id = local_id;
+	}
+	
+	
+	
+}

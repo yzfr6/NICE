@@ -1,0 +1,100 @@
+ package OLR.restful;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
+
+import javax.ws.rs.Consumes;
+import javax.ws.rs.DefaultValue;
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.QueryParam;
+import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response;
+
+import OLR.classes.database.entities.Game;
+import OLR.classes.database.entities.League;
+import OLR.classes.responses.AuthedGameListResponse;
+import OLR.classes.responses.AuthorisationResponse;
+import OLR.classes.submissions.TokenSubmission;
+import OLR.database.DatabaseConnector;
+import OLR.encryption.Encryption;
+import OLR.exceptions.DatabaseEntryDoesNotExist;
+import OLR.logger.LOGGER;
+import OLR.responses.ResponseHelper;
+
+@Path("/games/")
+public class Games {
+
+	@GET
+	@Produces(MediaType.APPLICATION_JSON)
+	@Consumes(MediaType.APPLICATION_JSON)
+	@Path("")
+	public Response get_all_games(@QueryParam("token") String token) {
+		LOGGER.logObject("/games", token);
+		Optional<Connection> olr_conn = null;
+		try {
+			olr_conn = DatabaseConnector.getOLRConnection();
+			if (!olr_conn.isPresent()) {
+				return ResponseHelper.get500("Could not connect to the DB");
+			}
+
+			AuthedGameListResponse j = GameQueries.getGames(olr_conn.get(), token);
+
+			return ResponseHelper.get200(j, MediaType.APPLICATION_JSON_TYPE);
+
+		} catch (SQLException se) {
+			se.printStackTrace();
+			return ResponseHelper.get500("SQL exception thrown\n" + se.getMessage());
+		} catch (Exception e) {
+
+			e.printStackTrace();
+			return ResponseHelper.get500("Exception thrown \n" + e.getMessage());
+		} finally {
+			if (olr_conn != null && olr_conn.isPresent()) {
+				try {
+					olr_conn.get().close();
+				} catch (SQLException e) {
+					e.printStackTrace();
+				}
+			}
+		}
+	}
+	
+}
+
+class GameQueries {
+	
+	public static AuthedGameListResponse getGames(Connection olr_conn, String token) throws SQLException, DatabaseEntryDoesNotExist {
+		
+		AuthorisationResponse ar = Encryption.validateJWT(token);
+
+		if (!ar.success) {
+			return new AuthedGameListResponse(ar, new ArrayList<>());
+		}
+		
+		
+		PreparedStatement ps = olr_conn.prepareStatement("select id from game");
+
+		ResultSet rs = ps.executeQuery();
+		List<Game> list = new ArrayList<>();
+		while (rs.next()) {
+			list.add(new Game(olr_conn, rs.getInt("id")));
+		}
+		
+		return new AuthedGameListResponse(ar, list);
+
+	}
+	
+	public static boolean doesGameExist(int game_id, Connection olr_conn) throws SQLException {
+		PreparedStatement ps = olr_conn.prepareStatement("select id from game where id = ?");
+		ps.setInt(1, game_id);
+		
+		return ps.executeQuery().next();
+	}
+}

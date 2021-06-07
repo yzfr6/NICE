@@ -1,0 +1,18 @@
+package responses;
+
+public class StandardResponse {
+	public boolean success;
+	public String message;
+	public int code;
+
+	public StandardResponse(boolean success, String message, int code) {
+		super();
+		this.success = success;
+		this.message = message;
+		this.code = code;
+	}
+
+
+
+
+}

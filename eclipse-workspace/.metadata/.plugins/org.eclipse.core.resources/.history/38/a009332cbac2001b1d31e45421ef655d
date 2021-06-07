@@ -1,0 +1,7 @@
+package algorithm.objects;
+
+public class ClinicianDecision1 extends Entity {
+
+	public String description;
+	
+}

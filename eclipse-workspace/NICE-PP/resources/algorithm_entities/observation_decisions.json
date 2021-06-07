@@ -1,0 +1,55 @@
+[
+	{
+		"id" : 1,
+		"description": "HbA1c > 48 mmol/mol (6.5%)",
+		"value_and_units": [
+			{
+				"value": "48",
+				"unit": "mmol/mol"
+			},
+			{
+				"value": "6.5",
+				"unit": "%"
+			}
+		],
+		"code": "4548-4",
+		"display": "Hemoglobin A1c/​Hemoglobin.total in Blood",
+		"comparator": ">",
+		"system": "http://loinc.org",
+		"nice_recommendation_code": "FILL IN"
+	},
+	{
+		"id" : 2,
+		"description": "HbA1c > 58 mmol/mol (7.5%)",
+		"value_and_units": [
+			{
+				"value": "58",
+				"unit": "mmol/mol"
+			},
+			{
+				"value": "7.5",
+				"unit": "%"
+			}
+		],
+		"code": "4548-4",
+		"display": "Hemoglobin A1c/​Hemoglobin.total in Blood",
+		"comparator": ">",
+		"system": "http://loinc.org",
+		"nice_recommendation_code": "FILL IN"
+	},
+	{
+		"id" : 3,
+		"description": "eGFR < 30 ml/minute/1.73m2",
+		"value_and_units": [
+			{
+				"value": "30",
+				"unit": "ml/minute/1.73m2"
+			}
+		],
+		"code": "69405-9",
+		"display": "Glomerular filtration rate/1.73 sq M.predicted",
+		"comparator": "<",
+		"system": "http://loinc.org",
+		"nice_recommendation_code": "FILL IN"
+	}
+]

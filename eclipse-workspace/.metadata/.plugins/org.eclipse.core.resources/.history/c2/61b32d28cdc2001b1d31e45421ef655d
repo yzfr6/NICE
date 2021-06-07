@@ -1,0 +1,16 @@
+package submissions;
+
+public class LeagueLeaveSubmission {
+
+	public String token;
+	public int league_id;
+	public LeagueLeaveSubmission() {
+		super();
+	}
+
+	public LeagueLeaveSubmission(String token, int league_id) {
+		super();
+		this.token = token;
+		this.league_id = league_id;
+	}
+}

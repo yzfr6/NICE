@@ -1,0 +1,43 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Alamofire",
+        "repositoryURL": "https://github.com/Alamofire/Alamofire",
+        "state": {
+          "branch": null,
+          "revision": "f96b619bcb2383b43d898402283924b80e2c4bae",
+          "version": "5.4.3"
+        }
+      },
+      {
+        "package": "AppTools",
+        "repositoryURL": "https://github.com/yzfr6/AppTools.git",
+        "state": {
+          "branch": null,
+          "revision": "b2ac07f7390d7f44d24643cf8d1473da57dae8ee",
+          "version": "1.0.25"
+        }
+      },
+      {
+        "package": "FHIR",
+        "repositoryURL": "https://github.com/smart-on-fhir/Swift-FHIR",
+        "state": {
+          "branch": null,
+          "revision": "b68fb5d6c8137de4a06894e683dc1a726a832907",
+          "version": "4.2.1"
+        }
+      },
+      {
+        "package": "SwiftyJSON",
+        "repositoryURL": "https://github.com/SwiftyJSON/SwiftyJSON",
+        "state": {
+          "branch": null,
+          "revision": "b3dcd7dbd0d488e1a7077cb33b00f2083e382f07",
+          "version": "5.0.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

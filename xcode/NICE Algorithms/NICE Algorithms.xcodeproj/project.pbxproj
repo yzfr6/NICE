@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		066EE1292666A09F003E3603 /* NICE_AlgorithmsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066EE1282666A09F003E3603 /* NICE_AlgorithmsApp.swift */; };
+		066EE12D2666A0A0003E3603 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 066EE12C2666A0A0003E3603 /* Assets.xcassets */; };
+		066EE1302666A0A0003E3603 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 066EE12F2666A0A0003E3603 /* Preview Assets.xcassets */; };
+		066EE1392666ADFF003E3603 /* AppTools in Frameworks */ = {isa = PBXBuildFile; productRef = 066EE1382666ADFF003E3603 /* AppTools */; };
+		066EE13C2666AE1A003E3603 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 066EE13B2666AE1A003E3603 /* Alamofire */; };
+		066EE13F2666AE65003E3603 /* BNFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066EE13E2666AE65003E3603 /* BNFView.swift */; };
+		066EE1432666AE8B003E3603 /* Tabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066EE1422666AE8B003E3603 /* Tabs.swift */; };
+		066EE14626679001003E3603 /* DataClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066EE14526679001003E3603 /* DataClasses.swift */; };
+		066EE14926679180003E3603 /* FHIR in Frameworks */ = {isa = PBXBuildFile; productRef = 066EE14826679180003E3603 /* FHIR */; };
+		066EE14B2667A5A0003E3603 /* NetworkModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066EE14A2667A5A0003E3603 /* NetworkModels.swift */; };
+		066EE14E2667A9D7003E3603 /* AlgorithmsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066EE14D2667A9D7003E3603 /* AlgorithmsView.swift */; };
+		06E4A2C02668F52500CB61E3 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 06E4A2BF2668F52500CB61E3 /* SwiftyJSON */; };
+		06E4A2C3266908BD00CB61E3 /* EntityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E4A2C2266908BD00CB61E3 /* EntityView.swift */; };
+		06E4A2C52669427600CB61E3 /* NodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E4A2C42669427600CB61E3 /* NodeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		066EE1252666A09F003E3603 /* NICE Algorithms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NICE Algorithms.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		066EE1282666A09F003E3603 /* NICE_AlgorithmsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NICE_AlgorithmsApp.swift; sourceTree = "<group>"; };
+		066EE12C2666A0A0003E3603 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		066EE12F2666A0A0003E3603 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		066EE1312666A0A0003E3603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		066EE13E2666AE65003E3603 /* BNFView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BNFView.swift; sourceTree = "<group>"; };
+		066EE1422666AE8B003E3603 /* Tabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabs.swift; sourceTree = "<group>"; };
+		066EE14526679001003E3603 /* DataClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataClasses.swift; sourceTree = "<group>"; };
+		066EE14A2667A5A0003E3603 /* NetworkModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModels.swift; sourceTree = "<group>"; };
+		066EE14D2667A9D7003E3603 /* AlgorithmsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsView.swift; sourceTree = "<group>"; };
+		06E4A2C2266908BD00CB61E3 /* EntityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityView.swift; sourceTree = "<group>"; };
+		06E4A2C42669427600CB61E3 /* NodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		066EE1222666A09F003E3603 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				066EE1392666ADFF003E3603 /* AppTools in Frameworks */,
+				066EE14926679180003E3603 /* FHIR in Frameworks */,
+				06E4A2C02668F52500CB61E3 /* SwiftyJSON in Frameworks */,
+				066EE13C2666AE1A003E3603 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		066EE11C2666A09F003E3603 = {
+			isa = PBXGroup;
+			children = (
+				066EE1272666A09F003E3603 /* NICE Algorithms */,
+				066EE1262666A09F003E3603 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		066EE1262666A09F003E3603 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				066EE1252666A09F003E3603 /* NICE Algorithms.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		066EE1272666A09F003E3603 /* NICE Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				066EE1282666A09F003E3603 /* NICE_AlgorithmsApp.swift */,
+				066EE13D2666AE56003E3603 /* Views */,
+				066EE14426678BBB003E3603 /* Data Classes */,
+				066EE12C2666A0A0003E3603 /* Assets.xcassets */,
+				066EE1312666A0A0003E3603 /* Info.plist */,
+				066EE12E2666A0A0003E3603 /* Preview Content */,
+			);
+			path = "NICE Algorithms";
+			sourceTree = "<group>";
+		};
+		066EE12E2666A0A0003E3603 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				066EE12F2666A0A0003E3603 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		066EE13D2666AE56003E3603 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				066EE1402666AE69003E3603 /* Tabs */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		066EE1402666AE69003E3603 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				066EE1422666AE8B003E3603 /* Tabs.swift */,
+				066EE14C2667A9C4003E3603 /* Algorithms */,
+				06E4A2C1266908A900CB61E3 /* Entities */,
+				066EE1412666AE6E003E3603 /* BNF */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		066EE1412666AE6E003E3603 /* BNF */ = {
+			isa = PBXGroup;
+			children = (
+				066EE13E2666AE65003E3603 /* BNFView.swift */,
+			);
+			path = BNF;
+			sourceTree = "<group>";
+		};
+		066EE14426678BBB003E3603 /* Data Classes */ = {
+			isa = PBXGroup;
+			children = (
+				066EE14526679001003E3603 /* DataClasses.swift */,
+				066EE14A2667A5A0003E3603 /* NetworkModels.swift */,
+			);
+			path = "Data Classes";
+			sourceTree = "<group>";
+		};
+		066EE14C2667A9C4003E3603 /* Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				066EE14D2667A9D7003E3603 /* AlgorithmsView.swift */,
+				06E4A2C42669427600CB61E3 /* NodeView.swift */,
+			);
+			path = Algorithms;
+			sourceTree = "<group>";
+		};
+		06E4A2C1266908A900CB61E3 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				06E4A2C2266908BD00CB61E3 /* EntityView.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		066EE1242666A09F003E3603 /* NICE Algorithms */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 066EE1342666A0A0003E3603 /* Build configuration list for PBXNativeTarget "NICE Algorithms" */;
+			buildPhases = (
+				066EE1212666A09F003E3603 /* Sources */,
+				066EE1222666A09F003E3603 /* Frameworks */,
+				066EE1232666A09F003E3603 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NICE Algorithms";
+			packageProductDependencies = (
+				066EE1382666ADFF003E3603 /* AppTools */,
+				066EE13B2666AE1A003E3603 /* Alamofire */,
+				066EE14826679180003E3603 /* FHIR */,
+				06E4A2BF2668F52500CB61E3 /* SwiftyJSON */,
+			);
+			productName = "NICE Algorithms";
+			productReference = 066EE1252666A09F003E3603 /* NICE Algorithms.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		066EE11D2666A09F003E3603 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					066EE1242666A09F003E3603 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 066EE1202666A09F003E3603 /* Build configuration list for PBXProject "NICE Algorithms" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 066EE11C2666A09F003E3603;
+			packageReferences = (
+				066EE1372666ADFF003E3603 /* XCRemoteSwiftPackageReference "AppTools" */,
+				066EE13A2666AE1A003E3603 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				066EE14726679180003E3603 /* XCRemoteSwiftPackageReference "Swift-FHIR" */,
+				06E4A2BE2668F52500CB61E3 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
+			productRefGroup = 066EE1262666A09F003E3603 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				066EE1242666A09F003E3603 /* NICE Algorithms */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		066EE1232666A09F003E3603 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				066EE1302666A0A0003E3603 /* Preview Assets.xcassets in Resources */,
+				066EE12D2666A0A0003E3603 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		066EE1212666A09F003E3603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				066EE14E2667A9D7003E3603 /* AlgorithmsView.swift in Sources */,
+				066EE14626679001003E3603 /* DataClasses.swift in Sources */,
+				06E4A2C52669427600CB61E3 /* NodeView.swift in Sources */,
+				066EE1292666A09F003E3603 /* NICE_AlgorithmsApp.swift in Sources */,
+				066EE13F2666AE65003E3603 /* BNFView.swift in Sources */,
+				06E4A2C3266908BD00CB61E3 /* EntityView.swift in Sources */,
+				066EE14B2667A5A0003E3603 /* NetworkModels.swift in Sources */,
+				066EE1432666AE8B003E3603 /* Tabs.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		066EE1322666A0A0003E3603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		066EE1332666A0A0003E3603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		066EE1352666A0A0003E3603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"NICE Algorithms/Preview Content\"";
+				DEVELOPMENT_TEAM = VU9R2RCF2F;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "NICE Algorithms/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.org.nice.NICE-Algorithms";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		066EE1362666A0A0003E3603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"NICE Algorithms/Preview Content\"";
+				DEVELOPMENT_TEAM = VU9R2RCF2F;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "NICE Algorithms/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.org.nice.NICE-Algorithms";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		066EE1202666A09F003E3603 /* Build configuration list for PBXProject "NICE Algorithms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				066EE1322666A0A0003E3603 /* Debug */,
+				066EE1332666A0A0003E3603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		066EE1342666A0A0003E3603 /* Build configuration list for PBXNativeTarget "NICE Algorithms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				066EE1352666A0A0003E3603 /* Debug */,
+				066EE1362666A0A0003E3603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		066EE1372666ADFF003E3603 /* XCRemoteSwiftPackageReference "AppTools" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yzfr6/AppTools.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.25;
+			};
+		};
+		066EE13A2666AE1A003E3603 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.3;
+			};
+		};
+		066EE14726679180003E3603 /* XCRemoteSwiftPackageReference "Swift-FHIR" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/smart-on-fhir/Swift-FHIR";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.2.1;
+			};
+		};
+		06E4A2BE2668F52500CB61E3 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		066EE1382666ADFF003E3603 /* AppTools */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 066EE1372666ADFF003E3603 /* XCRemoteSwiftPackageReference "AppTools" */;
+			productName = AppTools;
+		};
+		066EE13B2666AE1A003E3603 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 066EE13A2666AE1A003E3603 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		066EE14826679180003E3603 /* FHIR */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 066EE14726679180003E3603 /* XCRemoteSwiftPackageReference "Swift-FHIR" */;
+			productName = FHIR;
+		};
+		06E4A2BF2668F52500CB61E3 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 06E4A2BE2668F52500CB61E3 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 066EE11D2666A09F003E3603 /* Project object */;
+}

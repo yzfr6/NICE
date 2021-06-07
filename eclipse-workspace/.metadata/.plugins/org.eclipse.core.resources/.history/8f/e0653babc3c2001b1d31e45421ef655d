@@ -1,0 +1,25 @@
+package algorithm.objects;
+
+import org.hl7.fhir.r4.model.Condition;
+
+public class ConditionDecision1 extends Entity {
+
+	public Condition condition;
+	public int local_id;
+	
+	public ConditionDecision1(int id, Condition condition, int local_id) {
+		super(id);
+		this.condition = condition;
+		this.local_id = local_id;
+	}
+	
+	public ConditionDecision1(int id) {
+		super(id);
+	}
+	
+	
+	
+	
+	
+	
+}

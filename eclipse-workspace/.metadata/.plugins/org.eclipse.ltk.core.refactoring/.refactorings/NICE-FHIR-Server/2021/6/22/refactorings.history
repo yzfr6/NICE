@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;algorithm.objects&apos; to &apos;NICE-PP-Restful-Server/src/main/java&apos;&#x0A;- Original project: &apos;NICE-FHIR-Server&apos;&#x0A;- Destination element: &apos;NICE-PP-Restful-Server/src/main/java&apos;&#x0A;- Original element: &apos;NICE-FHIR-Server/src/algorithm.objects&apos;&#x0A;- Update references to refactored element" description="Move package" destination="=NICE-PP-Restful-Server/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/" element1="/src=/optional=/true=/=/maven.pomderived=/true=/&lt;algorithm.objects" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1622538676540" version="1.0"/>
+</session>

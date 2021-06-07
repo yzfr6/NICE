@@ -1,0 +1,13 @@
+127.0.0.1 - - [07/May/2021:15:22:49 +0100] "GET / HTTP/1.1" 200 11157
+0:0:0:0:0:0:0:1 - - [07/May/2021:15:22:51 +0100] "GET /NICE-FHIR-Server/fhir/MedicinalProductContraindication?medication_identifier=1 HTTP/1.1" 200 263
+0:0:0:0:0:0:0:1 - - [07/May/2021:15:23:30 +0100] "GET /NICE-FHIR-Server/fhir/MedicinalProductContraindication?medication_identifier=1 HTTP/1.1" 200 263
+0:0:0:0:0:0:0:1 - - [07/May/2021:15:23:51 +0100] "GET /NICE-FHIR-Server/fhir/MedicinalProductContraindication?medication_identifier=1 HTTP/1.1" 200 265
+0:0:0:0:0:0:0:1 - - [07/May/2021:15:24:25 +0100] "GET /NICE-FHIR-Server/fhir/MedicinalProductContraindication?medication_identifier=1 HTTP/1.1" 200 264
+0:0:0:0:0:0:0:1 - - [07/May/2021:15:24:28 +0100] "GET /NICE-FHIR-Server/fhir/MedicinalProductContraindication?medication_identifier=1 HTTP/1.1" 500 3479
+0:0:0:0:0:0:0:1 - - [07/May/2021:15:24:30 +0100] "GET /NICE-FHIR-Server/fhir/MedicinalProductContraindication?medication_identifier=1 HTTP/1.1" 500 3479
+0:0:0:0:0:0:0:1 - - [07/May/2021:15:25:26 +0100] "GET /NICE-FHIR-Server/fhir/MedicinalProductContraindication?medication_identifier=1 HTTP/1.1" 500 3479
+0:0:0:0:0:0:0:1 - - [07/May/2021:15:25:57 +0100] "GET /NICE-FHIR-Server/fhir/MedicinalProductContraindication?medication_identifier=1 HTTP/1.1" 500 3479
+0:0:0:0:0:0:0:1 - - [07/May/2021:15:26:14 +0100] "GET /NICE-FHIR-Server/fhir/MedicinalProductContraindication?medication_identifier=1 HTTP/1.1" 500 3479
+127.0.0.1 - - [07/May/2021:15:28:03 +0100] "GET / HTTP/1.1" 200 11157
+0:0:0:0:0:0:0:1 - - [07/May/2021:15:28:03 +0100] "GET /NICE-FHIR-Server/WEB-INF/classes/resource_providers/MedicinalProductContraindication_ResourceProvider.java HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [07/May/2021:15:28:07 +0100] "GET /NICE-FHIR-Server/fhir/MedicinalProductContraindication?medication_identifier=1 HTTP/1.1" 200 378

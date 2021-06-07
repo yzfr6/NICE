@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		066EE10F26669A0A003E3603 /* NetworkLoaderTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066EE10D26669A0A003E3603 /* NetworkLoaderTracker.swift */; };
+		066EE11026669A0A003E3603 /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066EE10E26669A0A003E3603 /* NetworkModel.swift */; };
+		066EE11B26669EB7003E3603 /* BNFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066EE11A26669EB7003E3603 /* BNFView.swift */; };
+		069AF610266698AB00CD3816 /* NICE_ALGOApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069AF5FD266698AB00CD3816 /* NICE_ALGOApp.swift */; };
+		069AF612266698AB00CD3816 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069AF5FE266698AB00CD3816 /* TabView.swift */; };
+		069AF614266698AB00CD3816 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 069AF5FF266698AB00CD3816 /* Assets.xcassets */; };
+		069AF6202666994200CD3816 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 069AF61F2666994200CD3816 /* Alamofire */; };
+		069AF6232666998D00CD3816 /* AppTools in Frameworks */ = {isa = PBXBuildFile; productRef = 069AF6222666998D00CD3816 /* AppTools */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		066EE10D26669A0A003E3603 /* NetworkLoaderTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkLoaderTracker.swift; sourceTree = "<group>"; };
+		066EE10E26669A0A003E3603 /* NetworkModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
+		066EE11A26669EB7003E3603 /* BNFView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BNFView.swift; sourceTree = "<group>"; };
+		069AF5FD266698AB00CD3816 /* NICE_ALGOApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NICE_ALGOApp.swift; sourceTree = "<group>"; };
+		069AF5FE266698AB00CD3816 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		069AF5FF266698AB00CD3816 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		069AF604266698AB00CD3816 /* NICE-ALGO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NICE-ALGO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		069AF607266698AB00CD3816 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		069AF601266698AB00CD3816 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				069AF6232666998D00CD3816 /* AppTools in Frameworks */,
+				069AF6202666994200CD3816 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		066EE11126669A7A003E3603 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				066EE11226669A90003E3603 /* Main */,
+				066EE11826669E98003E3603 /* Tabs */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		066EE11226669A90003E3603 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				069AF5FE266698AB00CD3816 /* TabView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		066EE11326669B9E003E3603 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		066EE11826669E98003E3603 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				066EE11926669EA5003E3603 /* BNF */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		066EE11926669EA5003E3603 /* BNF */ = {
+			isa = PBXGroup;
+			children = (
+				066EE11A26669EB7003E3603 /* BNFView.swift */,
+			);
+			path = BNF;
+			sourceTree = "<group>";
+		};
+		069AF5F7266698AA00CD3816 = {
+			isa = PBXGroup;
+			children = (
+				069AF5FC266698AB00CD3816 /* Shared */,
+				069AF606266698AB00CD3816 /* iOS */,
+				069AF605266698AB00CD3816 /* Products */,
+				066EE11326669B9E003E3603 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		069AF5FC266698AB00CD3816 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				069AF5FD266698AB00CD3816 /* NICE_ALGOApp.swift */,
+				066EE11126669A7A003E3603 /* Views */,
+				069AF624266699B500CD3816 /* Server */,
+				069AF5FF266698AB00CD3816 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		069AF605266698AB00CD3816 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				069AF604266698AB00CD3816 /* NICE-ALGO.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		069AF606266698AB00CD3816 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				069AF607266698AB00CD3816 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		069AF624266699B500CD3816 /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				066EE10D26669A0A003E3603 /* NetworkLoaderTracker.swift */,
+				066EE10E26669A0A003E3603 /* NetworkModel.swift */,
+			);
+			path = Server;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		069AF603266698AB00CD3816 /* NICE-ALGO (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 069AF618266698AB00CD3816 /* Build configuration list for PBXNativeTarget "NICE-ALGO (iOS)" */;
+			buildPhases = (
+				069AF600266698AB00CD3816 /* Sources */,
+				069AF601266698AB00CD3816 /* Frameworks */,
+				069AF602266698AB00CD3816 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NICE-ALGO (iOS)";
+			packageProductDependencies = (
+				069AF61F2666994200CD3816 /* Alamofire */,
+				069AF6222666998D00CD3816 /* AppTools */,
+			);
+			productName = "NICE-ALGO (iOS)";
+			productReference = 069AF604266698AB00CD3816 /* NICE-ALGO.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		069AF5F8266698AA00CD3816 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					069AF603266698AB00CD3816 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 069AF5FB266698AA00CD3816 /* Build configuration list for PBXProject "NICE-ALGO" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 069AF5F7266698AA00CD3816;
+			packageReferences = (
+				069AF61E2666994200CD3816 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				069AF6212666998D00CD3816 /* XCRemoteSwiftPackageReference "AppTools" */,
+			);
+			productRefGroup = 069AF605266698AB00CD3816 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				069AF603266698AB00CD3816 /* NICE-ALGO (iOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		069AF602266698AB00CD3816 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				069AF614266698AB00CD3816 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		069AF600266698AB00CD3816 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				066EE11B26669EB7003E3603 /* BNFView.swift in Sources */,
+				066EE11026669A0A003E3603 /* NetworkModel.swift in Sources */,
+				069AF612266698AB00CD3816 /* TabView.swift in Sources */,
+				069AF610266698AB00CD3816 /* NICE_ALGOApp.swift in Sources */,
+				066EE10F26669A0A003E3603 /* NetworkLoaderTracker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		069AF616266698AB00CD3816 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		069AF617266698AB00CD3816 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		069AF619266698AB00CD3816 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VU9R2RCF2F;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.org.nice.NICE-ALGO";
+				PRODUCT_NAME = "NICE-ALGO";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		069AF61A266698AB00CD3816 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VU9R2RCF2F;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.org.nice.NICE-ALGO";
+				PRODUCT_NAME = "NICE-ALGO";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		069AF5FB266698AA00CD3816 /* Build configuration list for PBXProject "NICE-ALGO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				069AF616266698AB00CD3816 /* Debug */,
+				069AF617266698AB00CD3816 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		069AF618266698AB00CD3816 /* Build configuration list for PBXNativeTarget "NICE-ALGO (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				069AF619266698AB00CD3816 /* Debug */,
+				069AF61A266698AB00CD3816 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		069AF61E2666994200CD3816 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.3;
+			};
+		};
+		069AF6212666998D00CD3816 /* XCRemoteSwiftPackageReference "AppTools" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yzfr6/AppTools.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.25;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		069AF61F2666994200CD3816 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 069AF61E2666994200CD3816 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		069AF6222666998D00CD3816 /* AppTools */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 069AF6212666998D00CD3816 /* XCRemoteSwiftPackageReference "AppTools" */;
+			productName = AppTools;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 069AF5F8266698AA00CD3816 /* Project object */;
+}
