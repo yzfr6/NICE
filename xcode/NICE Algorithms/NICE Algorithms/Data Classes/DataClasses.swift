@@ -60,11 +60,19 @@ struct ConsiderMedication2 : Codable {
     
 }
 
-struct Edge: Encodable, Decodable  {
+struct Edge: Encodable, Decodable, Hashable  {
     var id : Int = 0
     var source : Node = Node()
     var target : Node = Node()
     var type : Int = 0;
+    
+    static func == (lhs: Edge, rhs: Edge) -> Bool {
+        return lhs.id == rhs.id
+    }
+    
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(id)
+    }
 }
 
 

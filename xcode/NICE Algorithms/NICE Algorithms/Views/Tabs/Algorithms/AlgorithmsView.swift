@@ -17,6 +17,7 @@ struct AlgortihmView : View {
     }
     
     func refresh() {
+        model.selected_algorithm = Algorithm()
         model.home_getAlgorithms();
     }
     
@@ -46,7 +47,7 @@ struct AlgortihmView : View {
                         if selected_tab == 1 {
                             NodeView()
                         } else  if selected_tab == 2 {
-                            Text("Edges")
+                            EdgeView()
                         } else  if selected_tab == 3 {
                             if model.selected_node.isEmpty() {
                                 Text("Select a node...")

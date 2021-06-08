@@ -91,13 +91,24 @@ class AlgorithmNetworkModel : NetworkModel {
     }
     
     
-    func getNodeTargets(node : Node) -> [Node] {
-        var nodes : [Node] = Array()
+    func getNodeTargets(node : Node) -> [(String, Node, Color)] {
+        var nodes : [(String,Node,Color)] = Array()
         for edge in selected_algorithm.edges {
             if edge.source.id == node.id {
-                nodes.append(edge.target)
+                let x = getEdgeType(edge: edge)
+                nodes.append((x.0, edge.target, x.1))
             }
         }
         return nodes;
     }
+    
+    func getEdgeType(edge :Edge) -> (String,Color) {
+        if edge.type == 0 {
+            return ("FALSE",Color.red)
+        } else if edge.type == 1 {
+            return ("TRUE",Color.green)
+        } else { return ("NONE",Color.yellow)}
+    }
+    
+   
 }

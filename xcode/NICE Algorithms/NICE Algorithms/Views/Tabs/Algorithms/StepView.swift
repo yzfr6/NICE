@@ -29,7 +29,7 @@ struct StepView: View {
             Title(title: "PATHS", color: .blue)
             NodePaths(node: node)
             Spacer()
-           
+            
         }.navigationBarTitle("NODE: \(node.code)", displayMode: .inline)
     }
 }
@@ -65,24 +65,34 @@ struct NodeEntityContents : View {
 struct NodePaths : View {
     
     var node : Node;
-    var targets : [Node]
+    var targets : [(String,Node,Color)]
     init (node n : Node){
         self.node = n
         targets = Array()
         let model = AlgorithmNetworkModel.model
         targets = model.getNodeTargets(node: node);
-       
+        
     }
     
     var body: some View {
         ScrollView (.horizontal) {
             HStack{
-                ForEach(targets, id: \.self) { target in
-                     NavigationLink(destination: StepView(node: target)){
-                        Title(title: target.text, color: .blue)
-                     }
+                ForEach(targets, id: \.self.1) { target in
+                    VStack {
+                        NavigationLink(destination: StepView(node: target.1)){
+                            
+                            HStack (alignment: .center) {
+                                Text(target.0).titleFont(size: .XS, color: .primary).padding(5).background(target.2).cornerRadius(5)
+                                VDiv()
+                                Image(systemName: "arrow.right.square").font(Font.system(size: 40)).foregroundColor(target.2)
+                                VDiv()
+                                Title(title: target.1.text, color: .blue)
+                            }.frame(height: 50)
+                        }
+                        NodeDetails(node: target.1)
+                    }.padding(10).addBorder(Color.primary, cornerRadius: 5)
                 }
-            }.padding(10)
+            }
         }
     }
 }

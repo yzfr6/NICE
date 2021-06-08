@@ -23,7 +23,7 @@ struct NodeView : View {
                         ForEach(model.selected_algorithm.nodes, id: \.self){ node in
                             VStack(alignment: .leading) {
                             HStack (spacing: 5) {
-                                Text(node.code).titleFont(size: .XS, color: model.selected_node == node ? Color.red : Color.primary).padding(5).background(Color.secondary).cornerRadius(5)
+                                Text(node.code).titleFont(size: .XS).padding(5).background(Color.secondary).cornerRadius(5)
                                 Text("\(node.text)").bodyFont(size: .XXS, color: model.selected_node == node ? Color.red : Color.primary).lineLimit(1).onTapGesture {
                                     model.selected_node = node
                                     content = AnyView(Text("Click an entity for details"))
