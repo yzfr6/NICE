@@ -43,6 +43,17 @@ public class Algorithm {
 				this.nodes.add(new Node(rs1.getInt("id"), c));
 			
 			}
+			
+			PreparedStatement ps2 = c
+					.prepareStatement("select * from edge where algorithm_id = ?");
+			ps2.setInt(1, id);
+			ResultSet rs2 = ps2.executeQuery();
+			while (rs2.next()) {
+				Node source = new Node(rs2.getInt("source_id"),c);
+				Node target = new Node(rs2.getInt("target_id"),c);
+				this.edges.add(new Edge(rs2.getInt("id"), source, target, rs2.getInt("type")));
+			
+			}
 
 
 	}

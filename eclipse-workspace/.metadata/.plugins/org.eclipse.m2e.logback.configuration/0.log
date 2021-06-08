@@ -10123,3 +10123,223 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.google.co
 2021-06-07 10:30:07,573 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
 2021-06-07 10:30:07,574 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2021-06-07 10:30:07,574 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-06-07 13:36:53,378 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 13:36:53,378 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/main/resources
+2021-06-07 13:36:53,379 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 13:36:53,379 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/test/resources
+2021-06-07 13:36:56,322 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 13:36:56,323 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/main/resources
+2021-06-07 13:36:56,323 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 13:36:56,323 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/test/resources
+2021-06-07 13:37:05,472 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 13:37:05,472 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/main/resources
+2021-06-07 13:37:05,473 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 13:37:05,473 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/test/resources
+2021-06-07 13:37:13,424 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 13:37:13,424 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/main/resources
+2021-06-07 13:37:13,425 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 13:37:13,425 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/test/resources
+2021-06-07 13:37:18,012 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 13:37:18,012 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/main/resources
+2021-06-07 13:37:18,013 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 13:37:18,013 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/test/resources
+2021-06-07 13:37:29,454 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 13:37:29,454 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/main/resources
+2021-06-07 13:37:29,455 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 13:37:29,455 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/test/resources
+2021-06-07 13:39:35,928 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 13:39:35,928 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/main/resources
+2021-06-07 13:39:35,929 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 13:39:35,929 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/test/resources
+2021-06-07 13:39:39,852 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 13:39:39,852 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/main/resources
+2021-06-07 13:39:39,853 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 13:39:39,853 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/test/resources
+2021-06-07 13:39:46,046 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 13:39:46,046 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/main/resources
+2021-06-07 13:39:46,047 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 13:39:46,047 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/test/resources
+2021-06-07 13:39:47,069 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 13:39:47,069 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/main/resources
+2021-06-07 13:39:47,069 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 13:39:47,069 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/test/resources
+2021-06-07 13:40:02,628 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2021-06-07 13:40:02,667 [Worker-24: Launching NICE-PP-Restful-Server (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server
+2021-06-07 13:40:02,673 [Worker-24: Launching NICE-PP-Restful-Server (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean compile install
+2021-06-07 13:40:10,099 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 13:40:10,099 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/main/resources
+2021-06-07 13:40:10,099 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 13:40:10,099 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/test/resources
+2021-06-07 13:40:10,099 [Worker-25: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of NICE-PP-Restful-Server
+2021-06-07 13:40:10,100 [Worker-25: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for NICE-PP-Restful-Server
+2021-06-07 13:40:10,109 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 13:40:18,076 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 13:40:18,076 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/main/resources
+2021-06-07 13:40:18,076 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 13:40:18,076 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/test/resources
+2021-06-07 13:41:32,214 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 13:41:32,214 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/main/resources
+2021-06-07 13:41:32,214 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 13:41:32,214 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/test/resources
+2021-06-07 13:42:02,303 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 13:42:02,303 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/main/resources
+2021-06-07 13:42:02,304 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 13:42:02,304 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/test/resources
+2021-06-07 13:52:15,351 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 13:52:15,351 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/main/resources
+2021-06-07 13:52:15,351 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 13:52:15,351 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/test/resources
+2021-06-07 13:52:27,845 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 13:52:27,845 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/main/resources
+2021-06-07 13:52:27,845 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 13:52:27,845 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/test/resources
+2021-06-07 13:53:01,337 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 13:53:01,337 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/main/resources
+2021-06-07 13:53:01,337 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 13:53:01,337 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/test/resources
+2021-06-07 13:53:18,115 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2021-06-07 13:53:18,162 [Worker-26: Launching NICE-PP-Restful-Server (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server
+2021-06-07 13:53:18,162 [Worker-26: Launching NICE-PP-Restful-Server (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean compile install
+2021-06-07 13:53:23,929 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 13:53:23,929 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/main/resources
+2021-06-07 13:53:23,930 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 13:53:23,930 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/test/resources
+2021-06-07 13:53:23,930 [Worker-30: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of NICE-PP-Restful-Server
+2021-06-07 13:53:23,930 [Worker-30: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for NICE-PP-Restful-Server
+2021-06-07 13:53:23,932 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 13:53:31,926 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 13:53:31,927 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/main/resources
+2021-06-07 13:53:31,927 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 13:53:31,927 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/test/resources
+2021-06-07 13:55:52,702 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 13:55:52,702 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/main/resources
+2021-06-07 13:55:52,703 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 13:55:52,703 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/test/resources
+2021-06-07 13:55:56,146 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 13:55:56,146 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/main/resources
+2021-06-07 13:55:56,147 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 13:55:56,147 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/test/resources
+2021-06-07 13:56:04,162 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 13:56:04,162 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/main/resources
+2021-06-07 13:56:04,162 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 13:56:04,162 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/test/resources
+2021-06-07 17:58:39,766 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 17:58:39,766 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/main/resources
+2021-06-07 17:58:39,767 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 17:58:39,767 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/test/resources
+2021-06-07 17:58:45,658 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 17:58:45,658 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/main/resources
+2021-06-07 17:58:45,658 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 17:58:45,658 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/test/resources
+2021-06-07 18:00:14,119 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 18:00:14,119 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/main/resources
+2021-06-07 18:00:14,119 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 18:00:14,119 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/test/resources
+2021-06-07 18:00:16,997 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 18:00:16,997 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/main/resources
+2021-06-07 18:00:16,997 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 18:00:16,997 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/test/resources
+2021-06-07 18:00:27,307 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2021-06-07 18:00:27,351 [Worker-40: Launching NICE-PP-Restful-Server (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server
+2021-06-07 18:00:27,351 [Worker-40: Launching NICE-PP-Restful-Server (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean compile install
+2021-06-07 18:00:29,866 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 18:00:29,866 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/main/resources
+2021-06-07 18:00:29,866 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 18:00:29,866 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/test/resources
+2021-06-07 18:00:29,866 [Worker-38: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of NICE-PP-Restful-Server
+2021-06-07 18:00:29,866 [Worker-38: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for NICE-PP-Restful-Server
+2021-06-07 18:00:29,868 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 18:00:37,919 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 18:00:37,919 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/main/resources
+2021-06-07 18:00:37,920 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 18:00:37,920 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/test/resources
+2021-06-07 18:01:12,227 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 18:01:12,227 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/main/resources
+2021-06-07 18:01:12,228 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 18:01:12,228 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/test/resources
+2021-06-07 18:01:17,996 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 18:01:17,996 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/main/resources
+2021-06-07 18:01:17,996 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 18:01:17,997 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/test/resources
+2021-06-07 18:11:53,920 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 18:11:53,920 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/main/resources
+2021-06-07 18:11:53,921 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 18:11:53,921 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/test/resources
+2021-06-07 18:12:01,270 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 18:12:01,270 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/main/resources
+2021-06-07 18:12:01,270 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 18:12:01,270 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/test/resources
+2021-06-07 18:12:12,801 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 18:12:12,801 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/main/resources
+2021-06-07 18:12:12,802 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 18:12:12,802 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/test/resources
+2021-06-07 18:12:18,596 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2021-06-07 18:12:18,639 [Worker-41: Launching NICE-PP-Restful-Server (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server
+2021-06-07 18:12:18,639 [Worker-41: Launching NICE-PP-Restful-Server (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean compile install
+2021-06-07 18:12:23,690 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 18:12:23,690 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/main/resources
+2021-06-07 18:12:23,690 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 18:12:23,690 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/test/resources
+2021-06-07 18:12:23,691 [Worker-42: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of NICE-PP-Restful-Server
+2021-06-07 18:12:23,691 [Worker-42: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for NICE-PP-Restful-Server
+2021-06-07 18:12:23,692 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 18:13:56,751 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 18:13:56,752 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/main/resources
+2021-06-07 18:13:56,752 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 18:13:56,752 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/test/resources
+2021-06-07 18:17:26,692 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 18:17:26,692 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/main/resources
+2021-06-07 18:17:26,692 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 18:17:26,692 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/test/resources
+2021-06-07 18:17:28,991 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 18:17:28,992 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/main/resources
+2021-06-07 18:17:28,992 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 18:17:28,992 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/test/resources
+2021-06-07 18:19:04,903 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 18:19:04,903 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/main/resources
+2021-06-07 18:19:04,903 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 18:19:04,903 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/test/resources
+2021-06-07 18:19:28,280 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 18:19:28,281 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/main/resources
+2021-06-07 18:19:28,281 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 18:19:28,281 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/test/resources
+2021-06-07 18:19:35,161 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2021-06-07 18:19:35,211 [Worker-46: Launching NICE-PP-Restful-Server (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server
+2021-06-07 18:19:35,211 [Worker-46: Launching NICE-PP-Restful-Server (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean compile install
+2021-06-07 18:19:44,628 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 18:19:44,628 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/main/resources
+2021-06-07 18:19:44,629 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 18:19:44,629 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/test/resources
+2021-06-07 18:19:44,629 [Worker-44: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of NICE-PP-Restful-Server
+2021-06-07 18:19:44,629 [Worker-44: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for NICE-PP-Restful-Server
+2021-06-07 18:19:44,630 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 18:47:09,563 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 18:47:09,563 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/main/resources
+2021-06-07 18:47:09,563 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 18:47:09,564 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/test/resources
+2021-06-08 10:59:55,172 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-08 10:59:55,173 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/main/resources
+2021-06-08 10:59:55,173 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-08 10:59:55,173 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/test/resources
+2021-06-08 11:04:48,694 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-08 11:04:48,695 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/main/resources
+2021-06-08 11:04:48,696 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-08 11:04:48,696 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/test/resources
+2021-06-08 11:05:10,376 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-08 11:05:10,376 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/main/resources
+2021-06-08 11:05:10,377 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-08 11:05:10,377 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/test/resources
+2021-06-08 11:05:25,807 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2021-06-08 11:05:25,852 [Worker-80: Launching NICE-PP-Restful-Server (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server
+2021-06-08 11:05:25,853 [Worker-80: Launching NICE-PP-Restful-Server (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean compile install
+2021-06-08 11:05:28,583 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-08 11:05:28,584 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/main/resources
+2021-06-08 11:05:28,584 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-08 11:05:28,584 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/test/resources
+2021-06-08 11:05:28,584 [Worker-80: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of NICE-PP-Restful-Server
+2021-06-08 11:05:28,584 [Worker-80: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for NICE-PP-Restful-Server
+2021-06-08 11:05:28,586 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-08 11:05:36,595 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-08 11:05:36,595 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/main/resources
+2021-06-08 11:05:36,595 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-08 11:05:36,595 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/test/resources

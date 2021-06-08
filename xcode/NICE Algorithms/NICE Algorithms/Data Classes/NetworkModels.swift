@@ -62,7 +62,8 @@ class AlgorithmNetworkModel : NetworkModel {
     
     @Published var algorithms : [Algorithm] = []
     @Published var selected_algorithm : Algorithm = Algorithm()
-    @Published var nextEventReminder = false;
+    @Published var selected_node : Node = Node()
+    
     
     func home_getAlgorithms(){
         increment()
@@ -87,5 +88,16 @@ class AlgorithmNetworkModel : NetworkModel {
             self.pushUpdate()
             self.decrement()
         }
+    }
+    
+    
+    func getNodeTargets(node : Node) -> [Node] {
+        var nodes : [Node] = Array()
+        for edge in selected_algorithm.edges {
+            if edge.source.id == node.id {
+                nodes.append(edge.target)
+            }
+        }
+        return nodes;
     }
 }

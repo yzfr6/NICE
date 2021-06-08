@@ -8,31 +8,14 @@
 import SwiftUI
 import SwiftyJSON
 import FHIR
-
-struct EntityCellView : View {
-    
-    
-    var entity : Entity
-    var on_click : () -> ();
-    
-    var body: some View {
-        Button("\(entity.type)"){
-            on_click()
-        }
-        .padding(20)
-        .border(Color.primary)
-        .shadow(radius: 5)
-        
-    }
-}
-
+import AppTools
 
 class EntityHelper {
-
+    
     static func getEntityDetailView(entity : Entity) -> AnyView {
         
         if let resource = entity.observation_decision_1 {
-           return  AnyView(ObservationDecision1View(resource: resource))
+            return  AnyView(ObservationDecision1View(resource: resource))
         } else if let resource = entity.set_goal_1 {
             return AnyView(SetGoal1View(resource: resource))
         } else if let resource = entity.medication_contraindication_decision_1 {
@@ -59,6 +42,8 @@ class EntityHelper {
             return AnyView(MedicationNotTolerated2View(resource: resource))
         } else if let resource = entity.clinician_decision_1 {
             return AnyView(ClinicianDecision1View(resource: resource))
+        } else if let resource = entity.medication_choice_1 {
+            return AnyView(MedicationChoice1View(resource: resource))
         }
         else {
             return AnyView(Text("Unimplemented"))
@@ -100,46 +85,40 @@ struct MedicationContraindicationDecision1View : View {
         
         ScrollView {
             VStack {
+                KeyValue(key: "Auto generated text", value: generated_string)
+                
+                
+                KeyValue(key: "Medication display", value: medication.code?.text?.string ?? "value missing")
+                
+                
+                KeyValue(key: "Medication system", value: medication.code?.coding?[0].system?.absoluteString ?? "value missing")
+                
+                
+                KeyValue(key: "Medication code", value: medication.code?.coding?[0].code?.string ?? "value missing")
+                
                 HStack {
-                    Text("Auto generated text")
-                    Spacer()
-                    Text(generated_string)
-                }
-                HStack {
-                    Text("Medication display")
-                    Spacer()
-                    Text(medication.code?.text?.string ?? "value missing")
-                }
-                HStack {
-                    Text("Medication system")
-                    Spacer()
-                    Text(medication.code?.coding?[0].system?.absoluteString ?? "value missing")
-                }
-                HStack {
-                    Text("Medication code")
-                    Spacer()
-                    Text(medication.code?.coding?[0].code?.string ?? "value missing")
-                }
-                HStack {
-                    Text("Contraindications")
+                    Text("Contraindications").entity_content_key()
                     Spacer()
                     VStack {
-                    ForEach(contraindications.indices){ i in
-                        Text("\(contraindications[i].disease?.text?.string ?? "value missing") ")
-                    }
-                    }
-                }
-                Divider()
-                HStack {
-                    Text(resource.medication.rawString() ?? "err")
-                    Spacer()
-                    VStack {
-                        ForEach(resource.contraindications.indices) {i in
-                            Text(resource.contraindications[i].rawString() ?? "err")
+                        ForEach(contraindications.indices){ i in
+                            SmallTitle(title: "\(contraindications[i].disease?.text?.string ?? "value missing")")
                         }
                     }
                 }
-                Spacer()
+                
+                Divider()
+                
+                HStack(alignment: .top) {
+                    JSONViewer(json: resource.medication.rawString() ?? "err", title: "Medication" ).makeFullWidth()
+                
+                   
+                    VStack {
+                        ForEach(resource.contraindications.indices) {i in
+                            JSONViewer(json: resource.contraindications[i].rawString() ?? "err", title: "Contraindication").makeFullWidth()
+                            
+                        }
+                    }
+                }
             }.makeFullHeight()
         }
     }
@@ -153,26 +132,21 @@ struct MedicationContraindicationDecision2View : View {
     var resource : MedicationContraindicationDecision2;
     init (resource : MedicationContraindicationDecision2){
         self.resource = resource
-
-            medication_code =  resource.medication_code
-            generated_string =  "Is \(medication_code) contraindicated?"
-          
+        
+        medication_code =  resource.medication_code
+        generated_string =  "Is \(medication_code) contraindicated?"
+        
     }
     
     var body: some View {
         
         ScrollView {
             VStack {
-                HStack {
-                    Text("Auto generated text")
-                    Spacer()
-                    Text(generated_string)
-                }
-                HStack {
-                    Text("Medication code")
-                    Spacer()
-                    Text(medication_code)
-                }
+                KeyValue(key: "Auto generated text", value: generated_string)
+                
+                KeyValue(key: "Medication code", value: medication_code)
+                
+                
             }.makeFullHeight()
         }
     }
@@ -197,117 +171,46 @@ struct ObservationDecision1View: View {
     }
     
     var body: some View {
-      
-                    ScrollView {
-                    VStack {
-                        HStack {
-                            Text("Auto generated text")
-                            Spacer()
-                            Text(generated_string)
-                        }
-                        HStack {
-                            Text("Observation display")
-                            Spacer()
-                            Text(observation.code?.text?.string ?? "value missing")
-                        }
-                        HStack {
-                            Text("Observation system")
-                            Spacer()
-                            Text(observation.code?.coding?[0].system?.absoluteString ?? "value missing")
-                        }
-                        HStack {
-                            Text("Observation code")
-                            Spacer()
-                            Text(observation.code?.coding?[0].code?.string ?? "value missing")
-                        }
-                        HStack {
-                            Text("Expression")
-                            Spacer()
-                            Text("\(observation.valueQuantity?.comparator?.rawValue ?? "?")  \(observation.valueQuantity?.value?.description ?? "0") \(observation.valueQuantity?.unit?.string ?? "unit") ")
-                        }
-                        Divider()
-                        HStack {
-                            Text(resource.observation.rawString() ?? "error")
-                            Spacer()
-                        }
-                        Spacer()
-                    }.makeFullHeight()
-                    }
+        
+        ScrollView {
+            VStack {
+                KeyValue(key: "Auto generated text", value: generated_string)
+                
+                
+                KeyValue(key: "Observation display", value: observation.code?.text?.string ?? "value missing")
+                
+                
+                KeyValue(key: "Observation system", value: observation.code?.coding?[0].system?.absoluteString ?? "value missing")
+                
+                KeyValue(key: "Observation code", value: observation.code?.coding?[0].code?.string ?? "value missing")
+                
+                
+                KeyValue(key: "Expression", value: "\(observation.valueQuantity?.comparator?.rawValue ?? "?")  \(observation.valueQuantity?.value?.description ?? "0") \(observation.valueQuantity?.unit?.string ?? "unit")")
+                
+                Divider()
+                
+                JSONViewer(json: resource.observation.rawString() ?? "err")
+                
+            }.makeFullHeight()
+        }
     }
 }
 
 struct SetGoal1View: View {
     
-    var observation : Observation
+    var goal : Goal
     var generated_string : String
     var resource : SetGoal1;
     init (resource : SetGoal1){
         self.resource = resource
         do {
-            observation =  try Observation(json: resource.observation.dictionaryObject!)
-            generated_string =  "Set a target for \(observation.code?.text?.string ?? "value missing") to be \(observation.valueQuantity?.comparator?.rawValue ?? "?")  \(observation.valueQuantity?.value?.description ?? "0") \(observation.valueQuantity?.unit?.string ?? "unit")"
+            goal =  try Goal(json: resource.goal.dictionaryObject!)
+            generated_string =  "Set a goal of \(goal.target?[0].measure?.text ?? "value missing") to be \(goal.target?[0].detailQuantity?.comparator?.rawValue ?? "?")  \(goal.target?[0].detailQuantity?.value?.description ?? "0") \(goal.target?[0].detailQuantity?.unit?.string ?? "unit")"
         }
         catch {
+            print(error.asFHIRError.description)
             generated_string = "error"
-            observation = Observation()
-        }
-    }
-    
-    var body: some View {
-      
-        ScrollView {
-        VStack {
-            HStack {
-                Text("Auto generated text")
-                Spacer()
-                Text(generated_string)
-            }
-            HStack {
-                Text("Observation display")
-                Spacer()
-                Text(observation.code?.text?.string ?? "value missing")
-            }
-            HStack {
-                Text("Observation system")
-                Spacer()
-                Text(observation.code?.coding?[0].system?.absoluteString ?? "value missing")
-            }
-            HStack {
-                Text("Observation code")
-                Spacer()
-                Text(observation.code?.coding?[0].code?.string ?? "value missing")
-            }
-            HStack {
-                Text("Expression")
-                Spacer()
-                Text("\(observation.valueQuantity?.comparator?.rawValue ?? "?")  \(observation.valueQuantity?.value?.description ?? "0") \(observation.valueQuantity?.unit?.string ?? "unit") ")
-            }
-            Divider()
-            HStack {
-                Text(resource.observation.rawString() ?? "error")
-                Spacer()
-            }
-            Spacer()
-        }.makeFullHeight()
-        }
-    }
-}
-
-struct StopMedication1View: View {
-    
-    var medication : Medication
-    var generated_string : String
-    var resource : StopMedication1;
-    init (resource : StopMedication1){
-        self.resource = resource
-        do {
-            medication =  try Medication(json: resource.medication.dictionaryObject!)
-            generated_string =  "Stop \(medication.code?.text?.string ?? "value missing")"
-            
-        }
-        catch {
-            generated_string = "error"
-            medication = Medication()
+            goal = Goal()
         }
     }
     
@@ -315,39 +218,78 @@ struct StopMedication1View: View {
         
         ScrollView {
             VStack {
-                HStack {
-                    Text("Auto generated text")
-                    Spacer()
-                    Text(generated_string)
+                VStack {
+                    
+                    KeyValue(key: "Auto generated text", value: generated_string)
+                    
+                    
+                    KeyValue(key: "Goal measure display", value: goal.target?[0].measure?.text?.string ?? "value missing")
+                    
+                    
+                    KeyValue(key: "Goal measure system", value: goal.target?[0].measure?.coding?[0].system?.absoluteString ?? "value missing")
+                    
+                    
+                    KeyValue(key: "Goal measure code", value: goal.target?[0].measure?.coding?[0].code?.string ?? "value missing")
+                    
+                    
+                    KeyValue(key: "Goal description", value: goal.description_fhir?.text?.string ?? "err")
+                    
+                    
+                    KeyValue(key: "Goal status", value: goal.lifecycleStatus?.rawValue ?? "value missing")
+                    
+                    
+                    KeyValue(key: "Expression", value: "\(goal.target?[0].detailQuantity?.comparator?.rawValue ?? "?")  \(goal.target?[0].detailQuantity?.value?.description ?? "0") \(goal.target?[0].detailQuantity?.unit?.string ?? "unit")")
+                    
+                    Divider()
                 }
-                HStack {
-                    Text("Medication display")
-                    Spacer()
-                    Text(medication.code?.text?.string ?? "value missing")
-                }
-                HStack {
-                    Text("Medication system")
-                    Spacer()
-                    Text(medication.code?.coding?[0].system?.absoluteString ?? "value missing")
-                }
-                HStack {
-                    Text("Medication code")
-                    Spacer()
-                    Text(medication.code?.coding?[0].code?.string ?? "value missing")
-                }
+                JSONViewer(json: resource.goal.rawString() ?? "err")
+            }.makeFullHeight()
+        }
+    }
+}
+
+struct StopMedication1View: View {
+    
+    var medication_request : MedicationRequest
+    var generated_string : String
+    var resource : StopMedication1;
+    init (resource : StopMedication1){
+        self.resource = resource
+        do {
+            medication_request =  try MedicationRequest(json: resource.medication_request.dictionaryObject!)
+            generated_string =  "Stop \(medication_request.medicationCodeableConcept?.text?.string ?? "value missing")"
+            
+        }
+        catch {
+            generated_string = "error"
+            medication_request = MedicationRequest()
+        }
+    }
+    
+    var body: some View {
+        
+        ScrollView {
+            VStack {
+                KeyValue(key: "Auto generated text", value: generated_string)
+                
+                KeyValue(key: "Medication display", value: medication_request.medicationCodeableConcept?.text?.string ?? "value missing")
+                
+                
+                KeyValue(key: "Medication system", value: medication_request.medicationCodeableConcept?.coding?[0].system?.absoluteString ?? "value missing")
+                
+                
+                KeyValue(key: "Medication code", value: medication_request.medicationCodeableConcept?.coding?[0].code?.string ?? "value missing")
                 
                 Divider()
-                HStack {
-                    Text(resource.medication.rawString() ?? "err")
-                }
-                Spacer()
+                
+                JSONViewer(json: resource.medication_request.rawString() ?? "err")
             }.makeFullHeight()
         }
     }
 }
 
 struct SetAlert1View: View {
-
+    
     var resource : SetAlert1;
     var generatedString : String = "err";
     var view1 : ObservationDecision1View;
@@ -359,23 +301,32 @@ struct SetAlert1View: View {
         
         generatedString = "Set alert on (\(view1.generated_string)) : \(view2.generated_string)"
     }
-
+    
     var body: some View {
         VStack {
             Text(generatedString)
             HStack {
-                view1
+                VStack {
+                    Text("Obsevation Decision").titleFont(size: .XS, color: Color.green).makeFullWidth().padding(10).background(Color.secondary).cornerRadius(5)
+                    view1
+                }
+                
                 Divider()
-                view2
+                
+                VStack {
+                    Text("Stop Medication").titleFont(size: .XS, color: Color.green).makeFullWidth().padding(10).background(Color.secondary).cornerRadius(5)
+                    
+                    view2
+                }
             }
         }
-       
+        
     }
 }
 
 
 struct SetAlert2View: View {
-
+    
     var resource : SetAlert2;
     var generatedString : String = "err";
     var view1 : MedicationContraindicationDecision1View;
@@ -386,14 +337,22 @@ struct SetAlert2View: View {
         view2 = StopMedication1View(resource: resource.stop_medication_1)
         generatedString = "Set alert on (\(view1.generated_string)) : \(view2.generated_string)"
     }
-
+    
     var body: some View {
         VStack {
             Text(generatedString)
             HStack {
-                view1
+                VStack {
+                    Text("Medication Contraindication").titleFont(size: .XS, color: Color.green).makeFullWidth().padding(10).background(Color.secondary).cornerRadius(5)
+                    view1
+                }
+                
                 Divider()
-                view2
+                
+                VStack {
+                    Text("Stop Medication").titleFont(size: .XS, color: Color.green).makeFullWidth().padding(10).background(Color.secondary).cornerRadius(5)
+                    view2
+                }
             }
         }
     }
@@ -401,19 +360,19 @@ struct SetAlert2View: View {
 
 struct OfferMedication1View: View {
     
-    var medication : Medication
+    var medication_request : MedicationRequest
     var generated_string : String
     var resource : OfferMedication1;
     init (resource : OfferMedication1){
         self.resource = resource
         do {
-            medication =  try Medication(json: resource.medication.dictionaryObject!)
-            generated_string =  "Offer \(medication.code?.text?.string ?? "value missing")"
+            medication_request =  try MedicationRequest(json: resource.medication_request.dictionaryObject!)
+            generated_string =  "Consider \(medication_request.medicationCodeableConcept?.text?.string ?? "value missing")"
             
         }
         catch {
             generated_string = "error"
-            medication = Medication()
+            medication_request = MedicationRequest()
         }
     }
     
@@ -421,32 +380,20 @@ struct OfferMedication1View: View {
         
         ScrollView {
             VStack {
-                HStack {
-                    Text("Auto generated text")
-                    Spacer()
-                    Text(generated_string)
-                }
-                HStack {
-                    Text("Medication display")
-                    Spacer()
-                    Text(medication.code?.text?.string ?? "value missing")
-                }
-                HStack {
-                    Text("Medication system")
-                    Spacer()
-                    Text(medication.code?.coding?[0].system?.absoluteString ?? "value missing")
-                }
-                HStack {
-                    Text("Medication code")
-                    Spacer()
-                    Text(medication.code?.coding?[0].code?.string ?? "value missing")
-                }
+                KeyValue(key: "Auto generated text", value: generated_string)
+                
+                KeyValue(key: "Medication display", value: medication_request.medicationCodeableConcept?.text?.string ?? "value missing")
+                
+                
+                KeyValue(key: "Medication system", value: medication_request.medicationCodeableConcept?.coding?[0].system?.absoluteString ?? "value missing")
+                
+                
+                KeyValue(key: "Medication code", value: medication_request.medicationCodeableConcept?.coding?[0].code?.string ?? "value missing")
                 
                 Divider()
-                HStack {
-                    Text(resource.medication.rawString() ?? "err")
-                }
-                Spacer()
+                
+                JSONViewer(json: resource.medication_request.rawString() ?? "err")
+                
             }.makeFullHeight()
         }
     }
@@ -455,15 +402,16 @@ struct OfferMedication1View: View {
 struct MedicationChoice1View: View {
     
     var medications : [Medication]
+    var medication_code : String;
     var generated_string : String = ""
     var resource : MedicationChoice1;
     init (resource : MedicationChoice1){
         self.resource = resource
         self.medications = Array()
-        
-        for m in medications {
+        self.medication_code = resource.medication_code
+        for m in resource.medications {
             do {
-                let medication =  try Medication(json: m.dictionaryObject!)
+                let medication =  try Medication(json:  m.dictionaryObject!)
                 medications.append(medication)
             }
             catch {
@@ -471,6 +419,7 @@ struct MedicationChoice1View: View {
             }
         }
         
+        generated_string = "Let \(medication_code) = {\( medications.map({m in m.code?.text?.string ?? "value missing"}).joined(separator: " - "))}"
         
     }
     
@@ -483,26 +432,6 @@ struct MedicationChoice1View: View {
                     Text("Auto generated text")
                     Spacer()
                     Text(generated_string)
-                }
-                HStack {
-                    Text("Medication display")
-                    Spacer()
-                    Text(medication.code?.text?.string ?? "value missing")
-                }
-                HStack {
-                    Text("Medication system")
-                    Spacer()
-                    Text(medication.code?.coding?[0].system?.absoluteString ?? "value missing")
-                }
-                HStack {
-                    Text("Medication code")
-                    Spacer()
-                    Text(medication.code?.coding?[0].code?.string ?? "value missing")
-                }
-                
-                Divider()
-                HStack {
-                    Text(resource.medication.rawString() ?? "err")
                 }
                 Spacer()
             }.makeFullHeight()
@@ -532,32 +461,18 @@ struct ConditionDecision1View: View {
         
         ScrollView {
             VStack {
-                HStack {
-                    Text("Auto generated text")
-                    Spacer()
-                    Text(generated_string)
-                }
-                HStack {
-                    Text("Condition display")
-                    Spacer()
-                    Text(condition.code?.text?.string ?? "value missing")
-                }
-                HStack {
-                    Text("Condition system")
-                    Spacer()
-                    Text(condition.code?.coding?[0].system?.absoluteString ?? "value missing")
-                }
-                HStack {
-                    Text("Condition code")
-                    Spacer()
-                    Text(condition.code?.coding?[0].code?.string ?? "value missing")
-                }
+                KeyValue(key: "Auto generated text", value: generated_string)
+                
+                KeyValue(key: "Condition display", value: condition.code?.text?.string ?? "value missing")
+                
+                
+                KeyValue(key: "Condition system", value: condition.code?.coding?[0].system?.absoluteString ?? "value missing")
+                
+                KeyValue(key: "Condition code", value: condition.code?.coding?[0].code?.string ?? "value missing")
+                
                 
                 Divider()
-                HStack {
-                    Text(resource.condition.rawString() ?? "err")
-                }
-                Spacer()
+                JSONViewer(json: resource.condition.rawString() ?? "err")
             }.makeFullHeight()
         }
     }
@@ -565,19 +480,19 @@ struct ConditionDecision1View: View {
 
 struct ConsiderMedication1View: View {
     
-    var medication : Medication
+    var medication_request : MedicationRequest
     var generated_string : String
     var resource : ConsiderMedication1;
     init (resource : ConsiderMedication1){
         self.resource = resource
         do {
-            medication =  try Medication(json: resource.medication.dictionaryObject!)
-            generated_string =  "Consider \(medication.code?.text?.string ?? "value missing")"
+            medication_request =  try MedicationRequest(json: resource.medication_request.dictionaryObject!)
+            generated_string =  "Consider \(medication_request.medicationCodeableConcept?.text?.string ?? "value missing")"
             
         }
         catch {
             generated_string = "error"
-            medication = Medication()
+            medication_request = MedicationRequest()
         }
     }
     
@@ -585,32 +500,21 @@ struct ConsiderMedication1View: View {
         
         ScrollView {
             VStack {
-                HStack {
-                    Text("Auto generated text")
-                    Spacer()
-                    Text(generated_string)
-                }
-                HStack {
-                    Text("Medication display")
-                    Spacer()
-                    Text(medication.code?.text?.string ?? "value missing")
-                }
-                HStack {
-                    Text("Medication system")
-                    Spacer()
-                    Text(medication.code?.coding?[0].system?.absoluteString ?? "value missing")
-                }
-                HStack {
-                    Text("Medication code")
-                    Spacer()
-                    Text(medication.code?.coding?[0].code?.string ?? "value missing")
-                }
+                
+                KeyValue(key: "Auto generated text", value: generated_string)
+                
+                
+                KeyValue(key: "Medication display", value: medication_request.medicationCodeableConcept?.text?.string ?? "value missing")
+                
+                
+                KeyValue(key: "Medication system", value: medication_request.medicationCodeableConcept?.coding?[0].system?.absoluteString ?? "value missing")
+                
+                
+                KeyValue(key: "Medication code", value: medication_request.medicationCodeableConcept?.coding?[0].code?.string ?? "value missing")
+                
                 
                 Divider()
-                HStack {
-                    Text(resource.medication.rawString() ?? "err")
-                }
-                Spacer()
+                JSONViewer(json: resource.medication_request.rawString() ?? "err")
             }.makeFullHeight()
         }
     }
@@ -623,26 +527,21 @@ struct ConsiderMedication2View: View {
     var resource : ConsiderMedication2;
     init (resource : ConsiderMedication2){
         self.resource = resource
-
-            medication_code =  resource.medication_code
-            generated_string =  "Is \(medication_code) contraindicated?"
-          
+        
+        medication_code =  resource.medication_code
+        generated_string =  "Consider \(medication_code)?"
+        
     }
     
     var body: some View {
         
         ScrollView {
             VStack {
-                HStack {
-                    Text("Auto generated text")
-                    Spacer()
-                    Text(generated_string)
-                }
-                HStack {
-                    Text("Medication code")
-                    Spacer()
-                    Text(medication_code)
-                }
+                
+                KeyValue(key: "Auto generated text", value: generated_string)
+                
+                KeyValue(key: "Medication code", value: (medication_code))
+                
             }.makeFullHeight()
         }
     }
@@ -670,32 +569,21 @@ struct MedicationNotTolerated1View: View {
         
         ScrollView {
             VStack {
-                HStack {
-                    Text("Auto generated text")
-                    Spacer()
-                    Text(generated_string)
-                }
-                HStack {
-                    Text("Medication display")
-                    Spacer()
-                    Text(medication.code?.text?.string ?? "value missing")
-                }
-                HStack {
-                    Text("Medication system")
-                    Spacer()
-                    Text(medication.code?.coding?[0].system?.absoluteString ?? "value missing")
-                }
-                HStack {
-                    Text("Medication code")
-                    Spacer()
-                    Text(medication.code?.coding?[0].code?.string ?? "value missing")
-                }
+                
+                KeyValue(key: "Auto generated text", value: generated_string)
+                
+                
+                KeyValue(key: "Medication display", value: medication.code?.text?.string ?? "value missing")
+                
+                
+                KeyValue(key: "Medication system", value: medication.code?.coding?[0].system?.absoluteString ?? "value missing")
+                
+                
+                KeyValue(key: "Medication code", value: medication.code?.coding?[0].code?.string ?? "value missing")
+                
                 
                 Divider()
-                HStack {
-                    Text(resource.medication.rawString() ?? "err")
-                }
-                Spacer()
+                JSONViewer(json: resource.medication.rawString() ?? "err")
             }.makeFullHeight()
         }
     }
@@ -708,27 +596,23 @@ struct MedicationNotTolerated2View: View {
     var resource : MedicationNotToleratedDecision2;
     init (resource : MedicationNotToleratedDecision2){
         self.resource = resource
-  
+        
         medication_code =  resource.medication_code
-            generated_string =  "Is \(medication_code) not tolerated?"
-       
+        generated_string =  "Is \(medication_code) not tolerated?"
+        
     }
     
     var body: some View {
         
         ScrollView {
             VStack {
-                HStack {
-                    Text("Auto generated text")
-                    Spacer()
-                    Text(generated_string)
-                }
-                HStack {
-                    Text("Medication code")
-                    Spacer()
-                    Text(medication_code)
-                }
-               
+                
+                KeyValue(key: "Auto generated text", value: generated_string)
+                
+                
+                KeyValue(key: "Medication code", value: medication_code)
+                
+                
             }.makeFullHeight()
         }
     }
@@ -742,19 +626,15 @@ struct ClinicianDecision1View: View {
     init (resource : ClinicianDecision1){
         self.resource = resource
         generated_string =  resource.description
-        
-       
     }
     
     var body: some View {
         
         ScrollView {
             VStack {
-                HStack {
-                    Text("Generated text")
-                    Spacer()
-                    Text(generated_string)
-                }
+                
+                KeyValue(key: "Generated text", value: generated_string)
+                
             }.makeFullHeight()
         }
     }

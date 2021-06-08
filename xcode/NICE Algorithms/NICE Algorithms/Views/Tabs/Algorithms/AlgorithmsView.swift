@@ -25,25 +25,37 @@ struct AlgortihmView : View {
             
             VStack (spacing: 2)  {
                 
-                
                 VStack {
+                    HStack {
+                        Text("\(model.selected_algorithm.name)".uppercased()).titleFont(size: .STD, color: .blue)
+                        Spacer()
+                        Text("Nodes: #\(model.selected_algorithm.nodes.count)".uppercased()).titleFont(size: .S, color: .green)
+                        Text("Edges: #\(model.selected_algorithm.edges.count)".uppercased()).titleFont(size: .S, color: .green)
+                    }
+                    HDiv()
                     
-                    Text("\(model.selected_algorithm.name)".uppercased()).titleFont(size: .STD)
                     
                     Picker(selection: $selected_tab, label: Text("")) {
-                        Text("Nodes").tag(1)
-                        Text("Edges").tag(2)
-                        Text("Step").tag(3)
+                        Text("NODES").tag(1)
+                        Text("EDGES").tag(2)
+                        Text("STEP").tag(3)
                     }
                     .pickerStyle(SegmentedPickerStyle())
-                    
+                    HDiv()
                     VStack {
                         if selected_tab == 1 {
                             NodeView()
                         } else  if selected_tab == 2 {
                             Text("Edges")
                         } else  if selected_tab == 3 {
-                            Text("Step through")
+                            if model.selected_node.isEmpty() {
+                                Text("Select a node...")
+                            } else {
+                                NavigationView {
+                                    StepView(node : model.selected_node)
+                                }
+                            }
+                            
                         }
                     }
                     Spacer()

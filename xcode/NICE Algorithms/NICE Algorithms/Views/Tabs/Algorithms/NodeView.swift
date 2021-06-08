@@ -8,63 +8,55 @@
 import SwiftUI
 struct NodeView : View {
     @ObservedObject var model = AlgorithmNetworkModel.model;
-    @State var selected_node : Node = Node();
-    @State var content : AnyView = AnyView(Text("Click and entity for details"))
+
+    @State var selected_entity : Entity = Entity();
+    @State var content : AnyView = AnyView(Text("Click an entity for details".uppercased()).bodyFont(size: .XS))
+    
     var body : some View {
         
         HStack {
-            List {
-                ForEach(model.selected_algorithm.nodes, id: \.self){ node in
-                    VStack (spacing: 1) {
-                        Text("\(node.code):  \(node.text)").bodyFont(size: .XS).lineLimit(1).onTapGesture {
-                            selected_node = node
-                            content = AnyView(Text("Click and entity for details"))
-                        }
-                    }.listRowBackground(self.selected_node == node ? Color.standardLightGrey : Color.clear)
+            VStack {
+                Title(title: "NODES")
+                
+                List {
+
+                        ForEach(model.selected_algorithm.nodes, id: \.self){ node in
+                            VStack(alignment: .leading) {
+                            HStack (spacing: 5) {
+                                Text(node.code).titleFont(size: .XS, color: model.selected_node == node ? Color.red : Color.primary).padding(5).background(Color.secondary).cornerRadius(5)
+                                Text("\(node.text)").bodyFont(size: .XXS, color: model.selected_node == node ? Color.red : Color.primary).lineLimit(1).onTapGesture {
+                                    model.selected_node = node
+                                    content = AnyView(Text("Click an entity for details"))
+                                }
+                            }
+                            HDiv()
+                        }.frame(height: 40)
+                    }
                 }
             }.frame(width: 300)
-            Divider()
+            
+            VDiv()
             VStack {
-                if let node = selected_node {
-                    HStack {
-                        Text("Database ID").titleFont(size: .S)
-                        Spacer()
-                        Text("\(node.id)").bodyFont(size: .XS)
-                    }
-                    HStack {
-                        Text("Code").titleFont(size: .S)
-                        Spacer()
-                        Text("\(node.code)").bodyFont(size: .XS)
-                    }
-                    HStack {
-                        Text("Description").titleFont(size: .S)
-                        Spacer()
-                        Text("\(node.text)").bodyFont(size: .XS)
-                    }
-                    HStack {
-                        Text("Type").titleFont(size: .S)
-                        Spacer()
-                        Text("\(node.type)").bodyFont(size: .XS)
-                    }
-                    HStack {
-                        Text("Content Type").titleFont(size: .S)
-                        Spacer()
-                        Text("\(node.content_type.uppercased()) (\(node.entities.count))").bodyFont(size: .XS)
-                    }
-                    Divider()
-                    VStack(spacing: 2) {
-                        Text("Entities")
+                if let node = model.selected_node {
+                    
+                    NodeDetails(node : node)
+                    VStack(spacing: 5) {
+                        Title(title: "CONTENTS")
                         ScrollView (.horizontal) {
                             HStack{
                                 ForEach(node.entities, id: \.self) { entity in
-                                    EntityCellView(entity: entity, on_click: {
+                                    SubTitle(title: "\(entity.type)", color: selected_entity == entity ? Color.green : Color.primary).onTapGesture {
+                                        selected_entity = entity;
                                         content = EntityHelper.getEntityDetailView(entity: entity)
-                                    })
+                                    }
                                 }
-                            }
+                            }.padding(10)
                         }
-                        Divider()
-                        content
+                        HDiv()
+                        if (!selected_entity.isEmpty()){
+                            SubTitle(title: selected_entity.type)
+                            content
+                        }
                         Spacer()
                     }
                     Spacer()
@@ -78,3 +70,38 @@ struct NodeView : View {
     }
     
 }
+
+
+struct NodeDetails : View {
+    
+    var node : Node;
+    
+    var body: some View {
+        VStack (spacing: 1) {
+            Title(title: "DETAILS")
+            Group {
+            KeyValue(key: "Database ID", value: "\(node.id)")
+            
+            HDiv()
+            
+            KeyValue(key: "Code", value: "\(node.code)")
+           
+            HDiv()
+            
+            KeyValue(key: "Description", value: "\(node.text)")
+           
+            HDiv()
+            }
+            
+            KeyValue(key: "Type", value: "\(node.type)")
+            
+            HDiv()
+            
+            KeyValue(key: "Content Type", value: "\(node.content_type.uppercased()) (\(node.entities.count))")
+           
+            HDiv()
+        }
+    }
+    
+}
+

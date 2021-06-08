@@ -48,7 +48,7 @@ struct ConditionDecision1 : Codable  {
 struct ConsiderMedication1 : Codable  {
     
     //var id : Int = 0;
-    var medication : JSON = [:]
+    var medication_request : JSON = [:]
     
 }
 
@@ -62,8 +62,8 @@ struct ConsiderMedication2 : Codable {
 
 struct Edge: Encodable, Decodable  {
     var id : Int = 0
-    var source_id : Int = 0
-    var target_id : Int = 0
+    var source : Node = Node()
+    var target : Node = Node()
     var type : Int = 0;
 }
 
@@ -77,7 +77,7 @@ struct Entity : Encodable, Decodable, Hashable  {
         hasher.combine(entity_id)
     }
     
-    var entity_id : Int = 0;
+    var entity_id : Int = -1;
     var type : String = ""
     
     var clinician_decision_1 : ClinicianDecision1?// = ClinicianDecision1()
@@ -96,6 +96,9 @@ struct Entity : Encodable, Decodable, Hashable  {
     var set_goal_1 : SetGoal1?// = SetGoal1()
     var stop_medication_1 : StopMedication1?// = StopMedication1()
     
+    func isEmpty() -> Bool {
+        return entity_id == -1
+    }
 }
 /*
 enum EntityType : String {
@@ -154,7 +157,7 @@ struct Node  :  Codable, Hashable {
         hasher.combine(id)
     }
     
-    var id : Int = 0
+    var id : Int = -1
     var code : String = ""
     var text : String = ""
     var type : String = ""
@@ -163,6 +166,10 @@ struct Node  :  Codable, Hashable {
     
     enum CodingKeys: CodingKey {
         case id, code, text, type, content_type, entities
+    }
+    
+    func isEmpty() -> Bool {
+        return id == -1
     }
     
     /*init(from decoder: Decoder) throws {
@@ -223,7 +230,7 @@ struct ObservationDecision1 : Codable {
 
 struct OfferMedication1 : Codable {
     //var id : Int = 0
-    var medication :JSON = [:]
+    var medication_request :JSON = [:]
 }
 
 struct SetAlert1  : Codable  {
@@ -240,10 +247,10 @@ struct SetAlert2  : Codable {
 
 struct SetGoal1 : Codable {
     //var id : Int = 0;
-    var observation : JSON = [:]
+    var goal : JSON = [:]
 }
 
 struct StopMedication1 : Codable {
     //var id : Int = 0
-    var medication : JSON = [:]
+    var medication_request : JSON = [:]
 }
