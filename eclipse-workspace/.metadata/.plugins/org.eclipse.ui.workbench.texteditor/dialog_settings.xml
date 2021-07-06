@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="algorithm_consider_medication_1"/>
+		<item key="selection" value="HH:mm:ss"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="HH.mm.ss"/>
+			<item value="JSON"/>
 			<item value="algorithm_consider_medication_1"/>
 			<item value="M2&quot;"/>
 			<item value="M1&quot;"/>
@@ -21,10 +23,9 @@
 			<item value="condition_"/>
 			<item value="observation"/>
 			<item value="DPP-4i"/>
-			<item value="SU DPP-4i"/>
-			<item value="SU CON"/>
 		</list>
 		<list key="replacehistory">
+			<item value="HH:mm:ss"/>
 			<item value="id"/>
 			<item value=""/>
 			<item value="FILL IN"/>
@@ -34,7 +35,7 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item key="DIALOG_X_ORIGIN" value="1117"/>
-		<item key="DIALOG_Y_ORIGIN" value="672"/>
+		<item key="DIALOG_Y_ORIGIN" value="653"/>
 		<item key="DIALOG_WIDTH" value="292"/>
 		<item key="DIALOG_HEIGHT" value="402"/>
 		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>

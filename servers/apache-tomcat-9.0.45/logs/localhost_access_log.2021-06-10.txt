@@ -1,0 +1,6 @@
+0:0:0:0:0:0:0:1 - - [10/Jun/2021:09:09:27 +0100] "GET /NICEPPRESTfulService/algorithms HTTP/1.1" 200 360053
+0:0:0:0:0:0:0:1 - - [10/Jun/2021:11:03:17 +0100] "GET /NICEPPRESTfulService/algorithms HTTP/1.1" 200 360053
+127.0.0.1 - - [10/Jun/2021:12:26:57 +0100] "GET / HTTP/1.1" 200 11157
+0:0:0:0:0:0:0:1 - - [10/Jun/2021:12:27:20 +0100] "GET /NICEPPRESTfulService/algorithms HTTP/1.1" 200 360053
+0:0:0:0:0:0:0:1 - - [10/Jun/2021:13:27:31 +0100] "GET /NICEPPRESTfulService/algorithms HTTP/1.1" 200 360053
+0:0:0:0:0:0:0:1 - - [10/Jun/2021:13:27:52 +0100] "GET /NICEPPRESTfulService/algorithms HTTP/1.1" 200 360053

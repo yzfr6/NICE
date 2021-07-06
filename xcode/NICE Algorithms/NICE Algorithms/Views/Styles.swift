@@ -35,7 +35,7 @@ struct SubTitle : View {
     var title : String
     var color : Color?
     var body: some View {
-        Text(title).subTitleFont(size: .XS, color: color ?? Color.green).makeFullWidth().padding(15).background(Color.secondary).cornerRadius(5)
+        Text(title).subTitleFont(size: .XS, color: color ?? Color.primary).makeFullWidth().padding(15).background(Color.secondary).cornerRadius(5)
     }
 }
 
@@ -43,7 +43,7 @@ struct SmallTitle : View {
     var title : String
     var color : Color?
     var body: some View {
-        Text(title).bodyFont(size: .XS, color: color ?? Color.green).padding(10).background(Color.secondary).cornerRadius(5)
+        Text(title).bodyFont(size: .XS, color: color ?? Color.primary).padding(10).background(Color.secondary).cornerRadius(5)
     }
 }
 

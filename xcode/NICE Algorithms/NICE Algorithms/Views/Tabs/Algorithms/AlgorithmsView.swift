@@ -56,7 +56,6 @@ struct AlgortihmView : View {
                                     StepView(node : model.selected_node)
                                 }
                             }
-                            
                         }
                     }
                     Spacer()

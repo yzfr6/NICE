@@ -20,12 +20,12 @@ struct Tabs: View {
                     Text("ALGORITHMS")
                 }.tag(1)
             
-            BNFView()
+            /*BNFView()
                 .tabItem {
                     Image(systemName: "pills")
                         .font(.system(size: imageFontSize, weight: .bold))
                     Text("BNF")
-                }.tag(2)
+                }.tag(2)*/
            
         
         }.navigationViewStyle( StackNavigationViewStyle())
