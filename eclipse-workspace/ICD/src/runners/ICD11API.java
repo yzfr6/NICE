@@ -23,11 +23,12 @@ public class ICD11API {
 
 	public static void main(String[] args) throws Exception {
 
-		String uri = "https://id.who.int/icd/entity/158815303";
+		String uri = "https://id.who.int/icd/release/10/158815303";
 
 		ICD11API api = new ICD11API();
 		String token = api.getToken();
 		System.out.println("URI Response JSON : \n" + api.getURI(token, uri));
+		
 	}
 
 

@@ -4,3 +4,7 @@ eclipse-workspace/NICE-PP/target/classes/snomed-ct.owl
 eclipse-workspace/NICE-PP/resources/snomed-ct.owl
 eclipse-workspace/NICE-PP/resources/BNF.xml
 eclipse-workspace/NICE-PP/resources/BNF.owl
+eclipse-workspace/NICE-PP/resources/rxnorm.owl
+eclipse-workspace/NICE-PP/resources/RXNORM.ttl
+eclipse-workspace/NICE-PP/target/classes/RXNORM.ttl
+eclipse-workspace/NICE-PP/target/classes/rxnorm.owl

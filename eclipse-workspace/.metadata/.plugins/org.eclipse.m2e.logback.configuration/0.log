@@ -11715,3 +11715,393 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.semanticw
 2021-07-06 13:48:42,826 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
 2021-07-06 13:48:42,826 [Worker-80: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2021-07-06 13:48:42,827 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-06 18:46:45,220 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-07-06 18:47:17,236 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-06 18:47:17,237 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/ICD/src/main/resources
+2021-07-06 18:47:17,238 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-06 18:47:17,238 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/ICD/src/test/resources
+2021-07-06 18:47:42,476 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-06 18:47:42,477 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/ICD/src/main/resources
+2021-07-06 18:47:42,478 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-06 18:47:42,478 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/ICD/src/test/resources
+2021-07-06 18:48:12,070 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-06 18:48:12,071 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/ICD/src/main/resources
+2021-07-06 18:48:12,071 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-06 18:48:12,072 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/ICD/src/test/resources
+2021-07-06 18:48:26,551 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-06 18:48:26,551 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/ICD/src/main/resources
+2021-07-06 18:48:26,552 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-06 18:48:26,552 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/ICD/src/test/resources
+2021-07-06 18:49:01,487 [Worker-3: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-06 18:49:01,488 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/ICD/src/main/resources
+2021-07-06 18:49:01,488 [Worker-3: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-06 18:49:01,489 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/ICD/src/test/resources
+2021-07-06 18:49:13,972 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-06 18:49:13,972 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/ICD/src/main/resources
+2021-07-06 18:49:13,973 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-06 18:49:13,973 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/ICD/src/test/resources
+2021-07-08 10:26:11,208 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-07-08 10:26:13,455 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 10:26:13,456 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 10:26:13,458 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 10:26:13,458 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 10:27:43,631 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 10:27:43,632 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-FHIR-Server/src/main/resources
+2021-07-08 10:27:43,633 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 10:27:43,633 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-FHIR-Server/src/test/resources
+2021-07-08 10:27:44,206 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-08 10:27:44,206 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/main/resources
+2021-07-08 10:27:44,207 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-07-08 10:27:44,207 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP-Restful-Server/src/test/resources
+2021-07-08 10:30:08,674 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 10:30:08,675 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 10:30:08,675 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 10:30:08,676 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 10:30:11,890 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 10:30:11,890 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 10:30:11,891 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 10:30:11,892 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 10:33:19,190 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 10:33:19,191 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 10:33:19,191 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 10:33:19,191 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 10:34:45,623 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 10:34:45,624 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 10:34:45,625 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 10:34:45,625 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 10:34:52,411 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 10:34:52,411 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 10:34:52,412 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 10:34:52,413 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 10:37:12,125 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 10:37:12,126 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 10:37:12,126 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 10:37:12,127 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 10:37:47,566 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 10:37:47,567 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 10:37:47,567 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 10:37:47,567 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 10:37:55,061 [Worker-10: Launching BNF2OWL] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 10:37:55,061 [Worker-10: Launching BNF2OWL] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 10:37:55,062 [Worker-10: Launching BNF2OWL] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 10:37:55,062 [Worker-10: Launching BNF2OWL] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 10:40:13,150 [Worker-6: Launching BNF2OWL] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 10:40:13,150 [Worker-6: Launching BNF2OWL] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 10:40:13,151 [Worker-6: Launching BNF2OWL] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 10:40:13,151 [Worker-6: Launching BNF2OWL] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 10:41:03,098 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 10:41:03,099 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 10:41:03,100 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 10:41:03,100 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 10:41:12,855 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 10:41:12,856 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 10:41:12,856 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 10:41:12,857 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 10:41:49,412 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 10:41:49,413 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 10:41:49,414 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 10:41:49,414 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 10:43:19,451 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 10:43:19,451 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 10:43:19,452 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 10:43:19,453 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 10:44:21,358 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 10:44:21,358 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 10:44:21,359 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 10:44:21,359 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 10:44:59,747 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 10:44:59,748 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 10:44:59,748 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 10:44:59,748 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 10:46:38,077 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 10:46:38,078 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 10:46:38,079 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 10:46:38,079 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 10:47:41,293 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 10:47:41,293 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 10:47:41,293 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 10:47:41,294 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 10:48:04,718 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 10:48:04,718 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 10:48:04,719 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 10:48:04,719 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 10:50:49,909 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 10:50:49,910 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 10:50:49,910 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 10:50:49,911 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 10:51:38,086 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 10:51:38,086 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 10:51:38,086 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 10:51:38,087 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 10:51:41,137 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 10:51:41,138 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 10:51:41,138 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 10:51:41,138 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 10:52:02,053 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 10:52:02,053 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 10:52:02,053 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 10:52:02,054 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 10:54:14,869 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 10:54:14,871 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 10:54:14,871 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 10:54:14,871 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 10:58:27,111 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 10:58:27,111 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 10:58:27,111 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 10:58:27,112 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 10:59:26,026 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 10:59:26,027 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 10:59:26,027 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 10:59:26,028 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 11:02:40,161 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 11:02:40,162 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 11:02:40,162 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 11:02:40,162 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 11:19:12,984 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 11:19:12,985 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 11:19:12,985 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 11:19:12,986 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 11:22:10,379 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 11:22:10,379 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 11:22:10,380 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 11:22:10,380 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 11:25:37,469 [Worker-6: Launching BNF2OWL] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 11:25:37,469 [Worker-6: Launching BNF2OWL] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 11:25:37,469 [Worker-6: Launching BNF2OWL] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 11:25:37,470 [Worker-6: Launching BNF2OWL] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 11:28:35,148 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 11:28:35,149 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 11:28:35,150 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 11:28:35,150 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 11:30:46,184 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 11:30:46,184 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 11:30:46,185 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 11:30:46,185 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 11:32:37,787 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 11:32:37,787 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 11:32:37,788 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 11:32:37,788 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 11:32:58,262 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 11:32:58,262 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 11:32:58,263 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 11:32:58,263 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 11:35:56,040 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 11:35:56,042 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 11:35:56,043 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 11:35:56,043 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 11:41:36,683 [Worker-21: Launching BNF2OWL] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 11:41:36,684 [Worker-21: Launching BNF2OWL] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 11:41:36,685 [Worker-21: Launching BNF2OWL] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 11:41:36,685 [Worker-21: Launching BNF2OWL] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 11:44:45,102 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 11:44:45,103 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 11:44:45,104 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 11:44:45,104 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 11:59:02,579 [Worker-20: Launching BNF2OWL] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 11:59:02,580 [Worker-20: Launching BNF2OWL] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 11:59:02,580 [Worker-20: Launching BNF2OWL] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 11:59:02,581 [Worker-20: Launching BNF2OWL] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 12:01:59,195 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 12:01:59,197 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 12:01:59,197 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 12:01:59,197 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 12:28:44,239 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 12:28:44,240 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 12:28:44,241 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 12:28:44,241 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 12:31:55,013 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 12:31:55,014 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 12:31:55,015 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 12:31:55,015 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 12:35:51,334 [Worker-32: Launching BNF2OWL] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 12:35:51,335 [Worker-32: Launching BNF2OWL] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 12:35:51,335 [Worker-32: Launching BNF2OWL] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 12:35:51,335 [Worker-32: Launching BNF2OWL] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 12:38:43,871 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 12:38:43,872 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 12:38:43,872 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 12:38:43,872 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 12:38:51,936 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 12:38:51,937 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 12:38:51,937 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 12:38:51,937 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 12:40:47,549 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 12:40:47,549 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 12:40:47,550 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 12:40:47,550 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 12:42:57,804 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 12:42:57,804 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 12:42:57,805 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 12:42:57,805 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 12:45:38,045 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 12:45:38,046 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 12:45:38,046 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 12:45:38,047 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 12:46:01,831 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 12:46:01,832 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 12:46:01,832 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 12:46:01,833 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 12:46:20,916 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 12:46:20,917 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 12:46:20,917 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 12:46:20,917 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 12:49:33,283 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 12:49:33,284 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 12:49:33,285 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 12:49:33,285 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 14:04:55,275 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 14:04:55,276 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 14:04:55,276 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 14:04:55,277 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 15:01:16,461 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 15:01:16,462 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 15:01:16,463 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 15:01:16,463 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 15:03:37,875 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 15:03:37,876 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 15:03:37,877 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 15:03:37,877 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 15:07:28,294 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 15:07:28,295 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 15:07:28,296 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 15:07:28,296 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 15:08:43,530 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 15:08:43,531 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 15:08:43,531 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 15:08:43,532 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 15:13:05,845 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 15:13:05,845 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 15:13:05,845 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 15:13:05,845 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 15:13:27,735 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 15:13:27,735 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 15:13:27,735 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 15:13:27,736 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 15:16:01,263 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 15:16:01,264 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 15:16:01,265 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 15:16:01,265 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 15:16:23,985 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 15:16:23,985 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 15:16:23,986 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 15:16:23,986 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 15:16:54,852 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 15:16:54,852 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 15:16:54,853 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 15:16:54,853 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 15:17:41,231 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 15:17:41,232 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 15:17:41,232 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 15:17:41,232 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 15:18:06,895 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 15:18:06,895 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 15:18:06,896 [Worker-41: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 15:18:06,896 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 15:21:36,956 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 15:21:36,957 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 15:21:36,958 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 15:21:36,958 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 15:23:49,898 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 15:23:49,899 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 15:23:49,899 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 15:23:49,899 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 15:27:13,697 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 15:27:13,702 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 15:27:13,703 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 15:27:13,703 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 15:45:10,790 [Worker-47: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 15:45:10,791 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 15:45:10,792 [Worker-47: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 15:45:10,792 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 15:46:07,956 [Worker-48: Launching BNF2OWL] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 15:46:07,957 [Worker-48: Launching BNF2OWL] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 15:46:07,957 [Worker-48: Launching BNF2OWL] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 15:46:07,958 [Worker-48: Launching BNF2OWL] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 15:49:32,950 [Worker-47: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 15:49:32,951 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 15:49:32,951 [Worker-47: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 15:49:32,951 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 15:53:58,115 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 15:53:58,115 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 15:53:58,116 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 15:53:58,116 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 15:57:33,883 [Worker-50: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 15:57:33,884 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 15:57:33,884 [Worker-50: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 15:57:33,884 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 16:08:11,832 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 16:08:11,833 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 16:08:11,833 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 16:08:11,833 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 16:09:49,470 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 16:09:49,470 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 16:09:49,471 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 16:09:49,471 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 16:10:17,901 [Worker-50: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 16:10:17,901 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 16:10:17,902 [Worker-50: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 16:10:17,902 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 16:13:52,452 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 16:13:52,453 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 16:13:52,453 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 16:13:52,453 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 16:13:53,524 [Worker-51: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 16:13:53,525 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 16:13:53,525 [Worker-51: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 16:13:53,525 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 16:16:41,497 [Worker-51: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 16:16:41,497 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 16:16:41,497 [Worker-51: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 16:16:41,497 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 16:17:00,149 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 16:17:00,149 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 16:17:00,150 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 16:17:00,150 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 16:20:33,286 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 16:20:33,287 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 16:20:33,288 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 16:20:33,288 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 16:20:41,331 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 16:20:41,332 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 16:20:41,333 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 16:20:41,333 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 16:27:54,731 [Worker-51: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 16:27:54,731 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 16:27:54,731 [Worker-51: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 16:27:54,732 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 16:29:00,972 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 16:29:00,973 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 16:29:00,973 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 16:29:00,973 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 16:32:02,813 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 16:32:02,814 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 16:32:02,814 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 16:32:02,814 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 16:32:42,969 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 16:32:42,970 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 16:32:42,970 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 16:32:42,971 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 16:33:23,092 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 16:33:23,092 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 16:33:23,093 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 16:33:23,093 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 16:35:50,324 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 16:35:50,325 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 16:35:50,325 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 16:35:50,325 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 16:39:16,105 [Worker-60: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 16:39:16,106 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 16:39:16,106 [Worker-60: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 16:39:16,107 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 16:43:26,244 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 16:43:26,244 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 16:43:26,245 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 16:43:26,245 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 16:46:53,217 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 16:46:53,218 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 16:46:53,218 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 16:46:53,218 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
+2021-07-08 16:48:21,361 [Worker-61: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 16:48:21,361 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/main/resources
+2021-07-08 16:48:21,362 [Worker-61: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-07-08 16:48:21,362 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nice/Developer/eclipse-workspace/NICE-PP/src/test/resources
