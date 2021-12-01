@@ -1,0 +1,437 @@
+`O91.21`,`ICD10CM`,`Nonpurulent mastitis associated with pregnancy`
+`O91.2`,`ICD10CM`,`Nonpurulent mastitis associated with pregnancy, the puerperium and lactation`
+`O91.11`,`ICD10CM`,`Abscess of breast associated with pregnancy`
+`O91.1`,`ICD10CM`,`Abscess of breast associated with pregnancy, the puerperium and lactation`
+`O91.01`,`ICD10CM`,`Infection of nipple associated with pregnancy`
+`O91.0`,`ICD10CM`,`Infection of nipple associated with pregnancy, the puerperium and lactation`
+`O91`,`ICD10CM`,`Infections of breast associated with pregnancy, the puerperium and lactation`
+`O92.7`,`ICD10CM`,`Other and unspecified disorders of lactation`
+`O92.2`,`ICD10CM`,`Other and unspecified disorders of breast associated with pregnancy and the puerperium`
+`O92.11`,`ICD10CM`,`Cracked nipple associated with pregnancy`
+`O92.1`,`ICD10CM`,`Cracked nipple associated with pregnancy, the puerperium, and lactation`
+`O92.01`,`ICD10CM`,`Retracted nipple associated with pregnancy`
+`O92.0`,`ICD10CM`,`Retracted nipple associated with pregnancy, the puerperium, and lactation`
+`O92`,`ICD10CM`,`Other disorders of breast and disorders of lactation associated with pregnancy and the puerperium`
+`D24`,`ICD10CM`,`Benign neoplasm of breast`
+`C50.011`,`ICD10CM`,`Malignant neoplasm of nipple and areola, right female breast`
+`C50.819`,`ICD10CM`,`Malignant neoplasm of overlapping sites of unspecified female breast`
+`C50.822`,`ICD10CM`,`Malignant neoplasm of overlapping sites of left male breast`
+`C50.319`,`ICD10CM`,`Malignant neoplasm of lower-inner quadrant of unspecified female breast`
+`S21.039D`,`ICD10CM`,`Puncture wound without foreign body of unspecified breast, subsequent encounter`
+`S21.012D`,`ICD10CM`,`Laceration without foreign body of left breast, subsequent encounter`
+`C50.021`,`ICD10CM`,`Malignant neoplasm of nipple and areola, right male breast`
+`C50.121`,`ICD10CM`,`Malignant neoplasm of central portion of right male breast`
+`N60.19`,`ICD10CM`,`Diffuse cystic mastopathy of unspecified breast`
+`O92.20`,`ICD10CM`,`Unspecified disorder of breast associated with pregnancy and the puerperium`
+`C50.919`,`ICD10CM`,`Malignant neoplasm of unspecified site of unspecified female breast`
+`C50.621`,`ICD10CM`,`Malignant neoplasm of axillary tail of right male breast`
+`D48.6`,`ICD10CM`,`Neoplasm of uncertain behavior of breast`
+`C50.422`,`ICD10CM`,`Malignant neoplasm of upper-outer quadrant of left male breast`
+`C50.419`,`ICD10CM`,`Malignant neoplasm of upper-outer quadrant of unspecified female breast`
+`D48.60`,`ICD10CM`,`Neoplasm of uncertain behavior of unspecified breast`
+`O91.012`,`ICD10CM`,`Infection of nipple associated with pregnancy, second trimester`
+`C50.111`,`ICD10CM`,`Malignant neoplasm of central portion of right female breast`
+`S21.059A`,`ICD10CM`,`Open bite of unspecified breast, initial encounter`
+`S21.051D`,`ICD10CM`,`Open bite of right breast, subsequent encounter`
+`S21.042D`,`ICD10CM`,`Puncture wound with foreign body of left breast, subsequent encounter`
+`S20.149A`,`ICD10CM`,`External constriction of part of breast, unspecified breast, initial encounter`
+`D24.2`,`ICD10CM`,`Benign neoplasm of left breast`
+`T85.42XD`,`ICD10CM`,`Displacement of breast prosthesis and implant, subsequent encounter`
+`S20.179D`,`ICD10CM`,`Other superficial bite of breast, unspecified breast, subsequent encounter`
+`S28.222A`,`ICD10CM`,`Partial traumatic amputation of left breast, initial encounter`
+`D05.92`,`ICD10CM`,`Unspecified type of carcinoma in situ of left breast`
+`S20.112A`,`ICD10CM`,`Abrasion of breast, left breast, initial encounter`
+`C50.829`,`ICD10CM`,`Malignant neoplasm of overlapping sites of unspecified male breast`
+`S28.211`,`ICD10CM`,`Complete traumatic amputation of right breast`
+`S28.212`,`ICD10CM`,`Complete traumatic amputation of left breast`
+`S28.219`,`ICD10CM`,`Complete traumatic amputation of unspecified breast`
+`S28.221`,`ICD10CM`,`Partial traumatic amputation of right breast`
+`S28.222`,`ICD10CM`,`Partial traumatic amputation of left breast`
+`S28.229`,`ICD10CM`,`Partial traumatic amputation of unspecified breast`
+`C50.529`,`ICD10CM`,`Malignant neoplasm of lower-outer quadrant of unspecified male breast`
+`C50.629`,`ICD10CM`,`Malignant neoplasm of axillary tail of unspecified male breast`
+`C50.112`,`ICD10CM`,`Malignant neoplasm of central portion of left female breast`
+`C50.411`,`ICD10CM`,`Malignant neoplasm of upper-outer quadrant of right female breast`
+`S28.229D`,`ICD10CM`,`Partial traumatic amputation of unspecified breast, subsequent encounter`
+`D05.91`,`ICD10CM`,`Unspecified type of carcinoma in situ of right breast`
+`D05.81`,`ICD10CM`,`Other specified type of carcinoma in situ of right breast`
+`N60.82`,`ICD10CM`,`Other benign mammary dysplasias of left breast`
+`S20.162D`,`ICD10CM`,`Insect bite (nonvenomous) of breast, left breast, subsequent encounter`
+`S20.151A`,`ICD10CM`,`Superficial foreign body of breast, right breast, initial encounter`
+`S20.142D`,`ICD10CM`,`External constriction of part of breast, left breast, subsequent encounter`
+`S20.129D`,`ICD10CM`,`Blister (nonthermal) of breast, unspecified breast, subsequent encounter`
+`C44.591`,`ICD10CM`,`Other specified malignant neoplasm of skin of breast`
+`S20.102A`,`ICD10CM`,`Unspecified superficial injuries of breast, left breast, initial encounter`
+`S20.121A`,`ICD10CM`,`Blister (nonthermal) of breast, right breast, initial encounter`
+`S20.00XD`,`ICD10CM`,`Contusion of breast, unspecified breast, subsequent encounter`
+`N65.0`,`ICD10CM`,`Deformity of reconstructed breast`
+`N60.92`,`ICD10CM`,`Unspecified benign mammary dysplasia of left breast`
+`O91.213`,`ICD10CM`,`Nonpurulent mastitis associated with pregnancy, third trimester`
+`O92.02`,`ICD10CM`,`Retracted nipple associated with the puerperium`
+`T21.41XA`,`ICD10CM`,`Corrosion of unspecified degree of chest wall, initial encounter`
+`R92.1`,`ICD10CM`,`Mammographic calcification found on diagnostic imaging of breast`
+`O91.13`,`ICD10CM`,`Abscess of breast associated with lactation`
+`D24.9`,`ICD10CM`,`Benign neoplasm of unspecified breast`
+`N60.02`,`ICD10CM`,`Solitary cyst of left breast`
+`C44.501`,`ICD10CM`,`Unspecified malignant neoplasm of skin of breast`
+`D05.90`,`ICD10CM`,`Unspecified type of carcinoma in situ of unspecified breast`
+`C50.911`,`ICD10CM`,`Malignant neoplasm of unspecified site of right female breast`
+`C50.611`,`ICD10CM`,`Malignant neoplasm of axillary tail of right female breast`
+`C50.322`,`ICD10CM`,`Malignant neoplasm of lower-inner quadrant of left male breast`
+`T85.41`,`ICD10CM`,`Breakdown (mechanical) of breast prosthesis and implant`
+`T85.42`,`ICD10CM`,`Displacement of breast prosthesis and implant`
+`C50.219`,`ICD10CM`,`Malignant neoplasm of upper-inner quadrant of unspecified female breast`
+`C50.122`,`ICD10CM`,`Malignant neoplasm of central portion of left male breast`
+`T85.43`,`ICD10CM`,`Leakage of breast prosthesis and implant`
+`T85.44`,`ICD10CM`,`Capsular contracture of breast implant`
+`T85.49`,`ICD10CM`,`Other mechanical complication of breast prosthesis and implant`
+`T85.43XD`,`ICD10CM`,`Leakage of breast prosthesis and implant, subsequent encounter`
+`C43.52`,`ICD10CM`,`Malignant melanoma of skin of breast`
+`N60.11`,`ICD10CM`,`Diffuse cystic mastopathy of right breast`
+`N60.32`,`ICD10CM`,`Fibrosclerosis of left breast`
+`S20.171A`,`ICD10CM`,`Other superficial bite of breast, right breast, initial encounter`
+`T85.49XA`,`ICD10CM`,`Other mechanical complication of breast prosthesis and implant, initial encounter`
+`T85.44XD`,`ICD10CM`,`Capsular contracture of breast implant, subsequent encounter`
+`T85.41XD`,`ICD10CM`,`Breakdown (mechanical) of breast prosthesis and implant, subsequent encounter`
+`S20.129A`,`ICD10CM`,`Blister (nonthermal) of breast, unspecified breast, initial encounter`
+`S20.119A`,`ICD10CM`,`Abrasion of breast, unspecified breast, initial encounter`
+`S20.122D`,`ICD10CM`,`Blister (nonthermal) of breast, left breast, subsequent encounter`
+`S21.049D`,`ICD10CM`,`Puncture wound with foreign body of unspecified breast, subsequent encounter`
+`Z90.1`,`ICD10CM`,`Acquired absence of breast and nipple`
+`N64.52`,`ICD10CM`,`Nipple discharge`
+`R92.0`,`ICD10CM`,`Mammographic microcalcification found on diagnostic imaging of breast`
+`N64.81`,`ICD10CM`,`Ptosis of breast`
+`C50.612`,`ICD10CM`,`Malignant neoplasm of axillary tail of left female breast`
+`S20.161A`,`ICD10CM`,`Insect bite (nonvenomous) of breast, right breast, initial encounter`
+`S20.00XA`,`ICD10CM`,`Contusion of breast, unspecified breast, initial encounter`
+`S21.042A`,`ICD10CM`,`Puncture wound with foreign body of left breast, initial encounter`
+`S20.111D`,`ICD10CM`,`Abrasion of breast, right breast, subsequent encounter`
+`S21.022A`,`ICD10CM`,`Laceration with foreign body of left breast, initial encounter`
+`S21.002A`,`ICD10CM`,`Unspecified open wound of left breast, initial encounter`
+`O91.23`,`ICD10CM`,`Nonpurulent mastitis associated with lactation`
+`O92.012`,`ICD10CM`,`Retracted nipple associated with pregnancy, second trimester`
+`O91.011`,`ICD10CM`,`Infection of nipple associated with pregnancy, first trimester`
+`C50.519`,`ICD10CM`,`Malignant neoplasm of lower-outer quadrant of unspecified female breast`
+`Q83`,`ICD10CM`,`Congenital malformations of breast`
+`C50.221`,`ICD10CM`,`Malignant neoplasm of upper-inner quadrant of right male breast`
+`C50.311`,`ICD10CM`,`Malignant neoplasm of lower-inner quadrant of right female breast`
+`C50.229`,`ICD10CM`,`Malignant neoplasm of upper-inner quadrant of unspecified male breast`
+`C50.212`,`ICD10CM`,`Malignant neoplasm of upper-inner quadrant of left female breast`
+`C50.211`,`ICD10CM`,`Malignant neoplasm of upper-inner quadrant of right female breast`
+`T85.4`,`ICD10CM`,`Mechanical complication of breast prosthesis and implant`
+`N65.1`,`ICD10CM`,`Disproportion of reconstructed breast`
+`C50.922`,`ICD10CM`,`Malignant neoplasm of unspecified site of left male breast`
+`C50.812`,`ICD10CM`,`Malignant neoplasm of overlapping sites of left female breast`
+`C50.421`,`ICD10CM`,`Malignant neoplasm of upper-outer quadrant of right male breast`
+`C50.412`,`ICD10CM`,`Malignant neoplasm of upper-outer quadrant of left female breast`
+`O92.112`,`ICD10CM`,`Cracked nipple associated with pregnancy, second trimester`
+`S21.011D`,`ICD10CM`,`Laceration without foreign body of right breast, subsequent encounter`
+`O91.111`,`ICD10CM`,`Abscess of breast associated with pregnancy, first trimester`
+`O91.02`,`ICD10CM`,`Infection of nipple associated with the puerperium`
+`N60.01`,`ICD10CM`,`Solitary cyst of right breast`
+`S21.031A`,`ICD10CM`,`Puncture wound without foreign body of right breast, initial encounter`
+`S21.019A`,`ICD10CM`,`Laceration without foreign body of unspecified breast, initial encounter`
+`S21.021A`,`ICD10CM`,`Laceration with foreign body of right breast, initial encounter`
+`O92.12`,`ICD10CM`,`Cracked nipple associated with the puerperium`
+`S28.221D`,`ICD10CM`,`Partial traumatic amputation of right breast, subsequent encounter`
+`T85.49XD`,`ICD10CM`,`Other mechanical complication of breast prosthesis and implant, subsequent encounter`
+`N60.89`,`ICD10CM`,`Other benign mammary dysplasias of unspecified breast`
+`N60.81`,`ICD10CM`,`Other benign mammary dysplasias of right breast`
+`N63.25`,`ICD10CM`,`Unspecified lump in the left breast, overlapping quadrants`
+`N60.22`,`ICD10CM`,`Fibroadenosis of left breast`
+`Q83.0`,`ICD10CM`,`Congenital absence of breast with absent nipple`
+`N63.15`,`ICD10CM`,`Unspecified lump in the right breast, overlapping quadrants`
+`N60.21`,`ICD10CM`,`Fibroadenosis of right breast`
+`Q83.2`,`ICD10CM`,`Absent nipple`
+`Q83.1`,`ICD10CM`,`Accessory breast`
+`O91.219`,`ICD10CM`,`Nonpurulent mastitis associated with pregnancy, unspecified trimester`
+`N64.59`,`ICD10CM`,`Other signs and symptoms in breast`
+`S20.169A`,`ICD10CM`,`Insect bite (nonvenomous) of breast, unspecified breast, initial encounter`
+`S20.141A`,`ICD10CM`,`External constriction of part of breast, right breast, initial encounter`
+`S21.039A`,`ICD10CM`,`Puncture wound without foreign body of unspecified breast, initial encounter`
+`O91.112`,`ICD10CM`,`Abscess of breast associated with pregnancy, second trimester`
+`T21.41`,`ICD10CM`,`Corrosion of unspecified degree of chest wall`
+`O91.03`,`ICD10CM`,`Infection of nipple associated with lactation`
+`Q83.8`,`ICD10CM`,`Other congenital malformations of breast`
+`Q83.3`,`ICD10CM`,`Accessory nipple`
+`Q83.9`,`ICD10CM`,`Congenital malformation of breast, unspecified`
+`N61.2`,`ICD10CM`,`Granulomatous mastitis`
+`S28.212A`,`ICD10CM`,`Complete traumatic amputation of left breast, initial encounter`
+`N61.1`,`ICD10CM`,`Abscess of the breast and nipple`
+`S28.211D`,`ICD10CM`,`Complete traumatic amputation of right breast, subsequent encounter`
+`N61.0`,`ICD10CM`,`Mastitis without abscess`
+`N61.23`,`ICD10CM`,`Granulomatous mastitis, bilateral breast`
+`N61.22`,`ICD10CM`,`Granulomatous mastitis, left breast`
+`N61.21`,`ICD10CM`,`Granulomatous mastitis, right breast`
+`N61.20`,`ICD10CM`,`Granulomatous mastitis, unspecified breast`
+`N64.89`,`ICD10CM`,`Other specified disorders of breast`
+`N60.39`,`ICD10CM`,`Fibrosclerosis of unspecified breast`
+`D49.3`,`ICD10CM`,`Neoplasm of unspecified behavior of breast`
+`D48.61`,`ICD10CM`,`Neoplasm of uncertain behavior of right breast`
+`D05.11`,`ICD10CM`,`Intraductal carcinoma in situ of right breast`
+`D05.02`,`ICD10CM`,`Lobular carcinoma in situ of left breast`
+`T85.44XA`,`ICD10CM`,`Capsular contracture of breast implant, initial encounter`
+`C50.811`,`ICD10CM`,`Malignant neoplasm of overlapping sites of right female breast`
+`C50.622`,`ICD10CM`,`Malignant neoplasm of axillary tail of left male breast`
+`C50.312`,`ICD10CM`,`Malignant neoplasm of lower-inner quadrant of left female breast`
+`N64.82`,`ICD10CM`,`Hypoplasia of breast`
+`N60.99`,`ICD10CM`,`Unspecified benign mammary dysplasia of unspecified breast`
+`C50.022`,`ICD10CM`,`Malignant neoplasm of nipple and areola, left male breast`
+`N60.12`,`ICD10CM`,`Diffuse cystic mastopathy of left breast`
+`N60.09`,`ICD10CM`,`Solitary cyst of unspecified breast`
+`S28.212D`,`ICD10CM`,`Complete traumatic amputation of left breast, subsequent encounter`
+`S21.052A`,`ICD10CM`,`Open bite of left breast, initial encounter`
+`S20.01XA`,`ICD10CM`,`Contusion of right breast, initial encounter`
+`S21.001D`,`ICD10CM`,`Unspecified open wound of right breast, subsequent encounter`
+`S21.001A`,`ICD10CM`,`Unspecified open wound of right breast, initial encounter`
+`S20.179A`,`ICD10CM`,`Other superficial bite of breast, unspecified breast, initial encounter`
+`S20.152A`,`ICD10CM`,`Superficial foreign body of breast, left breast, initial encounter`
+`O92.79`,`ICD10CM`,`Other disorders of lactation`
+`S20.142A`,`ICD10CM`,`External constriction of part of breast, left breast, initial encounter`
+`S20.161D`,`ICD10CM`,`Insect bite (nonvenomous) of breast, right breast, subsequent encounter`
+`N63.0`,`ICD10CM`,`Unspecified lump in unspecified breast`
+`N63.1`,`ICD10CM`,`Unspecified lump in the right breast`
+`C50.029`,`ICD10CM`,`Malignant neoplasm of nipple and areola, unspecified male breast`
+`N63.10`,`ICD10CM`,`Unspecified lump in the right breast, unspecified quadrant`
+`N63.2`,`ICD10CM`,`Unspecified lump in the left breast`
+`N63.20`,`ICD10CM`,`Unspecified lump in the left breast, unspecified quadrant`
+`N63.21`,`ICD10CM`,`Unspecified lump in the left breast, upper outer quadrant`
+`T21.41XD`,`ICD10CM`,`Corrosion of unspecified degree of chest wall, subsequent encounter`
+`N63.22`,`ICD10CM`,`Unspecified lump in the left breast, upper inner quadrant`
+`N63.11`,`ICD10CM`,`Unspecified lump in the right breast, upper outer quadrant`
+`N63.12`,`ICD10CM`,`Unspecified lump in the right breast, upper inner quadrant`
+`N63.13`,`ICD10CM`,`Unspecified lump in the right breast, lower outer quadrant`
+`N63.14`,`ICD10CM`,`Unspecified lump in the right breast, lower inner quadrant`
+`D24.1`,`ICD10CM`,`Benign neoplasm of right breast`
+`N60.29`,`ICD10CM`,`Fibroadenosis of unspecified breast`
+`O92.6`,`ICD10CM`,`Galactorrhea`
+`O92.5`,`ICD10CM`,`Suppressed lactation`
+`D05.80`,`ICD10CM`,`Other specified type of carcinoma in situ of unspecified breast`
+`D03.52`,`ICD10CM`,`Melanoma in situ of breast (skin) (soft tissue)`
+`N64.3`,`ICD10CM`,`Galactorrhea not associated with childbirth`
+`N64.2`,`ICD10CM`,`Atrophy of breast`
+`S21.019D`,`ICD10CM`,`Laceration without foreign body of unspecified breast, subsequent encounter`
+`N64.8`,`ICD10CM`,`Other specified disorders of breast`
+`N64.4`,`ICD10CM`,`Mastodynia`
+`N64.9`,`ICD10CM`,`Disorder of breast, unspecified`
+`O92.4`,`ICD10CM`,`Hypogalactia`
+`O92.3`,`ICD10CM`,`Agalactia`
+`N63.32`,`ICD10CM`,`Unspecified lump in axillary tail of the left breast`
+`N63.4`,`ICD10CM`,`Unspecified lump in breast, subareolar`
+`N61`,`ICD10CM`,`Inflammatory disorders of breast`
+`N63.41`,`ICD10CM`,`Unspecified lump in right breast, subareolar`
+`N63.42`,`ICD10CM`,`Unspecified lump in left breast, subareolar`
+`N63.23`,`ICD10CM`,`Unspecified lump in the left breast, lower outer quadrant`
+`N63`,`ICD10CM`,`Unspecified lump in breast`
+`N63.24`,`ICD10CM`,`Unspecified lump in the left breast, lower inner quadrant`
+`N62`,`ICD10CM`,`Hypertrophy of breast`
+`D05.82`,`ICD10CM`,`Other specified type of carcinoma in situ of left breast`
+`N64.1`,`ICD10CM`,`Fat necrosis of breast`
+`N63.3`,`ICD10CM`,`Unspecified lump in axillary tail`
+`N63.31`,`ICD10CM`,`Unspecified lump in axillary tail of the right breast`
+`N64.0`,`ICD10CM`,`Fissure and fistula of nipple`
+`S20.162A`,`ICD10CM`,`Insect bite (nonvenomous) of breast, left breast, initial encounter`
+`S20.112D`,`ICD10CM`,`Abrasion of breast, left breast, subsequent encounter`
+`S20.109D`,`ICD10CM`,`Unspecified superficial injuries of breast, unspecified breast, subsequent encounter`
+`S20.01XD`,`ICD10CM`,`Contusion of right breast, subsequent encounter`
+`C50.821`,`ICD10CM`,`Malignant neoplasm of overlapping sites of right male breast`
+`C50.222`,`ICD10CM`,`Malignant neoplasm of upper-inner quadrant of left male breast`
+`C50.019`,`ICD10CM`,`Malignant neoplasm of nipple and areola, unspecified female breast`
+`S28.222D`,`ICD10CM`,`Partial traumatic amputation of left breast, subsequent encounter`
+`O92.13`,`ICD10CM`,`Cracked nipple associated with lactation`
+`O91.212`,`ICD10CM`,`Nonpurulent mastitis associated with pregnancy, second trimester`
+`O91.119`,`ICD10CM`,`Abscess of breast associated with pregnancy, unspecified trimester`
+`S28.211A`,`ICD10CM`,`Complete traumatic amputation of right breast, initial encounter`
+`S28.221A`,`ICD10CM`,`Partial traumatic amputation of right breast, initial encounter`
+`S20.159A`,`ICD10CM`,`Superficial foreign body of breast, unspecified breast, initial encounter`
+`S20.102D`,`ICD10CM`,`Unspecified superficial injuries of breast, left breast, subsequent encounter`
+`O92.111`,`ICD10CM`,`Cracked nipple associated with pregnancy, first trimester`
+`N60.9`,`ICD10CM`,`Unspecified benign mammary dysplasia`
+`N60.8`,`ICD10CM`,`Other benign mammary dysplasias`
+`S21.049A`,`ICD10CM`,`Puncture wound with foreign body of unspecified breast, initial encounter`
+`N60.4`,`ICD10CM`,`Mammary duct ectasia`
+`S21.041A`,`ICD10CM`,`Puncture wound with foreign body of right breast, initial encounter`
+`S21.032D`,`ICD10CM`,`Puncture wound without foreign body of left breast, subsequent encounter`
+`N60.3`,`ICD10CM`,`Fibrosclerosis of breast`
+`S21.032A`,`ICD10CM`,`Puncture wound without foreign body of left breast, initial encounter`
+`N60.2`,`ICD10CM`,`Fibroadenosis of breast`
+`N60.1`,`ICD10CM`,`Diffuse cystic mastopathy`
+`N60.0`,`ICD10CM`,`Solitary cyst of breast`
+`S21.031D`,`ICD10CM`,`Puncture wound without foreign body of right breast, subsequent encounter`
+`S21.011A`,`ICD10CM`,`Laceration without foreign body of right breast, initial encounter`
+`N60`,`ICD10CM`,`Benign mammary dysplasia`
+`S20.11`,`ICD10CM`,`Abrasion of breast`
+`S20.10`,`ICD10CM`,`Unspecified superficial injuries of breast`
+`S20.1`,`ICD10CM`,`Other and unspecified superficial injuries of breast`
+`S20.0`,`ICD10CM`,`Contusion of breast`
+`O91.22`,`ICD10CM`,`Nonpurulent mastitis associated with the puerperium`
+`S20.172D`,`ICD10CM`,`Other superficial bite of breast, left breast, subsequent encounter`
+`O91.019`,`ICD10CM`,`Infection of nipple associated with pregnancy, unspecified trimester`
+`O91.013`,`ICD10CM`,`Infection of nipple associated with pregnancy, third trimester`
+`S20.149D`,`ICD10CM`,`External constriction of part of breast, unspecified breast, subsequent encounter`
+`S20.17`,`ICD10CM`,`Other superficial bite of breast`
+`S20.122A`,`ICD10CM`,`Blister (nonthermal) of breast, left breast, initial encounter`
+`S20.16`,`ICD10CM`,`Insect bite (nonvenomous) of breast`
+`S20.15`,`ICD10CM`,`Superficial foreign body of breast`
+`O91.12`,`ICD10CM`,`Abscess of breast associated with the puerperium`
+`S20.14`,`ICD10CM`,`External constriction of part of breast`
+`S20.12`,`ICD10CM`,`Blister (nonthermal) of breast`
+`O92.29`,`ICD10CM`,`Other disorders of breast associated with pregnancy and the puerperium`
+`S20.00`,`ICD10CM`,`Contusion of breast, unspecified breast`
+`S20.01`,`ICD10CM`,`Contusion of right breast`
+`D05.00`,`ICD10CM`,`Lobular carcinoma in situ of unspecified breast`
+`S20.02`,`ICD10CM`,`Contusion of left breast`
+`N64.53`,`ICD10CM`,`Retraction of nipple`
+`S20.101`,`ICD10CM`,`Unspecified superficial injuries of breast, right breast`
+`N64.51`,`ICD10CM`,`Induration of breast`
+`S20.102`,`ICD10CM`,`Unspecified superficial injuries of breast, left breast`
+`S20.109`,`ICD10CM`,`Unspecified superficial injuries of breast, unspecified breast`
+`S20.111`,`ICD10CM`,`Abrasion of breast, right breast`
+`S20.112`,`ICD10CM`,`Abrasion of breast, left breast`
+`S20.119`,`ICD10CM`,`Abrasion of breast, unspecified breast`
+`S20.121`,`ICD10CM`,`Blister (nonthermal) of breast, right breast`
+`S20.122`,`ICD10CM`,`Blister (nonthermal) of breast, left breast`
+`S20.129`,`ICD10CM`,`Blister (nonthermal) of breast, unspecified breast`
+`S20.141`,`ICD10CM`,`External constriction of part of breast, right breast`
+`S21.04`,`ICD10CM`,`Puncture wound with foreign body of breast`
+`S20.142`,`ICD10CM`,`External constriction of part of breast, left breast`
+`S21.03`,`ICD10CM`,`Puncture wound without foreign body of breast`
+`S20.149`,`ICD10CM`,`External constriction of part of breast, unspecified breast`
+`S21.02`,`ICD10CM`,`Laceration with foreign body of breast`
+`S20.151`,`ICD10CM`,`Superficial foreign body of breast, right breast`
+`S21.01`,`ICD10CM`,`Laceration without foreign body of breast`
+`S20.152`,`ICD10CM`,`Superficial foreign body of breast, left breast`
+`S20.159`,`ICD10CM`,`Superficial foreign body of breast, unspecified breast`
+`S21.00`,`ICD10CM`,`Unspecified open wound of breast`
+`S20.161`,`ICD10CM`,`Insect bite (nonvenomous) of breast, right breast`
+`N65`,`ICD10CM`,`Deformity and disproportion of reconstructed breast`
+`S21.0`,`ICD10CM`,`Open wound of breast`
+`S20.162`,`ICD10CM`,`Insect bite (nonvenomous) of breast, left breast`
+`N64.5`,`ICD10CM`,`Other signs and symptoms in breast`
+`S21.029D`,`ICD10CM`,`Laceration with foreign body of unspecified breast, subsequent encounter`
+`S20.169`,`ICD10CM`,`Insect bite (nonvenomous) of breast, unspecified breast`
+`N64`,`ICD10CM`,`Other disorders of breast`
+`N60.49`,`ICD10CM`,`Mammary duct ectasia of unspecified breast`
+`S20.171`,`ICD10CM`,`Other superficial bite of breast, right breast`
+`N60.41`,`ICD10CM`,`Mammary duct ectasia of right breast`
+`S20.172`,`ICD10CM`,`Other superficial bite of breast, left breast`
+`S20.179`,`ICD10CM`,`Other superficial bite of breast, unspecified breast`
+`T85.43XA`,`ICD10CM`,`Leakage of breast prosthesis and implant, initial encounter`
+`S21.05`,`ICD10CM`,`Open bite of breast`
+`S21.009A`,`ICD10CM`,`Unspecified open wound of unspecified breast, initial encounter`
+`C50.012`,`ICD10CM`,`Malignant neoplasm of nipple and areola, left female breast`
+`S28.229A`,`ICD10CM`,`Partial traumatic amputation of unspecified breast, initial encounter`
+`S21.052D`,`ICD10CM`,`Open bite of left breast, subsequent encounter`
+`S21.029A`,`ICD10CM`,`Laceration with foreign body of unspecified breast, initial encounter`
+`S21.021D`,`ICD10CM`,`Laceration with foreign body of right breast, subsequent encounter`
+`S20.171D`,`ICD10CM`,`Other superficial bite of breast, right breast, subsequent encounter`
+`S20.151D`,`ICD10CM`,`Superficial foreign body of breast, right breast, subsequent encounter`
+`S20.101D`,`ICD10CM`,`Unspecified superficial injuries of breast, right breast, subsequent encounter`
+`C50.12`,`ICD10CM`,`Malignant neoplasm of central portion of breast, male`
+`C50.11`,`ICD10CM`,`Malignant neoplasm of central portion of breast, female`
+`C50.1`,`ICD10CM`,`Malignant neoplasm of central portion of breast`
+`C50.02`,`ICD10CM`,`Malignant neoplasm of nipple and areola, male`
+`C50.01`,`ICD10CM`,`Malignant neoplasm of nipple and areola, female`
+`C50.0`,`ICD10CM`,`Malignant neoplasm of nipple and areola`
+`C50`,`ICD10CM`,`Malignant neoplasm of breast`
+`C50.41`,`ICD10CM`,`Malignant neoplasm of upper-outer quadrant of breast, female`
+`C50.4`,`ICD10CM`,`Malignant neoplasm of upper-outer quadrant of breast`
+`C50.521`,`ICD10CM`,`Malignant neoplasm of lower-outer quadrant of right male breast`
+`C50.32`,`ICD10CM`,`Malignant neoplasm of lower-inner quadrant of breast, male`
+`C50.31`,`ICD10CM`,`Malignant neoplasm of lower-inner quadrant of breast, female`
+`C50.512`,`ICD10CM`,`Malignant neoplasm of lower-outer quadrant of left female breast`
+`C50.3`,`ICD10CM`,`Malignant neoplasm of lower-inner quadrant of breast`
+`C50.22`,`ICD10CM`,`Malignant neoplasm of upper-inner quadrant of breast, male`
+`C50.21`,`ICD10CM`,`Malignant neoplasm of upper-inner quadrant of breast, female`
+`C50.2`,`ICD10CM`,`Malignant neoplasm of upper-inner quadrant of breast`
+`S21.001`,`ICD10CM`,`Unspecified open wound of right breast`
+`S21.002`,`ICD10CM`,`Unspecified open wound of left breast`
+`S21.009`,`ICD10CM`,`Unspecified open wound of unspecified breast`
+`S21.011`,`ICD10CM`,`Laceration without foreign body of right breast`
+`S21.012`,`ICD10CM`,`Laceration without foreign body of left breast`
+`P39.0`,`ICD10CM`,`Neonatal infective mastitis`
+`S21.019`,`ICD10CM`,`Laceration without foreign body of unspecified breast`
+`S21.021`,`ICD10CM`,`Laceration with foreign body of right breast`
+`S21.022`,`ICD10CM`,`Laceration with foreign body of left breast`
+`S21.029`,`ICD10CM`,`Laceration with foreign body of unspecified breast`
+`S21.031`,`ICD10CM`,`Puncture wound without foreign body of right breast`
+`S21.032`,`ICD10CM`,`Puncture wound without foreign body of left breast`
+`S21.039`,`ICD10CM`,`Puncture wound without foreign body of unspecified breast`
+`S21.041`,`ICD10CM`,`Puncture wound with foreign body of right breast`
+`S21.042`,`ICD10CM`,`Puncture wound with foreign body of left breast`
+`S28.2`,`ICD10CM`,`Traumatic amputation of breast`
+`T85.42XA`,`ICD10CM`,`Displacement of breast prosthesis and implant, initial encounter`
+`S21.049`,`ICD10CM`,`Puncture wound with foreign body of unspecified breast`
+`S21.051`,`ICD10CM`,`Open bite of right breast`
+`S21.052`,`ICD10CM`,`Open bite of left breast`
+`S21.059`,`ICD10CM`,`Open bite of unspecified breast`
+`S28.22`,`ICD10CM`,`Partial traumatic amputation of breast`
+`S28.21`,`ICD10CM`,`Complete traumatic amputation of breast`
+`C50.8`,`ICD10CM`,`Malignant neoplasm of overlapping sites of breast`
+`C50.62`,`ICD10CM`,`Malignant neoplasm of axillary tail of breast, male`
+`C50.61`,`ICD10CM`,`Malignant neoplasm of axillary tail of breast, female`
+`C50.6`,`ICD10CM`,`Malignant neoplasm of axillary tail of breast`
+`C50.52`,`ICD10CM`,`Malignant neoplasm of lower-outer quadrant of breast, male`
+`C50.51`,`ICD10CM`,`Malignant neoplasm of lower-outer quadrant of breast, female`
+`C50.5`,`ICD10CM`,`Malignant neoplasm of lower-outer quadrant of breast`
+`D48.62`,`ICD10CM`,`Neoplasm of uncertain behavior of left breast`
+`C50.42`,`ICD10CM`,`Malignant neoplasm of upper-outer quadrant of breast, male`
+`C50.92`,`ICD10CM`,`Malignant neoplasm of breast of unspecified site, male`
+`C50.91`,`ICD10CM`,`Malignant neoplasm of breast of unspecified site, female`
+`C50.9`,`ICD10CM`,`Malignant neoplasm of breast of unspecified site`
+`C50.82`,`ICD10CM`,`Malignant neoplasm of overlapping sites of breast, male`
+`C50.81`,`ICD10CM`,`Malignant neoplasm of overlapping sites of breast, female`
+`S21.009D`,`ICD10CM`,`Unspecified open wound of unspecified breast, subsequent encounter`
+`S21.002D`,`ICD10CM`,`Unspecified open wound of left breast, subsequent encounter`
+`D05.12`,`ICD10CM`,`Intraductal carcinoma in situ of left breast`
+`D05.01`,`ICD10CM`,`Lobular carcinoma in situ of right breast`
+`S20.101A`,`ICD10CM`,`Unspecified superficial injuries of breast, right breast, initial encounter`
+`O92.70`,`ICD10CM`,`Unspecified disorders of lactation`
+`S20.02XA`,`ICD10CM`,`Contusion of left breast, initial encounter`
+`C50.921`,`ICD10CM`,`Malignant neoplasm of unspecified site of right male breast`
+`C50.522`,`ICD10CM`,`Malignant neoplasm of lower-outer quadrant of left male breast`
+`C50.321`,`ICD10CM`,`Malignant neoplasm of lower-inner quadrant of right male breast`
+`O92.011`,`ICD10CM`,`Retracted nipple associated with pregnancy, first trimester`
+`C50.129`,`ICD10CM`,`Malignant neoplasm of central portion of unspecified male breast`
+`O91.113`,`ICD10CM`,`Abscess of breast associated with pregnancy, third trimester`
+`N60.42`,`ICD10CM`,`Mammary duct ectasia of left breast`
+`N60.31`,`ICD10CM`,`Fibrosclerosis of right breast`
+`S20.172A`,`ICD10CM`,`Other superficial bite of breast, left breast, initial encounter`
+`O92.03`,`ICD10CM`,`Retracted nipple associated with lactation`
+`O91.211`,`ICD10CM`,`Nonpurulent mastitis associated with pregnancy, first trimester`
+`P83.4`,`ICD10CM`,`Breast engorgement of newborn`
+`S20.159D`,`ICD10CM`,`Superficial foreign body of breast, unspecified breast, subsequent encounter`
+`S20.119D`,`ICD10CM`,`Abrasion of breast, unspecified breast, subsequent encounter`
+`O92.113`,`ICD10CM`,`Cracked nipple associated with pregnancy, third trimester`
+`O92.019`,`ICD10CM`,`Retracted nipple associated with pregnancy, unspecified trimester`
+`D05.10`,`ICD10CM`,`Intraductal carcinoma in situ of unspecified breast`
+`S20.109A`,`ICD10CM`,`Unspecified superficial injuries of breast, unspecified breast, initial encounter`
+`S21.012A`,`ICD10CM`,`Laceration without foreign body of left breast, initial encounter`
+`C50.912`,`ICD10CM`,`Malignant neoplasm of unspecified site of left female breast`
+`C50.619`,`ICD10CM`,`Malignant neoplasm of axillary tail of unspecified female breast`
+`C50.119`,`ICD10CM`,`Malignant neoplasm of central portion of unspecified female breast`
+`S21.059D`,`ICD10CM`,`Open bite of unspecified breast, subsequent encounter`
+`O92.119`,`ICD10CM`,`Cracked nipple associated with pregnancy, unspecified trimester`
+`O92.013`,`ICD10CM`,`Retracted nipple associated with pregnancy, third trimester`
+`S21.051A`,`ICD10CM`,`Open bite of right breast, initial encounter`
+`C50.929`,`ICD10CM`,`Malignant neoplasm of unspecified site of unspecified male breast`
+`C50.511`,`ICD10CM`,`Malignant neoplasm of lower-outer quadrant of right female breast`
+`C50.429`,`ICD10CM`,`Malignant neoplasm of upper-outer quadrant of unspecified male breast`
+`C50.329`,`ICD10CM`,`Malignant neoplasm of lower-inner quadrant of unspecified male breast`
+`S20.169D`,`ICD10CM`,`Insect bite (nonvenomous) of breast, unspecified breast, subsequent encounter`
+`S20.152D`,`ICD10CM`,`Superficial foreign body of breast, left breast, subsequent encounter`
+`S21.041D`,`ICD10CM`,`Puncture wound with foreign body of right breast, subsequent encounter`
+`S21.022D`,`ICD10CM`,`Laceration with foreign body of left breast, subsequent encounter`
+`D05`,`ICD10CM`,`Carcinoma in situ of breast`
+`T85.41XA`,`ICD10CM`,`Breakdown (mechanical) of breast prosthesis and implant, initial encounter`
+`S20.141D`,`ICD10CM`,`External constriction of part of breast, right breast, subsequent encounter`
+`S20.121D`,`ICD10CM`,`Blister (nonthermal) of breast, right breast, subsequent encounter`
+`S20.111A`,`ICD10CM`,`Abrasion of breast, right breast, initial encounter`
+`S20.02XD`,`ICD10CM`,`Contusion of left breast, subsequent encounter`
+`D05.9`,`ICD10CM`,`Unspecified type of carcinoma in situ of breast`
+`D05.8`,`ICD10CM`,`Other specified type of carcinoma in situ of breast`
+`D05.1`,`ICD10CM`,`Intraductal carcinoma in situ of breast`
+`D05.0`,`ICD10CM`,`Lobular carcinoma in situ of breast`
+`S28.219A`,`ICD10CM`,`Complete traumatic amputation of unspecified breast, initial encounter`
+`S28.219D`,`ICD10CM`,`Complete traumatic amputation of unspecified breast, subsequent encounter`
+`N60.91`,`ICD10CM`,`Unspecified benign mammary dysplasia of right breast`

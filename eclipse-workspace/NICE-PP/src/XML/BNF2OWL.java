@@ -48,8 +48,7 @@ public class BNF2OWL {
 	private static File BNF_OWL = new File("/Users/nice/Developer/eclipse-workspace/NICE-PP/resources/BNF.owl");
 	private static File SNOMED_OWL = new File(
 			"/Users/nice/Developer/eclipse-workspace/NICE-PP/resources/snomed-ct.owl");
-	private static File RXNORM_OWL = new File(
-			"/Users/nice/Developer/eclipse-workspace/NICE-PP/resources/rxnorm.owl");
+	private static File RXNORM_OWL = new File("/Users/nice/Developer/eclipse-workspace/NICE-PP/resources/rxnorm.owl");
 
 	private static String BNF_IRI = "https://bnf.nice.org.uk";
 
@@ -65,25 +64,27 @@ public class BNF2OWL {
 
 		log("loading rxnorm");
 		OWLOntology rxnorm = man.loadOntologyFromOntologyDocument(RXNORM_OWL);
-		
+
 		OWLImportsDeclaration importDeclaration = man.getOWLDataFactory()
 				.getOWLImportsDeclaration(IRI.create(SNOMED_OWL));
 		man.applyChange(new AddImport(bnf_owl, importDeclaration));
-		
+
 		OWLImportsDeclaration importDeclaration2 = man.getOWLDataFactory()
 				.getOWLImportsDeclaration(IRI.create(RXNORM_OWL));
 		man.applyChange(new AddImport(bnf_owl, importDeclaration2));
-	
+
 		for (OWLImportsDeclaration decl : rxnorm.getImportsDeclarations()) {
 			man.applyChange(new AddImport(bnf_owl, decl));
+
 		}
 
-		IRI_Creator iric = new IRI_Creator(bnf_owl, BNF_IRI+"#");
-		
+		IRI_Creator iric = new IRI_Creator(bnf_owl, BNF_IRI + "#");
+
 		Set<OWLAxiom> axiomsToAdd = new HashSet<>();
 
-		OWLClass rxnormClass = Ontology_EntityRetriever.addOWLClassWithLabel(bnf_owl, iric.getNextIRI(), "RXNORM CLASSES");
-		
+		OWLClass rxnormClass = Ontology_EntityRetriever.addOWLClassWithLabel(bnf_owl, iric.getNextIRI(),
+				"RXNORM CLASSES");
+
 		OWLClass snomed_classes = df.getOWLClass(IRI.create("http://snomed.info/id/138875005"));
 		OWLAnnotationProperty skosPrefLabel = df
 				.getOWLAnnotationProperty(IRI.create("http://www.w3.org/2004/02/skos/core#prefLabel"));
@@ -97,9 +98,8 @@ public class BNF2OWL {
 		Map<String, IRI> snomedLabelMap = new HashMap<>();
 		Map<String, IRI> rxNormsnomedLabelMap = new HashMap<>();
 
-		
 		Set<OWLClass> foundDrugs = new HashSet<>();
-		
+
 		log("creating snomed map");
 		for (OWLClass finding : reasoner.getSubClasses(snomed_classes).getFlattened()) {
 			for (String rdfsLabel : Ontology_EntityRetriever.getAnnotationValues(snomed, finding, df.getRDFSLabel())
@@ -113,28 +113,25 @@ public class BNF2OWL {
 				snomedLabelMap.put(skosPrefLabelString.toLowerCase().toLowerCase().replace("\n", "").replace("\r", "")
 						.replaceAll(" +", " ").trim(), finding.getIRI());
 			}
-			
-			for (String altLabelString : Ontology_EntityRetriever
-					.getAnnotationValues(snomed, finding, altLabel).toArray(String[]::new)) {
+
+			for (String altLabelString : Ontology_EntityRetriever.getAnnotationValues(snomed, finding, altLabel)
+					.toArray(String[]::new)) {
 				snomedLabelMap.put(altLabelString.toLowerCase().toLowerCase().replace("\n", "").replace("\r", "")
 						.replaceAll(" +", " ").trim(), finding.getIRI());
 			}
 
 		}
-		
+
 		log("creating rxnorm map");
 		for (OWLClass rxnorm_class : rxnorm.classesInSignature().toArray(OWLClass[]::new)) {
 			axiomsToAdd.add(df.getOWLSubClassOfAxiom(rxnorm_class, rxnormClass));
 			for (String skosPrefLabelString : Ontology_EntityRetriever
 					.getAnnotationValues(rxnorm, rxnorm_class, skosPrefLabel).toArray(String[]::new)) {
-				rxNormsnomedLabelMap.put(skosPrefLabelString.toLowerCase().toLowerCase().replace("\n", "").replace("\r", "")
-						.replaceAll(" +", " ").trim(), rxnorm_class.getIRI());
+				rxNormsnomedLabelMap.put(skosPrefLabelString.toLowerCase().toLowerCase().replace("\n", "")
+						.replace("\r", "").replaceAll(" +", " ").trim(), rxnorm_class.getIRI());
 			}
-			
 
 		}
-
-		
 
 		OWLObjectProperty hasContraindication = Ontology_EntityRetriever.addOWLObjectPropertyWithLabel(bnf_owl,
 				iric.getNextIRI(), "has_contraindication");
@@ -180,7 +177,10 @@ public class BNF2OWL {
 
 		int snomed_drug_matches = 0;
 		int snomed_drug_misses = 0;
-		
+
+		int snomed_drug_matches_label = 0;
+		int snomed_drug_misses_label = 0;
+
 		int rxnorm_drug_matches = 0;
 		int rxnorm_drug_misses = 0;
 
@@ -217,13 +217,25 @@ public class BNF2OWL {
 			} else {
 				snomed_drug_misses++;
 			}
-			
-			
-			if (rxNormsnomedLabelMap.containsKey(drug_title.toLowerCase().replace("\n", "").replace("\r", "")
-						.replaceAll(" +", " ").trim())) {
+
+			if (snomedLabelMap.containsKey(
+					drug_title.toLowerCase().replace("\n", "").replace("\r", "").replaceAll(" +", " ").trim())) {
+				snomed_drug_matches_label++;
+				axiomsToAdd.add(df.getOWLEquivalentClassesAxiom(
+						List.of(drug_class, df.getOWLClass(snomedLabelMap.get(drug_title.toLowerCase()
+		
+								.replace("\n", "").replace("\r", "").replaceAll(" +", " ").trim())))));
+				foundDrugs.add(drug_class);
+			} else {
+				snomed_drug_misses_label++;
+			}
+
+			if (rxNormsnomedLabelMap.containsKey(
+					drug_title.toLowerCase().replace("\n", "").replace("\r", "").replaceAll(" +", " ").trim())) {
 				rxnorm_drug_matches++;
-				axiomsToAdd.add(df.getOWLEquivalentClassesAxiom(List.of(drug_class,df.getOWLClass(rxNormsnomedLabelMap.get(drug_title.toLowerCase().replace("\n", "").replace("\r", "")
-						.replaceAll(" +", " ").trim())))));
+				axiomsToAdd.add(df.getOWLEquivalentClassesAxiom(
+						List.of(drug_class, df.getOWLClass(rxNormsnomedLabelMap.get(drug_title.toLowerCase()
+								.replace("\n", "").replace("\r", "").replaceAll(" +", " ").trim())))));
 				foundDrugs.add(drug_class);
 			} else {
 				rxnorm_drug_misses++;
@@ -243,9 +255,9 @@ public class BNF2OWL {
 				if (snomedLabelMap.containsKey(contraindication_title.toLowerCase().replace("\n", "").replace("\r", "")
 						.replaceAll(" +", " ").trim())) {
 					contraindication_matches++;
-					axiomsToAdd.add(df.getOWLEquivalentClassesAxiom(List.of(newClass,
-							df.getOWLClass(snomedLabelMap.get(contraindication_title.toLowerCase().replace("\n", "").replace("\r", "")
-						.replaceAll(" +", " ").trim())))));
+					axiomsToAdd.add(df.getOWLEquivalentClassesAxiom(
+							List.of(newClass, df.getOWLClass(snomedLabelMap.get(contraindication_title.toLowerCase()
+									.replace("\n", "").replace("\r", "").replaceAll(" +", " ").trim())))));
 				} else {
 					contraindication_misses++;
 				}
@@ -258,17 +270,17 @@ public class BNF2OWL {
 			// log("creating cautions");
 			// cautions
 			for (Element caution : getElementsWithAttributesandName(drug, "ph", "outputclass", "caution")) {
-				String caution_title = caution.getTextContent().replace("\n", "").replace("\r", "").replaceAll(" +", " ")
-						.trim();
+				String caution_title = caution.getTextContent().replace("\n", "").replace("\r", "")
+						.replaceAll(" +", " ").trim();
 
 				OWLClass newClass = Ontology_EntityRetriever.getOWLClassFromLabelOrAdd(Stream.of(bnf_owl),
 						caution_title, df, iric.getNextIRI());
-				if (snomedLabelMap.containsKey(caution_title.toLowerCase().replace("\n", "").replace("\r", "")
-						.replaceAll(" +", " ").trim())) {
+				if (snomedLabelMap.containsKey(
+						caution_title.toLowerCase().replace("\n", "").replace("\r", "").replaceAll(" +", " ").trim())) {
 					caution_matches++;
-					axiomsToAdd.add(df.getOWLEquivalentClassesAxiom(List.of(newClass,
-							df.getOWLClass(snomedLabelMap.get(caution_title.toLowerCase().replace("\n", "").replace("\r", "")
-						.replaceAll(" +", " ").trim())))));
+					axiomsToAdd.add(df.getOWLEquivalentClassesAxiom(
+							List.of(newClass, df.getOWLClass(snomedLabelMap.get(caution_title.toLowerCase()
+									.replace("\n", "").replace("\r", "").replaceAll(" +", " ").trim())))));
 				} else {
 					caution_misses++;
 				}
@@ -290,14 +302,14 @@ public class BNF2OWL {
 					String se_title = se.getTextContent().replace("\n", "").replace("\r", "").replaceAll(" +", " ")
 							.trim();
 
-					OWLClass newClass = Ontology_EntityRetriever.getOWLClassFromLabelOrAdd(Stream.of(bnf_owl),
-							se_title, df, iric.getNextIRI());
-					if (snomedLabelMap.containsKey(se_title.toLowerCase().replace("\n", "").replace("\r", "")
-						.replaceAll(" +", " ").trim())) {
+					OWLClass newClass = Ontology_EntityRetriever.getOWLClassFromLabelOrAdd(Stream.of(bnf_owl), se_title,
+							df, iric.getNextIRI());
+					if (snomedLabelMap.containsKey(
+							se_title.toLowerCase().replace("\n", "").replace("\r", "").replaceAll(" +", " ").trim())) {
 						se_matches++;
-						axiomsToAdd.add(df.getOWLEquivalentClassesAxiom(List.of(newClass,
-								df.getOWLClass(snomedLabelMap.get(se_title.toLowerCase().replace("\n", "").replace("\r", "")
-						.replaceAll(" +", " ").trim())))));
+						axiomsToAdd.add(df.getOWLEquivalentClassesAxiom(
+								List.of(newClass, df.getOWLClass(snomedLabelMap.get(se_title.toLowerCase()
+										.replace("\n", "").replace("\r", "").replaceAll(" +", " ").trim())))));
 					} else {
 						se_misses++;
 					}
@@ -319,14 +331,14 @@ public class BNF2OWL {
 					String se_title = se.getTextContent().replace("\n", "").replace("\r", "").replaceAll(" +", " ")
 							.trim();
 
-					OWLClass newClass = Ontology_EntityRetriever.getOWLClassFromLabelOrAdd(Stream.of(bnf_owl),
-							se_title, df, iric.getNextIRI());
-					if (snomedLabelMap.containsKey(se_title.toLowerCase().replace("\n", "").replace("\r", "")
-						.replaceAll(" +", " ").trim())) {
+					OWLClass newClass = Ontology_EntityRetriever.getOWLClassFromLabelOrAdd(Stream.of(bnf_owl), se_title,
+							df, iric.getNextIRI());
+					if (snomedLabelMap.containsKey(
+							se_title.toLowerCase().replace("\n", "").replace("\r", "").replaceAll(" +", " ").trim())) {
 						se_matches++;
-						axiomsToAdd.add(df.getOWLEquivalentClassesAxiom(List.of(newClass,
-								df.getOWLClass(snomedLabelMap.get(se_title.toLowerCase().replace("\n", "").replace("\r", "")
-						.replaceAll(" +", " ").trim())))));
+						axiomsToAdd.add(df.getOWLEquivalentClassesAxiom(
+								List.of(newClass, df.getOWLClass(snomedLabelMap.get(se_title.toLowerCase()
+										.replace("\n", "").replace("\r", "").replaceAll(" +", " ").trim())))));
 					} else {
 						se_misses++;
 					}
@@ -349,14 +361,14 @@ public class BNF2OWL {
 					String se_title = se.getTextContent().replace("\n", "").replace("\r", "").replaceAll(" +", " ")
 							.trim();
 
-					OWLClass newClass = Ontology_EntityRetriever.getOWLClassFromLabelOrAdd(Stream.of(bnf_owl),
-							se_title, df, iric.getNextIRI());
-					if (snomedLabelMap.containsKey(se_title.toLowerCase().replace("\n", "").replace("\r", "")
-						.replaceAll(" +", " ").trim())) {
+					OWLClass newClass = Ontology_EntityRetriever.getOWLClassFromLabelOrAdd(Stream.of(bnf_owl), se_title,
+							df, iric.getNextIRI());
+					if (snomedLabelMap.containsKey(
+							se_title.toLowerCase().replace("\n", "").replace("\r", "").replaceAll(" +", " ").trim())) {
 						se_matches++;
-						axiomsToAdd.add(df.getOWLEquivalentClassesAxiom(List.of(newClass,
-								df.getOWLClass(snomedLabelMap.get(se_title.toLowerCase().replace("\n", "").replace("\r", "")
-						.replaceAll(" +", " ").trim())))));
+						axiomsToAdd.add(df.getOWLEquivalentClassesAxiom(
+								List.of(newClass, df.getOWLClass(snomedLabelMap.get(se_title.toLowerCase()
+										.replace("\n", "").replace("\r", "").replaceAll(" +", " ").trim())))));
 					} else {
 						se_misses++;
 					}
@@ -378,14 +390,14 @@ public class BNF2OWL {
 					String se_title = se.getTextContent().replace("\n", "").replace("\r", "").replaceAll(" +", " ")
 							.trim();
 
-					OWLClass newClass = Ontology_EntityRetriever.getOWLClassFromLabelOrAdd(Stream.of(bnf_owl),
-							se_title, df, iric.getNextIRI());
-					if (snomedLabelMap.containsKey(se_title.toLowerCase().replace("\n", "").replace("\r", "")
-						.replaceAll(" +", " ").trim())) {
+					OWLClass newClass = Ontology_EntityRetriever.getOWLClassFromLabelOrAdd(Stream.of(bnf_owl), se_title,
+							df, iric.getNextIRI());
+					if (snomedLabelMap.containsKey(
+							se_title.toLowerCase().replace("\n", "").replace("\r", "").replaceAll(" +", " ").trim())) {
 						se_matches++;
-						axiomsToAdd.add(df.getOWLEquivalentClassesAxiom(List.of(newClass,
-								df.getOWLClass(snomedLabelMap.get(se_title.toLowerCase().replace("\n", "").replace("\r", "")
-						.replaceAll(" +", " ").trim())))));
+						axiomsToAdd.add(df.getOWLEquivalentClassesAxiom(
+								List.of(newClass, df.getOWLClass(snomedLabelMap.get(se_title.toLowerCase()
+										.replace("\n", "").replace("\r", "").replaceAll(" +", " ").trim())))));
 					} else {
 						se_misses++;
 					}
@@ -400,10 +412,11 @@ public class BNF2OWL {
 		man.addAxioms(bnf_owl, axiomsToAdd);
 
 		man.saveOntology(bnf_owl, new OWLXMLDocumentFormat(), IRI.create(BNF_OWL));
-		
-		log("found a total of " + foundDrugs.size() + "out of 1639 drugs");
-		
+
+		log("found a total of " + foundDrugs.size() + " out of 1639 drugs");
+
 		log("found " + snomed_drug_matches + " snomed drug matches and missed " + snomed_drug_misses);
+		log("found " + snomed_drug_matches_label + " snomed drug matches and missed " + snomed_drug_misses_label);
 		log("found " + rxnorm_drug_matches + " rxnorm drug matches and missed " + rxnorm_drug_misses);
 		log("found " + caution_matches + " caution matches and missed " + caution_misses);
 
@@ -494,17 +507,10 @@ public class BNF2OWL {
 }
 
 /**
-0s - loading snomed
-14s - loading rxnorm
-18s - classifying snomed
-9s - creating snomed map
-16s - creating rxnorm map
-2s - creating drugs
-139s - found a total of 1383out of 1639 drugs
-0s - found 1169 snomed drug matches and missed 470
-0s - found 1106 rxnorm drug matches and missed 533
-0s - found 1140 caution matches and missed 3499
-0s - found 701 contraindication matches and missed 1910
-0s - found 13816 se matches and missed 6645
-0s - complete
-*/
+ * 0s - loading snomed 14s - loading rxnorm 18s - classifying snomed 9s -
+ * creating snomed map 16s - creating rxnorm map 2s - creating drugs 139s -
+ * found a total of 1383out of 1639 drugs 0s - found 1169 snomed drug matches
+ * and missed 470 0s - found 1106 rxnorm drug matches and missed 533 0s - found
+ * 1140 caution matches and missed 3499 0s - found 701 contraindication matches
+ * and missed 1910 0s - found 13816 se matches and missed 6645 0s - complete
+ */

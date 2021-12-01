@@ -1,30 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="HH:mm:ss"/>
+		<item key="selection" value="Z85.3"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
-			<item value="HH.mm.ss"/>
-			<item value="JSON"/>
-			<item value="algorithm_consider_medication_1"/>
-			<item value="M2&quot;"/>
-			<item value="M1&quot;"/>
-			<item value="M1"/>
-			<item value="34"/>
-			<item value="s."/>
-			<item value="m."/>
-			<item value="db_id"/>
-			<item value="OLR"/>
-			<item value="su con"/>
-			<item value="condition_"/>
-			<item value="observation"/>
-			<item value="DPP-4i"/>
+			<item value="z85.3"/>
+			<item value="z85.9"/>
+			<item value="name&gt;S"/>
+			<item value="sequela"/>
+			<item value="xa"/>
+			<item value="xd"/>
+			<item value="xd&lt;"/>
+			<item value="xa&lt;"/>
+			<item value="xs&lt;"/>
+			<item value="xs"/>
+			<item value="xsx"/>
+			<item value="s20.01xs"/>
+			<item value="s20.01"/>
+			<item value="p59.3"/>
+			<item value="c79.81"/>
 		</list>
 		<list key="replacehistory">
+			<item value="snomedLabelMap"/>
+			<item value="toLowerCase().replace(&quot;\n&quot;, &quot;&quot;).replace(&quot;\r&quot;, &quot;&quot;)&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;.replaceAll(&quot; +&quot;, &quot; &quot;).trim()"/>
+			<item value=".replace(&quot;\n&quot;,.replace(&quot;\n&quot;, &quot;&quot;).replace(&quot;\r&quot;, &quot;&quot;)&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;.replaceAll(&quot; +&quot;, &quot; &quot;).trim() &quot;&quot;).replace(&quot;\r&quot;, &quot;&quot;)&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;.replaceAll(&quot; +&quot;, &quot; &quot;).trim().toLowerCase()"/>
+			<item value=".replace(&quot;\n&quot;, &quot;&quot;).replace(&quot;\r&quot;, &quot;&quot;)&#x0A;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;.replaceAll(&quot; +&quot;, &quot; &quot;).trim()"/>
+			<item value="++"/>
 			<item value="HH:mm:ss"/>
 			<item value="id"/>
 			<item value=""/>
@@ -34,8 +39,8 @@
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="1117"/>
-		<item key="DIALOG_Y_ORIGIN" value="653"/>
+		<item key="DIALOG_X_ORIGIN" value="1619"/>
+		<item key="DIALOG_Y_ORIGIN" value="282"/>
 		<item key="DIALOG_WIDTH" value="292"/>
 		<item key="DIALOG_HEIGHT" value="402"/>
 		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>

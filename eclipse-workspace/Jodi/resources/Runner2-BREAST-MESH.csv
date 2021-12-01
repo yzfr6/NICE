@@ -1,0 +1,129 @@
+`S15.109`,`ICD10CM`,`Unspecified injury of unspecified vertebral artery`
+`M47.029`,`ICD10CM`,`Vertebral artery compression syndromes, site unspecified`
+`I63.219`,`ICD10CM`,`Cerebral infarction due to unspecified occlusion or stenosis of unspecified vertebral artery`
+`I60.51`,`ICD10CM`,`Nontraumatic subarachnoid hemorrhage from right vertebral artery`
+`I60.50`,`ICD10CM`,`Nontraumatic subarachnoid hemorrhage from unspecified vertebral artery`
+`M47.0`,`ICD10CM`,`Anterior spinal and vertebral artery compression syndromes`
+`I60.52`,`ICD10CM`,`Nontraumatic subarachnoid hemorrhage from left vertebral artery`
+`M47.021`,`ICD10CM`,`Vertebral artery compression syndromes, occipito-atlanto-axial region`
+`M47.022`,`ICD10CM`,`Vertebral artery compression syndromes, cervical region`
+`I67.2`,`ICD10CM`,`Cerebral atherosclerosis`
+`S15.192`,`ICD10CM`,`Other specified injury of left vertebral artery`
+`S15.0`,`ICD10CM`,`Injury of carotid artery of neck`
+`S15.191`,`ICD10CM`,`Other specified injury of right vertebral artery`
+`S15.1`,`ICD10CM`,`Injury of vertebral artery`
+`I67.1`,`ICD10CM`,`Cerebral aneurysm, nonruptured`
+`I63.2`,`ICD10CM`,`Cerebral infarction due to unspecified occlusion or stenosis of precerebral arteries`
+`S06.816`,`ICD10CM`,`Injury of right internal carotid artery, intracranial portion, not elsewhere classified with loss of consciousness greater than 24 hours without return to pre-existing conscious level with patient surviving`
+`S06.817`,`ICD10CM`,`Injury of right internal carotid artery, intracranial portion, not elsewhere classified with loss of consciousness of any duration with death due to brain injury prior to regaining consciousness`
+`I63.0`,`ICD10CM`,`Cerebral infarction due to thrombosis of precerebral arteries`
+`S06.818`,`ICD10CM`,`Injury of right internal carotid artery, intracranial portion, not elsewhere classified with loss of consciousness of any duration with death due to other cause prior to regaining consciousness`
+`I63.1`,`ICD10CM`,`Cerebral infarction due to embolism of precerebral arteries`
+`S06.819`,`ICD10CM`,`Injury of right internal carotid artery, intracranial portion, not elsewhere classified with loss of consciousness of unspecified duration`
+`S06.812`,`ICD10CM`,`Injury of right internal carotid artery, intracranial portion, not elsewhere classified with loss of consciousness of 31 minutes to 59 minutes`
+`S15.112`,`ICD10CM`,`Minor laceration of left vertebral artery`
+`S06.813`,`ICD10CM`,`Injury of right internal carotid artery, intracranial portion, not elsewhere classified with loss of consciousness of 1 hour to 5 hours 59 minutes`
+`S15.111`,`ICD10CM`,`Minor laceration of right vertebral artery`
+`S15.199`,`ICD10CM`,`Other specified injury of unspecified vertebral artery`
+`I63.211`,`ICD10CM`,`Cerebral infarction due to unspecified occlusion or stenosis of right vertebral artery`
+`S06.814`,`ICD10CM`,`Injury of right internal carotid artery, intracranial portion, not elsewhere classified with loss of consciousness of 6 hours to 24 hours`
+`I63.212`,`ICD10CM`,`Cerebral infarction due to unspecified occlusion or stenosis of left vertebral artery`
+`S06.815`,`ICD10CM`,`Injury of right internal carotid artery, intracranial portion, not elsewhere classified with loss of consciousness greater than 24 hours with return to pre-existing conscious level`
+`S06.810`,`ICD10CM`,`Injury of right internal carotid artery, intracranial portion, not elsewhere classified without loss of consciousness`
+`S06.811`,`ICD10CM`,`Injury of right internal carotid artery, intracranial portion, not elsewhere classified with loss of consciousness of 30 minutes or less`
+`S15.119`,`ICD10CM`,`Minor laceration of unspecified vertebral artery`
+`S06.82`,`ICD10CM`,`Injury of left internal carotid artery, intracranial portion, not elsewhere classified`
+`S06.81`,`ICD10CM`,`Injury of right internal carotid artery, intracranial portion, not elsewhere classified`
+`S06.827`,`ICD10CM`,`Injury of left internal carotid artery, intracranial portion, not elsewhere classified with loss of consciousness of any duration with death due to brain injury prior to regaining consciousness`
+`S06.828`,`ICD10CM`,`Injury of left internal carotid artery, intracranial portion, not elsewhere classified with loss of consciousness of any duration with death due to other cause prior to regaining consciousness`
+`S06.829`,`ICD10CM`,`Injury of left internal carotid artery, intracranial portion, not elsewhere classified with loss of consciousness of unspecified duration`
+`S06.823`,`ICD10CM`,`Injury of left internal carotid artery, intracranial portion, not elsewhere classified with loss of consciousness of 1 hour to 5 hours 59 minutes`
+`S15.002`,`ICD10CM`,`Unspecified injury of left carotid artery`
+`S06.824`,`ICD10CM`,`Injury of left internal carotid artery, intracranial portion, not elsewhere classified with loss of consciousness of 6 hours to 24 hours`
+`S15.001`,`ICD10CM`,`Unspecified injury of right carotid artery`
+`S15.122`,`ICD10CM`,`Major laceration of left vertebral artery`
+`S06.825`,`ICD10CM`,`Injury of left internal carotid artery, intracranial portion, not elsewhere classified with loss of consciousness greater than 24 hours with return to pre-existing conscious level`
+`S15.121`,`ICD10CM`,`Major laceration of right vertebral artery`
+`S06.826`,`ICD10CM`,`Injury of left internal carotid artery, intracranial portion, not elsewhere classified with loss of consciousness greater than 24 hours without return to pre-existing conscious level with patient surviving`
+`S06.820`,`ICD10CM`,`Injury of left internal carotid artery, intracranial portion, not elsewhere classified without loss of consciousness`
+`S06.821`,`ICD10CM`,`Injury of left internal carotid artery, intracranial portion, not elsewhere classified with loss of consciousness of 30 minutes or less`
+`S06.822`,`ICD10CM`,`Injury of left internal carotid artery, intracranial portion, not elsewhere classified with loss of consciousness of 31 minutes to 59 minutes`
+`I63.239`,`ICD10CM`,`Cerebral infarction due to unspecified occlusion or stenosis of unspecified carotid artery`
+`I63.119`,`ICD10CM`,`Cerebral infarction due to embolism of unspecified vertebral artery`
+`I65.01`,`ICD10CM`,`Occlusion and stenosis of right vertebral artery`
+`I65.02`,`ICD10CM`,`Occlusion and stenosis of left vertebral artery`
+`I65.09`,`ICD10CM`,`Occlusion and stenosis of unspecified vertebral artery`
+`I77.71`,`ICD10CM`,`Dissection of carotid artery`
+`I63.231`,`ICD10CM`,`Cerebral infarction due to unspecified occlusion or stenosis of right carotid arteries`
+`I63.111`,`ICD10CM`,`Cerebral infarction due to embolism of right vertebral artery`
+`I63.232`,`ICD10CM`,`Cerebral infarction due to unspecified occlusion or stenosis of left carotid arteries`
+`I63.112`,`ICD10CM`,`Cerebral infarction due to embolism of left vertebral artery`
+`I63.233`,`ICD10CM`,`Cerebral infarction due to unspecified occlusion or stenosis of bilateral carotid arteries`
+`I77.3`,`ICD10CM`,`Arterial fibromuscular dysplasia`
+`S15.101`,`ICD10CM`,`Unspecified injury of right vertebral artery`
+`M47.02`,`ICD10CM`,`Vertebral artery compression syndromes`
+`S15.102`,`ICD10CM`,`Unspecified injury of left vertebral artery`
+`I63.019`,`ICD10CM`,`Cerebral infarction due to thrombosis of unspecified vertebral artery`
+`S15.029`,`ICD10CM`,`Major laceration of unspecified carotid artery`
+`I65.23`,`ICD10CM`,`Occlusion and stenosis of bilateral carotid arteries`
+`I65.22`,`ICD10CM`,`Occlusion and stenosis of left carotid artery`
+`I65.21`,`ICD10CM`,`Occlusion and stenosis of right carotid artery`
+`I63.02`,`ICD10CM`,`Cerebral infarction due to thrombosis of basilar artery`
+`I63.03`,`ICD10CM`,`Cerebral infarction due to thrombosis of carotid artery`
+`I63.00`,`ICD10CM`,`Cerebral infarction due to thrombosis of unspecified precerebral artery`
+`I63.01`,`ICD10CM`,`Cerebral infarction due to thrombosis of vertebral artery`
+`I65.8`,`ICD10CM`,`Occlusion and stenosis of other precerebral arteries`
+`I65.9`,`ICD10CM`,`Occlusion and stenosis of unspecified precerebral artery`
+`I65.29`,`ICD10CM`,`Occlusion and stenosis of unspecified carotid artery`
+`I65.2`,`ICD10CM`,`Occlusion and stenosis of carotid artery`
+`I63.09`,`ICD10CM`,`Cerebral infarction due to thrombosis of other precerebral artery`
+`I65.0`,`ICD10CM`,`Occlusion and stenosis of vertebral artery`
+`I65.1`,`ICD10CM`,`Occlusion and stenosis of basilar artery`
+`I63.131`,`ICD10CM`,`Cerebral infarction due to embolism of right carotid artery`
+`I63.011`,`ICD10CM`,`Cerebral infarction due to thrombosis of right vertebral artery`
+`I63.132`,`ICD10CM`,`Cerebral infarction due to embolism of left carotid artery`
+`I63.012`,`ICD10CM`,`Cerebral infarction due to thrombosis of left vertebral artery`
+`I63.133`,`ICD10CM`,`Cerebral infarction due to embolism of bilateral carotid arteries`
+`I63.139`,`ICD10CM`,`Cerebral infarction due to embolism of unspecified carotid artery`
+`I77.74`,`ICD10CM`,`Dissection of vertebral artery`
+`I77.75`,`ICD10CM`,`Dissection of other precerebral arteries`
+`I72.6`,`ICD10CM`,`Aneurysm of vertebral artery`
+`I72.5`,`ICD10CM`,`Aneurysm of other precerebral arteries`
+`I72.0`,`ICD10CM`,`Aneurysm of carotid artery`
+`S15.009`,`ICD10CM`,`Unspecified injury of unspecified carotid artery`
+`S15.129`,`ICD10CM`,`Major laceration of unspecified vertebral artery`
+`I63.20`,`ICD10CM`,`Cerebral infarction due to unspecified occlusion or stenosis of unspecified precerebral arteries`
+`I65`,`ICD10CM`,`Occlusion and stenosis of precerebral arteries, not resulting in cerebral infarction`
+`G45.0`,`ICD10CM`,`Vertebro-basilar artery syndrome`
+`I63.22`,`ICD10CM`,`Cerebral infarction due to unspecified occlusion or stenosis of basilar artery`
+`G45.1`,`ICD10CM`,`Carotid artery syndrome (hemispheric)`
+`I63.23`,`ICD10CM`,`Cerebral infarction due to unspecified occlusion or stenosis of carotid arteries`
+`G45.2`,`ICD10CM`,`Multiple and bilateral precerebral artery syndromes`
+`I63.29`,`ICD10CM`,`Cerebral infarction due to unspecified occlusion or stenosis of other precerebral arteries`
+`S15.09`,`ICD10CM`,`Other specified injury of carotid artery`
+`S15.092`,`ICD10CM`,`Other specified injury of left carotid artery`
+`S15.091`,`ICD10CM`,`Other specified injury of right carotid artery`
+`S15.19`,`ICD10CM`,`Other specified injury of vertebral artery`
+`I60.4`,`ICD10CM`,`Nontraumatic subarachnoid hemorrhage from basilar artery`
+`S15.12`,`ICD10CM`,`Major laceration of vertebral artery`
+`I63.031`,`ICD10CM`,`Cerebral infarction due to thrombosis of right carotid artery`
+`I60.5`,`ICD10CM`,`Nontraumatic subarachnoid hemorrhage from vertebral artery`
+`I63.032`,`ICD10CM`,`Cerebral infarction due to thrombosis of left carotid artery`
+`I63.033`,`ICD10CM`,`Cerebral infarction due to thrombosis of bilateral carotid arteries`
+`S15.012`,`ICD10CM`,`Minor laceration of left carotid artery`
+`S15.011`,`ICD10CM`,`Minor laceration of right carotid artery`
+`S15.099`,`ICD10CM`,`Other specified injury of unspecified carotid artery`
+`S15.11`,`ICD10CM`,`Minor laceration of vertebral artery`
+`S15.10`,`ICD10CM`,`Unspecified injury of vertebral artery`
+`I63.039`,`ICD10CM`,`Cerebral infarction due to thrombosis of unspecified carotid artery`
+`S15.019`,`ICD10CM`,`Minor laceration of unspecified carotid artery`
+`I63.10`,`ICD10CM`,`Cerebral infarction due to embolism of unspecified precerebral artery`
+`I63.13`,`ICD10CM`,`Cerebral infarction due to embolism of carotid artery`
+`I63.11`,`ICD10CM`,`Cerebral infarction due to embolism of vertebral artery`
+`I63.12`,`ICD10CM`,`Cerebral infarction due to embolism of basilar artery`
+`I63.19`,`ICD10CM`,`Cerebral infarction due to embolism of other precerebral artery`
+`S15.02`,`ICD10CM`,`Major laceration of carotid artery`
+`S15.01`,`ICD10CM`,`Minor laceration of carotid artery`
+`S15.00`,`ICD10CM`,`Unspecified injury of carotid artery`
+`S15.022`,`ICD10CM`,`Major laceration of left carotid artery`
+`S15.021`,`ICD10CM`,`Major laceration of right carotid artery`
